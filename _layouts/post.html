@@ -1,0 +1,26 @@
+---
+layout: main
+id: blog
+---
+<article class="single">
+  <header>
+    <em>{{ page.date | date: "%B %d, %Y" }}</em>
+    <h1>{{ page.title }}</h1>
+    <ul>
+      {% if page.author %}
+        <li>
+          <em>by <strong>{{ page.author }}</strong></em>
+        </li>
+      {% endif %}
+      <li>
+        <a href="#"></a>
+      </li>
+      <li>
+        <a href="#"></a>
+      </li>
+    </ul>
+  </header>
+  <div class="content">
+    {{ page.content || markdownify }}
+  </div>
+</article>

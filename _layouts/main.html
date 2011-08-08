@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title != null %}{{ page.title }} - {% endif %}Makalu Interactive</title>
+	<meta content='index, follow' name='robots'>
+	<meta content='' name='description'>
+	<meta content='' name='keywords'>
+	<script src="http://use.typekit.com/teo3haq.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+	<script src="/assets/js/css_browser_selector.js"></script>
+	<link rel="stylesheet" href="/assets/css/makalu.css">
+</head>
+<body id="{{ page.id }}">
+  <header>
+    <h1>
+      <a href="/">
+        <strong>makalu</strong>
+        <small>interactive</small>
+      </a>
+    </h1>
+    <nav>
+      <ul>
+        <li id="nav-apps">
+          <a class="nav" href="/products/"><span>Products</span></a>
+          <p>
+            Our latest app will make you a smarter investor.<br>
+            <a href="/products/#rebalance"><span>Find out how &raquo;</span></a>
+          </p>
+        </li>
+        <li id="nav-work">
+          <a class="nav" href="/clients/"><span>Clients</span></a>
+          <p>
+            We made a game for Google &amp; Virgin America.<br>
+            <a href="/clients/#dayinthecloud"><span>Read the case study &raquo;</span></a>
+          </p>
+        </li>
+        <li id="nav-blog">
+          <a class="nav" href="/blog/"><span>Blog</span></a>
+          {% for post in site.categories.blog limit: 1 %}
+            <p>
+              {{ post.teaser }}<br>
+              <a href="{{ post.url }}">
+                <span>Read the post &raquo;</span>
+              </a>
+            </p>
+          {% endfor %}
+        </li>
+      </ul>
+    </nav>
+    <div class="border"></div>
+  </header>
+  
+  <section id="page">
+    {{ content }}
+  </section>
+  
+  <footer>
+    <p>&copy; 2011 MakaluMedia, Inc. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="/assets/js/jquery.pjax.js"></script>
+	<script src="/assets/js/makalu.js"></script>
+</body>
+</html>

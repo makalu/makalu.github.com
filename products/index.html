@@ -1,0 +1,39 @@
+---
+layout: main
+title: Products
+id: products
+---
+
+{% for post in site.categories.products %}
+  <a name="{{ post.name }}"></a>
+  <article id="{{ post.name }}" class="{% cycle 'odd', 'even' %}">
+    <div class="summary">
+      <header>
+        <em>{{ post.what }}</em>
+        <h1>{{ post.title }}</h1>
+      </header>
+      
+      {{ post.content }}
+      
+      <a href="{{ post.website }}">
+        Website
+      </a>
+      <a href="http://www.twitter.com/{{ post.twitter | remove:'@' }}">
+        {{ post.twitter }}
+      </a>
+    </div>
+    {% if post.gallery %}
+      <div class="gallery">
+        <ul>
+          {% for image in post.gallery %}
+            <li>
+              <a href="{{ image.original }}">
+                <img src="{{ image.thumb }}" width="225" height="120" alt="{{ image.title }}">
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </article>
+{% endfor %}
