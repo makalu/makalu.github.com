@@ -7,8 +7,10 @@ body {
   margin: 0;
   padding: 0;
   font: 400 18px/28px skolar-1, skolar-2, Georgia, Serif;
-  color: rgba(255,255,255,.75);
+  color: #CACAC9;
   background: #2B2A29 url(../img/texture.png) repeat left top; }
+  .rgba body {
+    color: rgba(255,255,255,.75); }
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,14 +50,16 @@ a.stylish {
   padding: 0 0 0 10px;
   line-height: 34px;
   font-weight: 600;
-  color: rgba(255,255,255,.75);
+  color: #CACAC9;
   background: url(../img/link-left.png) no-repeat left top; }
+  .rgba a.stylish {
+    color: rgba(255,255,255,.75); }
   a.stylish span {
     display: inline-block;
     padding: 2px 20px 0 10px;
     background: url(../img/link-right.png) no-repeat right top; }
 a.stylish:hover {
-  color: rgba(255,255,255,1); }
+  color: #fff; }
 
 
 ul, ol {
@@ -74,7 +78,9 @@ ul, ol {
 blockquote {
   margin: 1.5em 0 1.5em -17px;
   padding: 0 0 0 15px;
-  border-left: 2px solid rgba(255,255,255,.25); }
+  border-left: 2px solid #424240; }
+  .rgba blockquote {
+    border-color: rgba(255,255,255,.25); }
 
 
 small {
@@ -90,14 +96,14 @@ em {}
 header {}
   header em {
     color: #d77310;
-    text-shadow: rgba(0,0,0,.5) 0 1px 0;
+    text-shadow: #1A1814 0 1px 0;
     line-height: 30px;
     font-size: 20px;
     font-weight: 600; }
   header em + h1,
   header em + h2,
   header em + h3 {
-    text-shadow: rgba(0,0,0,.5) 0 1px 0;
+    text-shadow: #1A1814 0 1px 0;
     margin-top: 0; }
 
 section {}
@@ -105,7 +111,9 @@ section {}
 body > header {
   overflow: hidden;
   position: relative;
-  background: rgba(0,0,0,.25); }
+  background: #212120; }
+  .rgba body > header {
+    background: rgba(0,0,0,.25); }
   body > header .border {
     z-index: 1;
     position: absolute;
@@ -128,7 +136,7 @@ body > header {
       width: 150px;
       margin: 0 auto;
       padding-top: 120px;
-      text-shadow: rgba(0,0,0,.25) 0 -1px 0;
+      text-shadow: #B05C10 0 -1px 0;
       background: url(../img/logo.png) no-repeat 50% 19px; }
       body > header h1 a:hover {
         opacity: 1; }
@@ -153,15 +161,20 @@ body > header {
     width: 33%;
     padding-bottom: 50px;
     margin-bottom: -50px;
-    color: rgba(255,255,255,.5);
+    color: #8C8B89;
     font-size: 18px;
-    border-left: 2px solid rgba(0,0,0,.25); }
+    border-left: 2px solid #181818; }
+    .rgba body > header li {
+      color: rgba(255,255,255,.5);
+      border-color: rgba(0,0,0,.25); }
     body > header nav a {
       display: block;
       padding-bottom: 50px;
       margin-bottom: -50px;
-      text-shadow: rgba(0,0,0,.5) 0 1px 0;
-      color: rgba(255,255,255,.5); }
+      text-shadow: #1A1814 0 1px 0;
+      color: #8C8B89; }
+      .rgba body > header nav a {
+        color: rgba(255,255,255,.5); }
       body > header nav a strong {
         display: inline-block;
         margin: 40px 0 50px 30px;
@@ -173,21 +186,32 @@ body > header {
       body > header nav a span {
         display: none;
         padding: 10px 30px 40px 30px;
-        color: rgba(255,255,255,.5);
+        color: #8C8B89;
         line-height: 24px; }
+        .rgba body > header nav a span {
+          color: rgba(255,255,255,.5); }
     body > header nav a:hover,
     body > header nav a:focus {
-      background: rgba(0,0,0,.05); }
+      background: #1F1F1D; }
+      .rgba body > header nav a:hover,
+      .rgba body > header nav a:focus {
+        background: rgba(0,0,0,.05); }
       body > header nav a:hover strong,
       body > header nav a:focus strong {
-        color: rgba(255,255,255,1);
+        color: #fff;
         background-position: 100% -396px; }
       body > header nav a:hover span,
       body > header nav a:focus span {
-        color: rgba(255,255,255,.75); }
+        color: #C5C5C4; }
+        .rgba body > header nav a:hover span,
+        .rgba body > header nav a:focus span {
+          color: rgba(255,255,255,.75); }
     body > header nav a:active {
-      background: rgba(0,0,0,.1);
-      box-shadow: rgba(0,0,0,.25) 0 0 3px inset; }
+      background: #20201E;
+      box-shadow: #181817 0 0 3px inset; }
+      .rgba body > header nav a:active {
+        background: rgba(0,0,0,.15);
+        box-shadow: rgba(0,0,0,.25) 0 0 3px inset; }
 
 #page {
   overflow: hidden; }
@@ -196,8 +220,10 @@ body > header {
   #page > article {
     padding: 40px 50px; }
   #page > section {
-    border-top: 2px solid rgba(0,0,0,.25);
+    border-top: 2px solid #212120;
     background: url(../img/triangle.png) repeat-x 0 2px; }
+    .rgba #page > section {
+      border-color: rgba(0,0,0,.25); }
   #page > header {}
     #page > header p {
       font-size: 20px;
@@ -205,10 +231,14 @@ body > header {
 
 footer {
   padding: 20px 50px;
-  color: rgba(255,255,255,.25);
+  color: #565654;
   font-size: 14px;
-  border-top: 2px solid rgba(0,0,0,.25);
-  background: rgba(0,0,0,.25) url(../img/circle.png) repeat-x 0 2px; }
+  border-top: 2px solid #181817;
+  background: #212120 url(../img/circle.png) repeat-x 0 2px; }
+  .rgba footer {
+    color: rgba(255,255,255,.25);
+    border-color: rgba(0,0,0,.25);
+    background-color: rgba(0,0,0,.25); }
   footer p {
     margin: 0; }
 
@@ -231,7 +261,9 @@ footer {
         display: block; }
     #home > header li {}
       #home > header nav a {
-        color: rgba(255,255,255,.75); }
+        color: #C5C5C4; }
+        .rgba #home > header nav a {
+          color: rgba(255,255,255,.75); }
       #home > header nav a strong {
         margin-bottom: 0; }
       #home > header nav a span {
@@ -273,7 +305,7 @@ footer {
         height: 90px;
         width: 90px;
         opacity: .5;
-        border: 5px solid rgba(255,255,255,1); }
+        border: 5px solid #fff; }
         #home #location li a:hover {
           opacity: 1; }
       #home #location img {
@@ -282,26 +314,35 @@ footer {
       margin: 0;
       font-size: 16px; }
       #home #location p a {
-        color: rgba(255,255,255,.5);
+        color: #969694;
         font-weight: 600;
-        border-bottom: 1px solid rgba(255,255,255,.25); }
+        border-bottom: 1px solid #60605E; }
+        .rgba #home #location p a {
+          color: rgba(255,255,255,.5);
+          border-color: rgba(255,255,255,.25); }
       #home #location p a:hover {
-        color: rgba(255,255,255,.75);;
-        border-color: rgba(255,255,255,.5); }
+        color: #CACAC9;
+        border-color: #959593; }
+        .rgba #home #location p a:hover {
+          color: rgba(255,255,255,.75);
+          border-color: rgba(255,255,255,.5); }
   #home #contact {
     float: right;
     margin: 0 -50px -22px 0;
     padding: 0 50px 0 0;
     width: 45%;
-    border: 2px dashed rgba(0,0,0,.25);
+    border: 2px dashed #1D1D1B;
     border-width: 2px 0 2px 2px;
-    background-color: rgba(0,0,0,.1) }
+    background-color: #272725; }
+    .rgba #home #contact {
+      border-color: rgba(0,0,0,.25);
+      background-color: rgba(0,0,0,.1); }
     #home #contact header {
       padding: 30px 0 0 30px; }
       #home #contact header h3 {
         margin: 0 0 .5em 0;
         color: #D77310;
-        text-shadow: rgba(0,0,0,.5) 0 1px 0; }
+        text-shadow: #1A1814 0 1px 0; }
       #home #contact header p {
         margin: 0;
         font-size: 16px;
@@ -328,7 +369,9 @@ footer {
       #home #contact form p {
         margin: 5px 0;
         padding: 6px 10px;
-        background: rgba(0,0,0,.25); }
+        background: #1C1C1B; }
+        .rgba #home #contact form p {
+          background: rgba(0,0,0,.25); }
       #home #contact form p.message {
         margin-bottom: -25px;
         padding: 0 0 30px 0;
@@ -339,7 +382,9 @@ footer {
         #home #contact form p.message span {
           display: block;
           padding: 6px 10px;
-          background: rgba(0,0,0,.25); }
+          background: #1C1C1B; }
+          .rgba #home #contact form p.message span {
+            background: rgba(0,0,0,.25); }
       #home #contact form p.name,
       #home #contact form p.email {
         margin: 5px 115px 5px 60px; }
@@ -360,7 +405,7 @@ footer {
           line-height: 40px;
           font-size: 20px;
           font-weight: 700;
-          text-shadow: rgba(0,0,0,.25) 0 -1px 0; }
+          text-shadow: #B05C10 0 -1px 0; }
   #home #team {
     float: left;
     width: 50%;
