@@ -11,10 +11,9 @@ id: home
   </p>
 </header>
 
-<section id="team">
-  <img src="#" width="100%" height="240" alt="The Team">
-  <ul>
-    <li>
+<section>
+  <ul id="team">
+    <li class="odd">
       <header>
         <em>The Director</em>
         <h3>Matt Henderson</h3>
@@ -32,7 +31,7 @@ id: home
         Inspired by the frozen pixels of his native Finland, Alex keeps our user interfaces clean, and friction-free.
       </p>
     </li>
-    <li>
+    <li class="odd">
       <header>
         <em>The Developer</em>
         <h3>Justin Driscoll</h3>
@@ -50,7 +49,7 @@ id: home
         From the land of trains that are never late, Stefan applies the ethos of German precision to keep our projects on time and on budget.
       </p>
     </li>
-    <li>
+    <li class="odd">
       <header>
         <em>The System Administrator</em>
         <h3>Niall O'Broin</h3>
@@ -62,11 +61,34 @@ id: home
     <li>
       <header>
         <em>The Quality Assurers</em>
-        <h3>Martin & Dana</h3>
+        <h3>Martin &amp; Dana</h3>
       </header>
       <p>
-        Accepting nothing less than perfection, our dream-team of Martin & Dana work tirelessly to find and squash those bugs.
+        Accepting nothing less than perfection, our dream-team of Martin &amp; Dana work tirelessly to find and squash those bugs.
       </p>
     </li>
   </ul>
+  
+  <section id="contact">
+    <header>
+      <h3>Make Contact</h3>
+      <p>Whether you've got an exciting project to discuss, or just want to say hello, we'd love to hear from you.</p>
+    </header>
+    <form>
+      <p class="message">
+        <span>
+          <textarea name="message" placeholder="Your message..."></textarea>
+        </span>
+      </p>
+      <p class="name">
+        <input type="text" name="name" placeholder="Your name...">
+      </p>
+      <p class="email">
+        <input type="email" required name="email" placeholder="Your email address...">
+      </p>
+      <p class="submit">
+        <input type="submit" name="submit" value="Send">
+      </p>
+    </form>
+  </section>
 </section>
