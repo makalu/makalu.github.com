@@ -8,7 +8,7 @@ body {
   padding: 0;
   font: 400 18px/28px skolar-1, skolar-2, Georgia, Serif;
   color: rgba(255,255,255,.75);
-  background: #2C2C2A url(../img/texture.png) repeat left top; }
+  background: #2B2A29 url(../img/texture.png) repeat left top; }
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,6 +79,8 @@ small {
   font-size: 14px; }
 strong {
   font-weight: 600; }
+  .content strong {
+    color: #fff; }
 em {}
 
 
@@ -200,7 +202,7 @@ footer {
   color: rgba(255,255,255,.25);
   font-size: 14px;
   border-top: 2px solid rgba(0,0,0,.25);
-  background: url(../img/circle.png) repeat-x 0 2px; }
+  background: rgba(0,0,0,.25) url(../img/circle.png) repeat-x 0 2px; }
   footer p {
     margin: 0; }
 
@@ -262,7 +264,7 @@ footer {
 #products {}
   #products > header #nav-products {
     box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
-    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 85% -10px; }
+    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 88% -10px; }
   #products > header #nav-products a strong {
     color: rgba(255,255,255,1);
     background: none; }
@@ -270,33 +272,52 @@ footer {
 #clients {}
   #clients > header #nav-clients {
     box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
-    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 80% -10px; }
+    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 82% -10px; }
   #clients > header #nav-clients a strong {
     color: rgba(255,255,255,1);
     background: none; }
   #clients article {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+    padding: 48px 0 0 0;
     border-top: 2px solid rgba(0,0,0,.25);
     background: url(../img/triangle.png) repeat-x 0 2px; }
     #clients article:first-of-type {
+      padding-top: 40px;
       border-top: none;
       background: none; }
     #clients .summary {
-      padding: 0 50px 40px 50px;
-      background-size: 100% auto; }
+      position: relative;
+      padding: 0 50px 40px 50px; }
+    #clients .hero {
+      overflow: hidden;
+      position: absolute;
+      bottom: 0;
+      width: 50%;
+      height: 100%;
+      padding-top: 50px; }
+      #clients .hero img {
+        position: absolute;
+        top: 20px;
+        width: 135%; }
     #clients article.odd .summary {
       padding-right: 50%; }
     #clients article.even .summary {
       padding-left: 50%; }
+    #clients article.odd .hero {
+      right: 0; }
+      #clients article.odd .hero img {
+        left: 0; }
+    #clients article.even .hero {
+      left: 0; }
+      #clients article.even .hero img {
+        right: 0; }
     #clients article.odd .gallery {
       background: url(../img/border-odd.png) no-repeat right top; }
     #clients article.even .gallery {
       background: url(../img/border-even.png) no-repeat left top; }
     #clients .gallery {
       padding: 40px 50px;
-      overflow: hidden; }
+      overflow: hidden;
+      background-size: 100% auto; }
       #clients .gallery ul {
         margin: 0;
         padding: 0;
@@ -317,7 +338,7 @@ footer {
 #blog {}
   #blog > header #nav-blog {
     box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
-    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 68% -10px; }
+    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 70% -10px; }
   #blog > header #nav-blog a strong {
     color: rgba(255,255,255,1);
     background: none; }
