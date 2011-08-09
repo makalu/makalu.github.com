@@ -437,6 +437,8 @@ footer {
   #products > header #nav-products {
     box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
     background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 88% -10px; }
+  #products > header #nav-products a {
+    background: none; }
   #products > header #nav-products a strong {
     color: rgba(255,255,255,1);
     background: none; }
@@ -467,6 +469,8 @@ footer {
   #clients > header #nav-clients {
     box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
     background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 82% -10px; }
+  #clients > header #nav-clients a {
+    background: none; }
   #clients > header #nav-clients a strong {
     color: rgba(255,255,255,1);
     background: none; }
@@ -541,6 +545,8 @@ footer {
   #blog > header #nav-blog {
     box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
     background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 70% -10px; }
+  #blog > header #nav-blog a {
+    background: none; }
   #blog > header #nav-blog a strong {
     color: rgba(255,255,255,1);
     background: none; }
