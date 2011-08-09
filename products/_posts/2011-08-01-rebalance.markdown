@@ -8,7 +8,7 @@ website: http://www.rebalanceapp.com/
 twitter: @rebalance
 ---
 
-History has clearly demonstrated that time rewards those who save regularly and invest intelligently. Even those with meager incomes can, through the power of compounding interest, achieve financial freedom. So what's the problem? Unfortunately, it is ourselves, as human nature often works contrary to the very fundamentals of investing success.
+History has demonstrated that time rewards those who save regularly and invest intelligently. Even people with meager incomes can, through the power of compounding interest, achieve financial freedom. So what's the problem? Unfortunately, it is ourselves, as human nature often works contrary to the very fundamentals of investing success.
 
 Rebalance distills generations of experience and best practices into an iPhone app that helps you ignore the noise and self-defeating forces of the market, and focus on what's truly important in the path to achieving financial freedom through long-term personal investment.
 
