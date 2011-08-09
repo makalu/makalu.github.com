@@ -24,4 +24,6 @@ gallery:
     original: http://www.google.com/
 ---
 
-In a recent interview with Kevin Rose, famed investor Chris Sacca says the technology investors are looking for today, are those which can identify the complex relationships in data, further expanding the understanding loop between ad-unit and purchase. With its cloud-delivered graph database, Dydra have developed the platform on which such technology can be built. In addition to being an angel investor, Makalu did the identity and website design for this New Orleans & Berlin-based start-up.
+In a recent interview with Kevin Rose, famed investor Chris Sacca said that what investors are looking for today, are those technologies which can identify the complex relationships in data that further expanding the understanding loop between ad-unit and purchase. With its cloud-delivered graph database, Dydra have developed the platform on which such technologies will be built. 
+
+In addition to being an angel investor, Makalu did the identity and website design for this New Orleans & Berlin-based start-up.
