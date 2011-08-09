@@ -15,11 +15,11 @@ id: products
       
       {{ post.content }}
       
-      <a href="{{ post.website }}">
-        Website
+      <a href="{{ post.website }}" class="stylish">
+        <span>Website</span>
       </a>
-      <a href="http://www.twitter.com/{{ post.twitter | remove:'@' }}">
-        {{ post.twitter }}
+      <a href="http://www.twitter.com/{{ post.twitter | remove:'@' }}" class="stylish">
+        <span>{{ post.twitter }}</span>
       </a>
     </div>
     {% if post.gallery %}

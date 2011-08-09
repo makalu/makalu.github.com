@@ -13,8 +13,8 @@ id: clients
         <h1>{{ post.client }}</h1>
       </header>
       {{ post.content }}
-      <a href="{{ post.link_url }}">
-        {{ post.link_title }}
+      <a href="{{ post.link_url }}" class="stylish">
+        <span>{{ post.link_title }}</span>
       </a>
     </div>
     {% if post.gallery %}
