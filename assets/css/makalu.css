@@ -237,7 +237,8 @@ footer {
       width: 50%;
       margin-top: 1em; }
   #home #team {}
-    #home #team img {}
+    #home #team img {
+      display: none; }
     #home #team ul {
       overflow: hidden;
       margin: 0 0 0 -3%;
@@ -247,7 +248,7 @@ footer {
       float: left;
       width: 30%;
       margin-left: 3%;
-      margin-top: 1.5em; }
+      margin-bottom: 1.5em; }
     #home #team li:nth-child(4) {
       clear: left; }
     #home #team header {
