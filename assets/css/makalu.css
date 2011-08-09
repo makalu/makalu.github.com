@@ -100,7 +100,6 @@ section {}
 body > header {
   overflow: hidden;
   position: relative;
-  height: 119px;
   background: rgba(0,0,0,.25); }
   body > header .border {
     z-index: 1;
@@ -121,6 +120,8 @@ body > header {
     body > header h1 a {
       opacity: .5;
       display: block;
+      width: 150px;
+      margin: 0 auto;
       padding-top: 120px;
       text-shadow: rgba(0,0,0,.25) 0 -1px 0;
       background: url(../img/logo.png) no-repeat 50% 19px; }
@@ -135,13 +136,9 @@ body > header {
       display: none;
       font-size: 16px;
       line-height: 16px; }
-  body > header nav {
-    float: left;
-    width: 100%;
-    height: 100%; }
+  body > header nav {}
   body > header ul {
     overflow: hidden;
-    height: 100%;
     margin: 0;
     padding: 0 0 0 180px;
     list-style: none; }
@@ -154,24 +151,19 @@ body > header {
     font-size: 18px;
     border-left: 2px solid rgba(0,0,0,.25); }
     body > header nav a {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      display: block;
       text-shadow: rgba(0,0,0,.75) 0 1px 0;
       color: rgba(255,255,255,.75); }
       body > header nav a strong {
         display: inline-block;
-        margin: 40px 0 0 30px;
+        margin: 40px 0 50px 30px;
         padding-right: 36px;
         font-size: 30px;
         font-weight: 700;
         line-height: 30px;
         background: url(../img/nav-arrow.png) no-repeat 100% 4px; }
       body > header nav a span {
-        display: block;
-        visibility: hidden;
+        display: none;
         padding: 10px 30px 40px 30px;
         color: rgba(255,255,255,.5);
         line-height: 24px; }
@@ -215,12 +207,13 @@ footer {
 
 #home {}
   #home > header {
-    overflow: visible;
-    height: 174px; }
+    overflow: visible; }
     #home > header h1 {
       z-index: 2;
       height: 205px;
-      background: url(../img/ribbon.png) no-repeat 15px 0; }
+      background-image: url(../img/ribbon.png);
+      background-repeat: no-repeat;
+      background-position: 50% 0; }
       #home > header h1 a {
         opacity: 1;
         cursor: default; }
@@ -229,8 +222,10 @@ footer {
       #home > header h1 small {
         display: block; }
     #home > header li {}
+      #home > header nav a strong {
+        margin-bottom: 0; }
       #home > header nav a span {
-        visibility: visible; }
+        display: block; }
 
   #home #page > header {
     padding-top: 60px;
@@ -372,3 +367,54 @@ footer {
     border: none; }
     #blog article.single .content {
       color: rgba(255,255,255,.85); }
+
+
+@media screen and (max-width: 900px) {
+  body > header li {}
+  #home #team li {
+    width: 47%; }
+  #home #team li:nth-child(odd) {
+    clear: left; }
+  #home #team li:nth-child(4) {
+    clear: none; }
+}
+
+@media screen and (max-width: 840px) {
+  body > header h1 {
+    width: 100%;
+    height: 220px !important;
+    background-color: rgba(0,0,0,.25); }
+  body > header ul {
+    padding: 220px 0 0 0; }
+    body > header li {
+      background-position: 90% -10px !important; }
+}
+
+@media screen and (max-width: 660px) {
+  body > header h1 {
+    width: 100%; }
+  body > header ul {
+    padding: 220px 0 0 0; }
+  body > header li {
+    float: none;
+    width: auto;
+    border: none;
+    border-top: 1px solid rgba(0,0,0,.25);
+    background-image: none !important; }
+    body > header nav a strong {
+      margin: 20px 0 0 20px !important;
+      font-size: 24px;
+      line-height: 26px;
+      background-position: 100% 0; }
+      body > header nav a:hover strong {
+        background-position: 100% -400px; }
+    body > header nav a span {
+      display: none;
+      padding: 0 20px 20px 20px;
+      line-height: 24px; }
+      
+  #home #team li {
+    float: none;
+    width: auto;
+    clear: none !important; }
+}
