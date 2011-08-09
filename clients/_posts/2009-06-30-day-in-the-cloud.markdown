@@ -1,6 +1,6 @@
 ---
-name: dayinthecloud
-what: Microsite &amp; Online Game
+name: day-in-the-cloud
+what: Online Game &amp; Microsite
 client: Google & Virgin America
 
 link_title: Play the game
