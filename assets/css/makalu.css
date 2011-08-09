@@ -96,7 +96,7 @@ header {}
   header em + h2,
   header em + h3 {
     text-shadow: rgba(0,0,0,.5) 0 1px 0;
-    margin-top: -.1em; }
+    margin-top: 0; }
 
 section {}
 
@@ -400,7 +400,8 @@ footer {
             color: rgba(255,255,255,.75); }
     #blog article .content,
     #blog article .excerpt {
-      margin-left: 40%;
+      margin-left: 40%; }
+    #blog article .excerpt {
       padding-top: 30px;
       background: url(../img/diamonds-horizontal.png) no-repeat 0 4px; }
       #blog article .excerpt p {
