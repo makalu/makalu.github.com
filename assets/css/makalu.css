@@ -155,8 +155,8 @@ body > header {
     border-left: 2px solid rgba(0,0,0,.25); }
     body > header nav a {
       display: block;
-      text-shadow: rgba(0,0,0,.75) 0 1px 0;
-      color: rgba(255,255,255,.75); }
+      text-shadow: rgba(0,0,0,.5) 0 1px 0;
+      color: rgba(255,255,255,.5); }
       body > header nav a strong {
         display: inline-block;
         margin: 40px 0 50px 30px;
@@ -225,6 +225,8 @@ footer {
       #home > header h1 small {
         display: block; }
     #home > header li {}
+      #home > header nav a {
+        color: rgba(255,255,255,.75); }
       #home > header nav a strong {
         margin-bottom: 0; }
       #home > header nav a span {
@@ -236,21 +238,96 @@ footer {
     #home #page > header p {
       width: 50%;
       margin-top: 1em; }
-  #home #team {}
-    #home #team img {
-      display: none; }
-    #home #team ul {
-      overflow: hidden;
-      margin: 0 0 0 -3%;
-      padding: 0;
-      list-style: none; }
+  #home #page > section {
+    overflow: hidden;
+    position: relative; }
+  #home #contact {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 45%;
+    border: 2px dashed rgba(0,0,0,.25);
+    border-width: 2px 0 0 2px;
+    background-color: rgba(0,0,0,.1) }
+    #home #contact header {
+      padding: 30px 50px 0 30px; }
+      #home #contact header h3 {
+        margin: 0 0 .5em 0;
+        color: #D77310;
+        text-shadow: rgba(0,0,0,.5) 0 1px 0; }
+      #home #contact header p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 24px; }
+    #home #contact form {
+      padding: 12px 52px 32px 32px;
+      margin: -2px;
+      background: url(../img/contact-corner.png) no-repeat left bottom; }
+      #home #contact form input,
+      #home #contact form textarea {
+        -webkit-font-smoothing: antialiased;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-family: skolar-1, skolar-2, Georgia, Serif;
+        font-size: 16px;
+        line-height: 22px;
+        border: none;
+        outline: none;
+        background: transparent; }
+      #home #contact form p {
+        margin: 5px 0;
+        padding: 6px 10px;
+        background: rgba(0,0,0,.25); }
+      #home #contact form p.message {
+        margin-bottom: -25px;
+        padding: 0 0 30px 0;
+        background: url(../img/message-tail.png) no-repeat 20px 100%; }
+        #home #contact form p.message textarea {
+          height: 140px;
+          max-height: 140px; }
+        #home #contact form p.message span {
+          display: block;
+          padding: 6px 10px;
+          background: rgba(0,0,0,.25); }
+      #home #contact form p.name,
+      #home #contact form p.email {
+        margin: 5px 115px 5px 60px; }
+      #home #contact form p.submit {
+        position: absolute;
+        bottom: 57px;
+        right: 50px;
+        width: 100px;
+        height: 40px;
+        padding: 2px;
+        margin: -2px;
+        background: url(../img/button.png) no-repeat left top; }
+        #home #contact form p.submit:hover {
+          background-position: 0 -50px; }
+        #home #contact form p.submit:active {
+          background-position: 0 -100px; }
+        #home #contact form p.submit input {
+          line-height: 40px;
+          font-size: 20px;
+          font-weight: 700;
+          text-shadow: rgba(0,0,0,.25) 0 -1px 0; }
+  #home #team {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
     #home #team li {
       float: left;
-      width: 30%;
-      margin-left: 3%;
+      width: 45%;
+      margin-left: 5%;
       margin-bottom: 1.5em; }
-    #home #team li:nth-child(4) {
-      clear: left; }
+    #home #team li.odd {
+      clear: left;
+      margin-left: 0; }
     #home #team header {
       margin-bottom: .5em; }
       #home #team header em {
@@ -265,8 +342,8 @@ footer {
 
 #products {}
   #products > header #nav-products {
-    box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
-    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 88% -10px; }
+    box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
+    background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 88% -10px; }
   #products > header #nav-products a strong {
     color: rgba(255,255,255,1);
     background: none; }
@@ -290,8 +367,8 @@ footer {
 
 #clients {}
   #clients > header #nav-clients {
-    box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
-    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 82% -10px; }
+    box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
+    background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 82% -10px; }
   #clients > header #nav-clients a strong {
     color: rgba(255,255,255,1);
     background: none; }
@@ -369,8 +446,8 @@ footer {
 
 #blog {}
   #blog > header #nav-blog {
-    box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
-    background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 70% -10px; }
+    box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
+    background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 70% -10px; }
   #blog > header #nav-blog a strong {
     color: rgba(255,255,255,1);
     background: none; }
@@ -422,17 +499,6 @@ footer {
     #blog article.single .content {
       color: rgba(255,255,255,.85); }
 
-
-@media screen and (max-width: 900px) {
-  body > header li {}
-  #home #team li {
-    width: 47%; }
-  #home #team li:nth-child(odd) {
-    clear: left; }
-  #home #team li:nth-child(4) {
-    clear: none; }
-}
-
 @media screen and (max-width: 840px) {
   body > header {
     background-color: transparent; }
@@ -455,6 +521,7 @@ footer {
       #home > header li {
         margin-top: -40px;
         background-color: rgba(0,0,0,.25); }
+
   #blog article header {
     float: none;
     width: auto; }
@@ -463,6 +530,12 @@ footer {
     margin-left: 0;
     padding-top: 30px;
     background: none; }
+  
+  #home #team li {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    clear: none !important; }
 }
 
 @media screen and (max-width: 660px) {
@@ -489,9 +562,4 @@ footer {
       display: none;
       padding: 0 30px 20px 30px;
       line-height: 24px; }
-      
-  #home #team li {
-    float: none;
-    width: auto;
-    clear: none !important; }
 }
