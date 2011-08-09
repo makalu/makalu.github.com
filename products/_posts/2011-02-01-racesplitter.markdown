@@ -3,7 +3,7 @@ name: racesplitter
 title: RaceSplitter
 tagline: DYI Race Timing Solution
 
-icon: 
+icon: /uploads/products/racesplitter/icon.png
 website: http://www.racesplitter.com/
 twitter: @racesplitter
 ---

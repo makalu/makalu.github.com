@@ -9,7 +9,11 @@ id: products
   <article id="{{ post.name }}" class="{% cycle 'odd', 'even' %}">
     <div class="summary">
       <header>
-        <img src="/uploads/products/{{ post.name }}/icon.png" alt="Application Icon">
+        <div class="icon">
+          {% if post.icon %}
+            <img src="/uploads/products/{{ post.name }}/icon.png" alt="Application Icon">
+          {% endif %}
+        </div>
         <h1>{{ post.title }}</h1>
         <em>{{ post.tagline }}</em>
       </header>

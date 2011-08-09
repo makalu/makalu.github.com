@@ -150,13 +150,16 @@ body > header {
   body > header li {
     position: relative;
     float: left;
-    height: 100%;
     width: 33%;
+    padding-bottom: 50px;
+    margin-bottom: -50px;
     color: rgba(255,255,255,.5);
     font-size: 18px;
     border-left: 2px solid rgba(0,0,0,.25); }
     body > header nav a {
       display: block;
+      padding-bottom: 50px;
+      margin-bottom: -50px;
       text-shadow: rgba(0,0,0,.5) 0 1px 0;
       color: rgba(255,255,255,.5); }
       body > header nav a strong {
@@ -256,7 +259,7 @@ footer {
       line-height: 24px; }
     #home #location ul {
       overflow: hidden;
-      margin: 0 0 0 -10px;
+      margin: 0 -126px 0 -10px;
       padding: 0;
       list-style: none; }
       #home #location li {
@@ -266,12 +269,15 @@ footer {
       #home #location li a {
         -webkit-transition: opacity .1s linear;
         display: block;
-        opacity: .5; }
+        overflow: hidden;
+        height: 90px;
+        width: 90px;
+        opacity: .5;
+        border: 5px solid rgba(255,255,255,1); }
         #home #location li a:hover {
           opacity: 1; }
       #home #location img {
-        display: block;
-        width: 100px; }
+        display: block; }
     #home #location p {
       margin: 0;
       font-size: 16px; }
@@ -397,11 +403,16 @@ footer {
     padding: 0; }
     #products article.odd {
       float: left; }
-    #products article header img {
+    #products article header .icon {
       float: left;
       width: 57px;
       height: 57px;
-      margin: 5px 20px 0 0; }
+      margin: 5px 20px 0 0;
+      box-shadow: rgba(0,0,0,.5) 0 0 5px inset;
+      border-radius: 12px;
+      background: rgba(0,0,0,.25); }
+      #products article header .icon img {
+        display: block; }
     #products article h1 {
       margin: 0; }
     #products article p {
@@ -625,7 +636,11 @@ footer {
     border-top: 1px solid rgba(0,0,0,.25);
     background-image: none !important; }
     #home > header li {
-      margin: 0; }
+      margin: 0;
+      padding-bottom: 0; }
+    body > header nav a {
+      margin: 0;
+      padding: 0 }
     body > header nav a strong {
       margin: 20px 0 20px 30px;
       font-size: 24px;
