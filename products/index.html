@@ -9,8 +9,9 @@ id: products
   <article id="{{ post.name }}" class="{% cycle 'odd', 'even' %}">
     <div class="summary">
       <header>
-        <em>{{ post.what }}</em>
+        <img src="/images/products/{{ post.name }}/icon.png" alt="Application Icon">
         <h1>{{ post.title }}</h1>
+        <em>{{ post.tagline }}</em>
       </header>
       
       {{ post.content }}

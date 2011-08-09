@@ -9,17 +9,17 @@ link_url: http://www.letters2president.org
 gallery:
   -
     type: image
-    title: Some image
+    title: The home page
     thumb: http://google.com/
     original: http://google.com/
   -
     type: image
-    title: Some other image
+    title: A letter page
     thumb: http://google.com/
     original: http://google.com/
   -
-    type: video
-    title: Demo video
+    type: image
+    title: The content management system
     thumb: http://www.google.com/
     original: http://www.google.com/
 ---

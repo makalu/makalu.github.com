@@ -9,19 +9,26 @@ link_url: http://www.catalogchoice.org
 gallery:
   -
     type: image
-    title: Some image
-    thumb: http://google.com/
-    original: http://google.com/
-  -
-    type: image
-    title: Some other image
+    title: The original home page
     thumb: http://google.com/
     original: http://google.com/
   -
     type: video
-    title: Demo video
+    title: Catalog Choice featured on ABC Good Morning America
+    thumb: http://google.com/
+    original: http://google.com/
+  -
+    type: video
+    title: Catalog Choice featured on CNN
+    thumb: http://www.google.com/
+    original: http://www.google.com/
+  -
+    type: video
+    title: Catalog Choice featured on NBC
     thumb: http://www.google.com/
     original: http://www.google.com/
 ---
 
-Working with the Ecology Center, National Wildlife Federation and the Natural Resources Defense Council, Makalu designed and developed the original Catalog Choice product, allowing American consumers to manage their mail preferences. Featured on NBC, ABC Good Morning America, CNN, and The New York Times, the site was phenomenally successful. Our design helped it achieve one million members, with a 70% signup conversion rate, in its first year.
+Working with the Ecology Center, National Wildlife Federation and the Natural Resources Defense Council, Makalu designed and developed the original Catalog Choice product, allowing American consumers to manage their mail preferences. 
+
+Featured on NBC, ABC Good Morning America, CNN, and The New York Times, the site was phenomenally successful. Our design helped it achieve one million members, with a 70% signup conversion rate, in its first year.

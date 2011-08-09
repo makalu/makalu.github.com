@@ -6,7 +6,7 @@ id: clients
 
 {% for post in site.categories.clients %}
   <a name="{{ post.name }}"></a>
-  <article id="{{ post.name }}" class="{% cycle 'odd', 'even' %}">
+  <article id="{{ post.name }}" class="{% cycle 'odd', 'odd' %}">
     <div class="summary">
       <header>
         <em>{{ post.what }} for</em>
@@ -14,7 +14,7 @@ id: clients
       </header>
       {{ post.content }}
       <a href="{{ post.link_url }}" class="stylish">
-        <span>{{ post.link_title }}</span>
+        <span>{{ post.link_title }} &raquo;</span>
       </a>
       <div class="hero">
         <img src="/images/clients/{{ post.name }}/hero.png" alt="Screenshot">
@@ -25,10 +25,10 @@ id: clients
         <ul>
           {% for image in post.gallery %}
             <li>
-              <a href="{{ image.original }}">
-                <img src="{{ image.thumb }}" width="225" height="120" alt="{{ image.title }}">
-                <small>{{ image.title }}</small>
+              <a href="/images/clients/{{ post.name }}/{{ image.original }}">
+                <img src="/images/clients/{{ post.name }}/{{ image.thumb }}" alt="{{ image.title }}">
               </a>
+              <small>{{ image.title }}</small>
             </li>
           {% endfor %}
         </ul>
