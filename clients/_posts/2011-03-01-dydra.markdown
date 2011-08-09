@@ -6,6 +6,8 @@ client: Dydra
 link_title: Visit dydra.com
 link_url: http://www.dydra.com
 
+hero_height: 548
+
 gallery:
   -
     type: image

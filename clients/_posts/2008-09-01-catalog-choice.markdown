@@ -6,6 +6,8 @@ client: Catalog Choice
 link_title: Visit catalogchoice.org
 link_url: http://www.catalogchoice.org
 
+hero_height: 555
+
 gallery:
   -
     type: image

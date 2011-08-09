@@ -6,6 +6,8 @@ client: Google & Virgin America
 link_title: Play the game
 link_url: http://www.dayinthecloud.com
 
+hero_height: 387
+
 gallery:
   -
     type: image

@@ -415,35 +415,30 @@ footer {
     color: rgba(255,255,255,1);
     background: none; }
   #clients article {
+    position: relative;
     padding: 68px 0 0 0;
     border-top: 2px solid rgba(0,0,0,.25);
     background: url(../img/triangle.png) repeat-x 0 2px; }
     #clients .summary {
       position: relative;
-      padding: 0 50px 40px 50px; }
+      padding: 0 58% 40px 50px; }
     #clients .hero {
       overflow: hidden;
       position: absolute;
-      bottom: -2px;
+      bottom: 0;
+      right: 25px;
       width: 55%;
       height: 100%;
       padding-top: 70px; }
       #clients .hero img {
         position: absolute;
-        top: 20px;
-        width: 120%; }
-    #clients article.odd .summary {
-      padding-right: 58%; }
-    #clients article.even .summary {
-      padding-left: 58%; }
-    #clients article.odd .hero {
-      right: 0; }
-      #clients article.odd .hero img {
-        left: 0; }
-    #clients article.even .hero {
-      left: 0; }
-      #clients article.even .hero img {
-        right: 0; }
+        top: 40px;
+        right: 0;
+        width: 100%;
+        max-width: 600px; }
+      #clients #day-in-the-cloud .hero img {
+        top: 50%;
+        margin-top: -170px; }
     #clients article.odd .gallery {
       background: url(../img/border-odd.png) no-repeat right top; }
     #clients article.even .gallery {
@@ -529,11 +524,13 @@ footer {
         font-size: 18px;
         color: rgba(255,255,255.5);
         padding: 0; }
-        #blog article p a {
+        #blog article .content a,
+        #blog article .excerpt a {
           color: rgba(255,255,255,.75);
-          font-weight: 700;
-          border-bottom: 1px solid rgba(255,255,255,.25); }
-        #blog article p a:hover {
+          font-weight: 600;
+          text-decoration: underline; }
+        #blog article .content a:hover,
+        #blog article .excerpt a:hover {
           color: rgba(255,255,255,1);
           border-color: rgba(255,255,255,.5); }
   #blog article.single {
@@ -596,6 +593,26 @@ footer {
     margin-right: 0;
     padding-right: 30px;
     border-width: 2px; }
+  
+  
+  #clients .summary {
+    position: relative;
+    padding: 0; }
+    #clients article {
+      padding-bottom: 0; }
+    #clients .hero {
+      position: relative;
+      top: auto;
+      left: auto;
+      right: auto;
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      padding: 20px 0 0 0 !important; }
+      #clients .hero img {
+        position: static;
+        display: block;
+        margin: 0 auto !important; }
 }
 
 @media screen and (max-width: 660px) {

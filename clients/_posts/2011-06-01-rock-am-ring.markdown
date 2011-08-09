@@ -6,6 +6,8 @@ client: Rock am Ring
 link_title: Visit rock-am-ring.com
 link_url: http://www.rock-am-ring.com
 
+hero_height: 680
+
 gallery:
   -
     type: image

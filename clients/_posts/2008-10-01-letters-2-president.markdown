@@ -6,6 +6,8 @@ client: Google & The National Writing Project
 link_title: Visit letters2president.org
 link_url: http://www.letters2president.org
 
+hero_height: 536
+
 gallery:
   -
     type: image

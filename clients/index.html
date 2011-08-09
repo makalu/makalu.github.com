@@ -17,16 +17,16 @@ id: clients
         <span>{{ post.link_title }} &raquo;</span>
       </a>
       <div class="hero">
-        <img src="/images/clients/{{ post.name }}/hero.png" alt="Screenshot">
+        <img src="/uploads/clients/{{ post.name }}/hero.png" alt="Screenshot">
       </div>
     </div>
     {% if post.gallery %}
-      <div class="gallery">
+      <div class="gallery" style="display:none">
         <ul>
           {% for image in post.gallery %}
             <li>
-              <a href="/images/clients/{{ post.name }}/{{ image.original }}">
-                <img src="/images/clients/{{ post.name }}/{{ image.thumb }}" alt="{{ image.title }}">
+              <a href="/uploads/clients/{{ post.name }}/{{ image.original }}">
+                <img src="/uploads/clients/{{ post.name }}/{{ image.thumb }}" alt="{{ image.title }}">
               </a>
               <small>{{ image.title }}</small>
             </li>
