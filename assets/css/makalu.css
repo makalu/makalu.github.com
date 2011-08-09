@@ -239,7 +239,7 @@ footer {
     background: url(../img/mountains.png) no-repeat 110% 100%; }
     #home #page > header p {
       width: 50%;
-      margin-top: 1em; }
+      margin: 1em 0 0 0; }
   #home #page > section {
     padding-bottom: 20px;
     overflow: hidden;
@@ -564,6 +564,11 @@ footer {
         margin-top: -40px;
         background-color: rgba(0,0,0,.25); }
 
+  #page > header,
+  #page > section,
+  #page > article {
+    padding: 40px 30px; }
+
   #blog article header {
     float: none;
     width: auto; }
@@ -579,10 +584,17 @@ footer {
   #home #team {
     width: auto; }
   
+  #home #location {
+    clear: left;
+    width: auto;
+    float: none; }
+  
   #home #contact {
     clear: left;
     width: auto;
-    position: static;
+    float: none;
+    margin-right: 0;
+    padding-right: 30px;
     border-width: 2px; }
 }
 
@@ -598,7 +610,7 @@ footer {
     #home > header li {
       margin: 0; }
     body > header nav a strong {
-      margin: 20px 0 20px 50px;
+      margin: 20px 0 20px 30px;
       font-size: 24px;
       line-height: 26px;
       background-position: 100% 0; }
@@ -608,7 +620,7 @@ footer {
         background-position: 100% -400px; }
     body > header nav a span {
       display: none;
-      padding: 0 50px 20px 50px;
+      padding: 0 50px 20px 30px;
       line-height: 24px; }
       
   #home #page > header {
@@ -622,4 +634,11 @@ footer {
     width: auto;
     margin-left: 0;
     clear: none !important; }
+  #home #contact form p.message {
+    margin: 0;
+    padding: 0;
+    background: none; }
+  #home #contact form p.name,
+  #home #contact form p.email {
+    margin: 5px 115px 5px 0; }
 }
