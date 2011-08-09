@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  line-height: 1;
+  line-height: 1.1em;
   margin: 2em 0 .5em 0;
   font-weight: 700; }
 h1 {
@@ -98,11 +98,11 @@ header {}
 section {}
 
 body > header {
-  overflow: hidden;
   position: relative;
   height: 124px;
   background: rgba(0,0,0,.25); }
   body > header .border {
+    z-index: 1;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -110,6 +110,7 @@ body > header {
     width: 100%;
     background: url(../img/header-border.png) repeat-x left bottom; }
   body > header h1 {
+    z-index: 2;
     position: absolute;
     top: 0;
     left: 0;
@@ -152,52 +153,41 @@ body > header {
     color: rgba(255,255,255,.5);
     font-size: 18px;
     border-left: 2px solid rgba(0,0,0,.25); }
-    body > header a.nav {
+    body > header nav a {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 30px;
       text-shadow: rgba(0,0,0,.75) 0 1px 0;
       color: rgba(255,255,255,.75); }
-      body > header a.nav span {
+      body > header nav a strong {
         display: inline-block;
         margin: 40px 0 0 30px;
         padding-right: 36px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
         background: url(../img/nav-arrow.png) no-repeat 100% 4px; }
-    body > header li:hover,
-    body > header li:focus {
+      body > header nav a span {
+        display: block;
+        visibility: hidden;
+        padding: 10px 30px 40px 30px;
+        color: rgba(255,255,255,.5);
+        line-height: 24px; }
+    body > header nav a:hover,
+    body > header nav a:focus {
       background: rgba(0,0,0,.05); }
-      body > header li:hover a.nav,
-      body > header li:focus a.nav {
-        color: rgba(255,255,255,1); }
-        body > header li:hover a.nav span,
-        body > header li:focus a.nav span {
-          background-position: 100% -196px; }
-    body > header li:active {
+      body > header nav a:hover strong,
+      body > header nav a:focus strong {
+        color: rgba(255,255,255,1);
+        background-position: 100% -396px; }
+      body > header nav a:hover span,
+      body > header nav a:focus span {
+        color: rgba(255,255,255,.75); }
+    body > header nav a:active {
       background: rgba(0,0,0,.1);
       box-shadow: rgba(0,0,0,.25) 0 0 3px inset; }
-    body > header p {
-      visibility: hidden;
-      padding: 60px 30px 40px 30px;
-      line-height: 24px;
-      margin: 30px 0 20px 0; }
-      body > header p a {
-        position: relative;
-        display: inline-block;
-        padding: 8px;
-        margin: 10px -8px -8px;
-        font-weight: 600;
-        color: #E1882B; }
-        body > header p a span {
-          border-bottom: 1px solid rgba(225,136,43,.25); }
-        body > header p a:hover {
-          color: #FF9A30; }
-          body > header p a:hover span {
-            border-color: rgba(225,136,43,.5); }
 
 #page {
   overflow: hidden; }
@@ -225,11 +215,10 @@ footer {
 
 #home {}
   #home > header {
-    height: 234px; }
+    height: 174px; }
     #home > header h1 {
-      height: 100%;
-      box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
-      background: rgba(0,0,0,.15) url(../img/ribbon.png) no-repeat 15px 0; }
+      height: 205px;
+      background: url(../img/ribbon.png) no-repeat 15px 0; }
       #home > header h1 a {
         opacity: 1;
         cursor: default; }
@@ -238,10 +227,10 @@ footer {
       #home > header h1 small {
         display: block; }
     #home > header li {}
-      #home > header p {
+      #home > header nav a span {
         visibility: visible; }
   #home #page > header {
-    min-height: 260px;
+    padding-top: 80px;
     background: url(../img/mountains.png) no-repeat 110% 100%; }
     #home #page > header p {
       width: 50% }
@@ -275,18 +264,16 @@ footer {
   #products > header #nav-products {
     box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
     background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 85% -10px; }
-  #products > header #nav-products a.nav {
-    color: rgba(255,255,255,1); }
-  #products > header #nav-products a.nav span {
+  #products > header #nav-products a strong {
+    color: rgba(255,255,255,1);
     background: none; }
 
 #clients {}
   #clients > header #nav-clients {
     box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
     background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 80% -10px; }
-  #clients > header #nav-clients a.nav {
-    color: rgba(255,255,255,1); }
-  #clients > header #nav-clients a.nav span {
+  #clients > header #nav-clients a strong {
+    color: rgba(255,255,255,1);
     background: none; }
   #clients article {
     padding-left: 0;
@@ -332,9 +319,8 @@ footer {
   #blog > header #nav-blog {
     box-shadow: rgba(0,0,0,.25) 0 0 3px inset;
     background: rgba(0,0,0,.15) url(../img/ribbon-small.png) no-repeat 68% -10px; }
-  #blog > header #nav-blog a.nav {
-    color: rgba(255,255,255,1); }
-  #blog > header #nav-blog a.nav span {
+  #blog > header #nav-blog a strong {
+    color: rgba(255,255,255,1);
     background: none; }
   #blog article {
     overflow: hidden;

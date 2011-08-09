@@ -23,29 +23,28 @@
     <nav>
       <ul>
         <li id="nav-products">
-          <a class="nav" href="/products/"><span>Products</span></a>
-          <p>
-            Our latest app will make you a smarter investor.<br>
-            <a href="/products/#rebalance"><span>Find out how &raquo;</span></a>
-          </p>
+          <a href="/products/">
+            <strong>Products</strong>
+            <span>We make pretty awesome iOS and web apps.</span>
+          </a>
         </li>
         <li id="nav-clients">
-          <a class="nav" href="/clients/" data-page-id="clients"><span>Clients</span></a>
-          <p>
-            We made a game for Google &amp; Virgin America.<br>
-            <a href="/clients/#dayinthecloud"><span>Read the case study &raquo;</span></a>
-          </p>
+          <a href="/clients/">
+            <strong>Clients</strong>
+            <span>
+              We've worked with the biggest brands and the tiniest startups.
+            </span>
+          </a>
         </li>
         <li id="nav-blog">
-          <a class="nav" href="/blog/"><span>Blog</span></a>
-          {% for post in site.categories.blog limit: 1 %}
-            <p>
-              {{ post.teaser }}<br>
-              <a href="{{ post.url }}">
-                <span>Read the post &raquo;</span>
-              </a>
-            </p>
-          {% endfor %}
+          <a href="/blog/">
+            <strong>Blog</strong>
+            <span>
+              {% for post in site.categories.blog limit: 1 %}
+                {{ post.teaser }}
+              {% endfor %}
+            </span>
+          </a>
         </li>
       </ul>
     </nav>
