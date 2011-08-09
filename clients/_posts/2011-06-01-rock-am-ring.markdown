@@ -9,18 +9,23 @@ link_url: http://www.rock-am-ring.com
 gallery:
   -
     type: image
-    title: Some image
-    thumb: http://google.com/
-    original: http://google.com/
+    title: The website from 2011
+    thumb: first_thumb.png
+    original: hero.png
   -
     type: image
-    title: Some other image
-    thumb: http://google.com/
+    title: Live page during the festival
+    thumb: first_thumb.png
     original: http://google.com/
   -
     type: video
-    title: Demo video
-    thumb: http://www.google.com/
+    title: Companion iPhone application
+    thumb: first_thumb.png
+    original: http://www.google.com/
+  -
+    type: video
+    title: The mobile site
+    thumb: first_thumb.png
     original: http://www.google.com/
 ---
 

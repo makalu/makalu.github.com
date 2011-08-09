@@ -9,17 +9,17 @@ link_url: http://www.rock-am-ring.com
 gallery:
   -
     type: image
-    title: Some image
+    title: Where 2.0 conference map
     thumb: http://google.com/
     original: http://google.com/
   -
     type: image
-    title: Some other image
+    title: Doodle4Google contest map
     thumb: http://google.com/
     original: http://google.com/
   -
-    type: video
-    title: Demo video
+    type: image
+    title: Google Apps community map
     thumb: http://www.google.com/
     original: http://www.google.com/
 ---
