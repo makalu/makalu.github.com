@@ -29,6 +29,6 @@ gallery:
     original: http://www.google.com/
 ---
 
-Every year in June, more than 80,000 music fans descend on the Nürburgring, for four days of rock-n-roll mayhem at Germany’s largest summer music festival — Rock-am-Ring.
+Every year in June, more than 80,000 music fans descend on the Nürburgring, for four days of rock-n-roll mayhem at Germany's largest summer music festival — Rock-am-Ring.
 
-Makalu is designing, building and operating the 25th anniversary Rock-am-Ring site for Europe’s leading event promoter, Marek Lieberberg Konzertagentur.
+Makalu designed, built and operated the Rock-am-Ring site, companion award-winning iPhone app, and backend content management system for Europe’s leading event promoter, Marek Lieberberg Konzertagentur.
