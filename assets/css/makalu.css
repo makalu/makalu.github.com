@@ -98,8 +98,9 @@ header {}
 section {}
 
 body > header {
+  overflow: hidden;
   position: relative;
-  height: 124px;
+  height: 119px;
   background: rgba(0,0,0,.25); }
   body > header .border {
     z-index: 1;
@@ -110,7 +111,6 @@ body > header {
     width: 100%;
     background: url(../img/header-border.png) repeat-x left bottom; }
   body > header h1 {
-    z-index: 2;
     position: absolute;
     top: 0;
     left: 0;
@@ -215,8 +215,10 @@ footer {
 
 #home {}
   #home > header {
+    overflow: visible;
     height: 174px; }
     #home > header h1 {
+      z-index: 2;
       height: 205px;
       background: url(../img/ribbon.png) no-repeat 15px 0; }
       #home > header h1 a {
@@ -229,11 +231,13 @@ footer {
     #home > header li {}
       #home > header nav a span {
         visibility: visible; }
+
   #home #page > header {
-    padding-top: 80px;
+    padding-top: 60px;
     background: url(../img/mountains.png) no-repeat 110% 100%; }
     #home #page > header p {
-      width: 50% }
+      width: 50%;
+      margin-top: 1em; }
   #home #team {}
     #home #team img {}
     #home #team ul {
