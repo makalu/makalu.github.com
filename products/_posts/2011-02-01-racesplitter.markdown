@@ -8,4 +8,6 @@ website: http://www.racesplitter.com/
 twitter: @racesplitter
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**In the past…** Sports event organizers wanting to hire a professional service to time their races were facing costs of $1,500 and up. Coaches wanting a tool to provide their athletes with current standings during the race were facing costs of $500 and up. We thought there should be a better way.
+
+RaceSplitter is an iPhone app, supported by an online web service, that provides everything needed for "Do It Yourself" race timing. From the United States to Norway, and in over 25 countries in between, organizations and individuals around the world are benefitting from Makalu's first product.
