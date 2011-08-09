@@ -8,4 +8,10 @@ website: http://www.rebalanceapp.com/
 twitter: @rebalance
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+History has clearly demonstrated that those who save regularly, and invest intelligently, are rewarded for their efforts. Even those with meager incomes can, through the power of compounding interest, achieve financial freedom. 
+
+So what's the problem? Unfortunately, it is ourselves. History has also demonstrated that human nature often works contrary to the very fundamentals of investing success.
+
+Rebalance distills generations of experience and best practices into an iPhone app that helps you ignore the noise and self-defeating forces of the market, and focus on what's truly important in the path to achieving financial freedom through long-term personal investment.
+
+*Coming in September of 2011.*
