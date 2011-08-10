@@ -5,7 +5,7 @@ id: clients
 ---
 
 {% for post in site.categories.clients %}
-  <article id="{{ post.name }}" class="{% cycle 'odd', 'odd' %}">
+  <article id="{{ post.name }}" class="{% cycle 'odd', 'even' %}">
     <a name="{{ post.name }}"></a>
     <div class="summary">
       <header>

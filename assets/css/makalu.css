@@ -510,13 +510,16 @@ footer {
       border-top: 2px solid #21211F; }
     #clients .summary {
       position: relative;
-      padding: 0 58% 40px 50px; }
+      padding: 0 55% 40px 50px; }
+      #clients .even .summary {
+        padding-left: 55%;
+        padding-right: 50px; }
     #clients .hero {
       overflow: hidden;
       position: absolute;
       bottom: 0;
       right: 25px;
-      width: 55%;
+      width: 50%;
       height: 100%;
       padding-top: 70px; }
       #clients .hero img {
@@ -528,6 +531,12 @@ footer {
       #clients #day-in-the-cloud .hero img {
         top: 50%;
         margin-top: -170px; }
+    #clients .even .hero {
+      right: auto;
+      left: 25px; }
+      #clients .even .hero img {
+        right: auto;
+        left: 0; }
     #clients article.odd .gallery {
       background: url(../img/border-odd.png) no-repeat right top; }
     #clients article.even .gallery {
