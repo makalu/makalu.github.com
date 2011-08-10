@@ -6,8 +6,6 @@ excerpt: Recently, a potential new customer expressed surprise when I told him t
 ---
 
 Recently, a potential new customer expressed surprise when I told him that we at Makalu usually don’t sign NDAs. Mentioning that he’d found plenty of other companies willing to sign his NDA, I restated commitment to our position, and acceptance that we’d unfortunately have to miss the opportunity.
-
-
 There are others who don’t sign NDAs, and their reasons range from the philosophical, to the financial, to the practical:
 
 * It feels like an expression of distrust (though, I’m not fully behind that one; life has taught me that trust is something earned, not something granted by default).
