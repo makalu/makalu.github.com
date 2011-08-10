@@ -2,7 +2,7 @@
 layout: post
 title: The Story of RaceSplitter
 author: Matt Henderson
-excerpt: In 2011, after a decade of successful client engagements, we at Makalu realized our dream of creating our own product — RaceSplitter, an iPhone application for the timing of sporting events. In addition to representing the first step in our plans to become a hybrid products/services company, we learned a tremendous amount through the experience, that we wanted to share with others in the Story of RaceSplitter.
+excerpt: In 2011, after a decade of successful client engagements, we at Makalu realized our dream of creating our own product — RaceSplitter, an iPhone application for the timing of sporting events. This is the story of how it happened.
 ---
 
 This article was first featured on the [37signals Blog](http://37signals.com/svn/posts/2808-how-makalu-interactive-created-the-international-iphone-hit-racesplitter)(a company which has long been a role model for us).

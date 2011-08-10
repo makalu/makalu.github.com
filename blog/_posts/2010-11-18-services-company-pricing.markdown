@@ -2,7 +2,7 @@
 layout: post
 title: On the pricing of services work
 author: Matt Henderson
-excerpt: When I started Makalu, over a decade ago, I remember longing for a user's manual to help with questions like, "How much should I charge?" and "How should I price my work?" This article describes how we approached these questions.
+excerpt: When I started Makalu, over a decade ago, I remember longing for a user's manual to help with questions like, "How much should I charge?" and "How should I price my work?" This article describes how we approach these questions at Makalu.
 ---
 
 When I started Makalu, over a decade ago, I remember longing for a user's manual to help with questions like, "How much should I charge?" and "How should I price my work?" This article describes how we approached these questions, and includes discussion of the recent controversy over the pricing of the 37signals's (@37signals) blog redesign project.
