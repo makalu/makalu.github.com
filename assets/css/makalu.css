@@ -7,10 +7,10 @@ body {
   margin: 0;
   padding: 0;
   font: 400 18px/28px skolar-1, skolar-2, Georgia, Serif;
-  color: #CACAC9;
+  color: rgba(255,255,255,.75);
   background: #2B2A29 url(../img/texture.png) repeat left top; }
-  .rgba body {
-    color: rgba(255,255,255,.75); }
+  .no-rgba body {
+    color: #CACAC9; }
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,10 +50,10 @@ a.stylish {
   padding: 0 0 0 10px;
   line-height: 34px;
   font-weight: 600;
-  color: #CACAC9;
+  color: rgba(255,255,255,.75);
   background: url(../img/link-left.png) no-repeat left top; }
-  .rgba a.stylish {
-    color: rgba(255,255,255,.75); }
+  .no-rgba a.stylish {
+    color: #CACAC9; }
   a.stylish span {
     display: inline-block;
     padding: 2px 20px 0 10px;
@@ -78,9 +78,9 @@ ul, ol {
 blockquote {
   margin: 1.5em 0 1.5em -17px;
   padding: 0 0 0 15px;
-  border-left: 2px solid #424240; }
-  .rgba blockquote {
-    border-color: rgba(255,255,255,.25); }
+  border-left: 2px solid rgba(255,255,255,.25); }
+  .no-rgba blockquote {
+    border-left: 2px solid #424240; }
 
 
 small {
@@ -111,9 +111,9 @@ section {}
 body > header {
   overflow: hidden;
   position: relative;
-  background: #212120; }
-  .rgba body > header {
-    background: rgba(0,0,0,.25); }
+  background: rgba(0,0,0,.25); }
+  .no-rgba body > header {
+    background: #212120; }
   body > header .border {
     z-index: 1;
     position: absolute;
@@ -131,15 +131,12 @@ body > header {
     margin: 0;
     text-align: center; }
     body > header h1 a {
-      opacity: .5;
       display: block;
       width: 150px;
       margin: 0 auto;
       padding-top: 120px;
       text-shadow: #B05C10 0 -1px 0;
       background: url(../img/logo.png) no-repeat 50% 19px; }
-      body > header h1 a:hover {
-        opacity: 1; }
     body > header h1 strong {
       display: none;
       font-size: 24px;
@@ -161,20 +158,20 @@ body > header {
     width: 33%;
     padding-bottom: 50px;
     margin-bottom: -50px;
-    color: #8C8B89;
+    color: rgba(255,255,255,.5);
     font-size: 18px;
-    border-left: 2px solid #181818; }
-    .rgba body > header li {
-      color: rgba(255,255,255,.5);
-      border-color: rgba(0,0,0,.25); }
+    border-left: 2px solid rgba(0,0,0,.25); }
+    .no-rgba body > header li {
+      color: #8C8B89;
+      border-left: 2px solid #181818; }
     body > header nav a {
       display: block;
       padding-bottom: 50px;
       margin-bottom: -50px;
       text-shadow: #1A1814 0 1px 0;
-      color: #8C8B89; }
-      .rgba body > header nav a {
-        color: rgba(255,255,255,.5); }
+      color: rgba(255,255,255,.5); }
+      .no-rgba body > header nav a {
+        color: #8C8B89; }
       body > header nav a strong {
         display: inline-block;
         margin: 40px 0 50px 30px;
@@ -186,32 +183,32 @@ body > header {
       body > header nav a span {
         display: none;
         padding: 10px 30px 40px 30px;
-        color: #8C8B89;
+        color: rgba(255,255,255,.5);
         line-height: 24px; }
-        .rgba body > header nav a span {
-          color: rgba(255,255,255,.5); }
+        .no-rgba body > header nav a span {
+          color: #8C8B89; }
     body > header nav a:hover,
     body > header nav a:focus {
-      background: #1F1F1D; }
-      .rgba body > header nav a:hover,
-      .rgba body > header nav a:focus {
-        background: rgba(0,0,0,.05); }
+      background: rgba(0,0,0,.05); }
+      .no-rgba body > header nav a:hover,
+      .no-rgba body > header nav a:focus {
+        background: #1F1F1D; }
       body > header nav a:hover strong,
       body > header nav a:focus strong {
         color: #fff;
         background-position: 100% -396px; }
       body > header nav a:hover span,
       body > header nav a:focus span {
-        color: #C5C5C4; }
-        .rgba body > header nav a:hover span,
-        .rgba body > header nav a:focus span {
-          color: rgba(255,255,255,.75); }
+        color: rgba(255,255,255,.75); }
+        .no-rgba body > header nav a:hover span,
+        .no-rgba body > header nav a:focus span {
+          color: #C5C5C4; }
     body > header nav a:active {
-      background: #20201E;
-      box-shadow: #181817 0 0 3px inset; }
-      .rgba body > header nav a:active {
-        background: rgba(0,0,0,.15);
-        box-shadow: rgba(0,0,0,.25) 0 0 3px inset; }
+      background: rgba(0,0,0,.15);
+      box-shadow: rgba(0,0,0,.25) 0 0 3px inset; }
+      .no-rgba body > header nav a:active {
+        background: #20201E;
+        box-shadow: #181817 0 0 3px inset; }
 
 #page {
   overflow: hidden; }
@@ -220,10 +217,10 @@ body > header {
   #page > article {
     padding: 40px 50px; }
   #page > section {
-    border-top: 2px solid #212120;
+    border-top: 2px solid rgba(0,0,0,.25);
     background: url(../img/triangle.png) repeat-x 0 2px; }
-    .rgba #page > section {
-      border-color: rgba(0,0,0,.25); }
+    .no-rgba #page > section {
+      border-top: 2px solid #212120; }
   #page > header {}
     #page > header p {
       font-size: 20px;
@@ -231,14 +228,14 @@ body > header {
 
 footer {
   padding: 20px 50px;
-  color: #565654;
+  color: rgba(255,255,255,.25);
   font-size: 14px;
-  border-top: 2px solid #181817;
-  background: #212120 url(../img/circle.png) repeat-x 0 2px; }
-  .rgba footer {
-    color: rgba(255,255,255,.25);
-    border-color: rgba(0,0,0,.25);
-    background-color: rgba(0,0,0,.25); }
+  border-top: 2px solid rgba(0,0,0,.25);
+  background: rgba(0,0,0,.25) url(../img/circle.png) repeat-x 0 2px; }
+  .no-rgba footer {
+    color: #565654;
+    border-top: 2px solid #181817;
+    background: #212120 url(../img/circle.png) repeat-x 0 2px; }
   footer p {
     margin: 0; }
 
@@ -253,7 +250,6 @@ footer {
       background-repeat: no-repeat;
       background-position: 50% 0; }
       #home > header h1 a {
-        opacity: 1;
         cursor: default; }
       #home > header h1 strong {
         display: block; }
@@ -261,9 +257,9 @@ footer {
         display: block; }
     #home > header li {}
       #home > header nav a {
-        color: #C5C5C4; }
-        .rgba #home > header nav a {
-          color: rgba(255,255,255,.75); }
+        color: rgba(255,255,255,.75); }
+        .no-rgba #home > header nav a {
+          color: #C5C5C4; }
       #home > header nav a strong {
         margin-bottom: 0; }
       #home > header nav a span {
@@ -305,38 +301,40 @@ footer {
         height: 90px;
         width: 90px;
         opacity: .5;
+        filter: alpha(opacity=50);
         border: 5px solid #fff; }
         #home #location li a:hover {
-          opacity: 1; }
+          opacity: 1;
+          filter: alpha(opacity=100); }
       #home #location img {
         display: block; }
     #home #location p {
       margin: 0;
       font-size: 16px; }
       #home #location p a {
-        color: #969694;
+        color: rgba(255,255,255,.5);
         font-weight: 600;
-        border-bottom: 1px solid #60605E; }
-        .rgba #home #location p a {
-          color: rgba(255,255,255,.5);
-          border-color: rgba(255,255,255,.25); }
+        border-bottom: 1px solid rgba(255,255,255,.25); }
+        .no-rgba #home #location p a {
+          color: #969694;
+          border-bottom: 1px solid #60605E; }
       #home #location p a:hover {
-        color: #CACAC9;
-        border-color: #959593; }
-        .rgba #home #location p a:hover {
-          color: rgba(255,255,255,.75);
-          border-color: rgba(255,255,255,.5); }
+        color: rgba(255,255,255,.75);
+        border-color: rgba(255,255,255,.5); }
+        .no-rgba #home #location p a:hover {
+          color: #CACAC9;
+          border-color: #959593; }
   #home #contact {
     float: right;
     margin: 0 -50px -22px 0;
     padding: 0 50px 0 0;
     width: 45%;
-    border: 2px dashed #1D1D1B;
+    border: 2px dashed rgba(0,0,0,.25);
     border-width: 2px 0 2px 2px;
-    background-color: #272725; }
-    .rgba #home #contact {
-      border-color: rgba(0,0,0,.25);
-      background-color: rgba(0,0,0,.1); }
+    background-color: rgba(0,0,0,.1); }
+    .no-rgba #home #contact {
+      border: 2px dashed #1D1D1B;
+      background-color: #272725; }
     #home #contact header {
       padding: 30px 0 0 30px; }
       #home #contact header h3 {
@@ -346,12 +344,18 @@ footer {
       #home #contact header p {
         margin: 0;
         font-size: 16px;
-        line-height: 24px; }
+        line-height: 24px;
+        color: rgba(255,255,255,.65); }
+        .no-rgba #home #contact header p {
+          color: #B5B4B4; }
     #home #contact form {
       position: relative;
       padding: 12px 0 32px 32px;
       margin: -2px 0 -2px -2px;
       background: url(../img/contact-corner.png) no-repeat left bottom; }
+      #home #contact form label.placeholder {
+        line-height: 1;
+        color: #666; }
       #home #contact form input,
       #home #contact form textarea {
         -webkit-font-smoothing: antialiased;
@@ -366,12 +370,16 @@ footer {
         border: none;
         outline: none;
         background: transparent; }
+        #home #contact form ::-webkit-input-placeholder {
+          color: #666; }
+        #home #contact form ::-moz-placeholder {
+          color: #666; }
       #home #contact form p {
         margin: 5px 0;
         padding: 6px 10px;
-        background: #1C1C1B; }
-        .rgba #home #contact form p {
-          background: rgba(0,0,0,.25); }
+        background: rgba(0,0,0,.25); }
+        .no-rgba #home #contact form p {
+          background: #1C1C1B; }
       #home #contact form p.message {
         margin-bottom: -25px;
         padding: 0 0 30px 0;
@@ -382,9 +390,9 @@ footer {
         #home #contact form p.message span {
           display: block;
           padding: 6px 10px;
-          background: #1C1C1B; }
-          .rgba #home #contact form p.message span {
-            background: rgba(0,0,0,.25); }
+          background: rgba(0,0,0,.25); }
+          .no-rgba #home #contact form p.message span {
+            background: #1C1C1B; }
       #home #contact form p.name,
       #home #contact form p.email {
         margin: 5px 115px 5px 60px; }
@@ -430,17 +438,28 @@ footer {
         margin: 0; }
     #home #team p {
       margin: 0;
+      color: rgba(255,255,255,.65);
       font-size: 16px;
       line-height: 24px; }
+      .no-rgba #home #team p {
+        color: #B5B4B4; }
 
 #products {}
+  #products > header h1 a {
+    opacity: .5;
+    filter: alpha(opacity=50); }
+    #products > header h1 a:hover {
+      opacity: 1;
+      filter: alpha(opacity=100); }
   #products > header #nav-products {
     box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
     background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 88% -10px; }
+    .no-rgba #products > header #nav-products {
+      background: #181817 url(../img/ribbon-small.png) no-repeat 88% -10px; }
   #products > header #nav-products a {
     background: none; }
   #products > header #nav-products a strong {
-    color: rgba(255,255,255,1);
+    color: #fff;
     background: none; }
   #products #page {
     padding: 40px 50px; }
@@ -466,19 +485,29 @@ footer {
       margin-top: 1em; }
 
 #clients {}
+  #clients > header h1 a {
+    opacity: .5;
+    filter: alpha(opacity=50); }
+    #clients > header h1 a:hover {
+      opacity: 1;
+      filter: alpha(opacity=100); }
   #clients > header #nav-clients {
     box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
     background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 82% -10px; }
+    .no-rgba #clients > header #nav-clients {
+      background: #181817 url(../img/ribbon-small.png) no-repeat 88% -10px; }
   #clients > header #nav-clients a {
     background: none; }
   #clients > header #nav-clients a strong {
-    color: rgba(255,255,255,1);
+    color: #fff;
     background: none; }
   #clients article {
     position: relative;
     padding: 68px 0 0 0;
     border-top: 2px solid rgba(0,0,0,.25);
     background: url(../img/triangle.png) repeat-x 0 2px; }
+    .no-rgba #clients article {
+      border-top: 2px solid #21211F; }
     #clients .summary {
       position: relative;
       padding: 0 58% 40px 50px; }
@@ -503,7 +532,7 @@ footer {
       background: url(../img/border-odd.png) no-repeat right top; }
     #clients article.even .gallery {
       background: url(../img/border-even.png) no-repeat left top; }
-    #clients article:first-of-type {
+    #clients article:first-child {
       padding-top: 40px;
       border-top: none;
       background: none; }
@@ -529,10 +558,12 @@ footer {
               display: block;
               width: 100%;
               opacity: .5;
+              filter: alpha(opacity=50);
               -webkit-transition: opacity .1s linear; }
           #clients .gallery a:hover {}
             #clients .gallery a:hover img {
-              opacity: 1; }
+              opacity: 1;
+              filter: alpha(opacity=100); }
             #clients .gallery small {
               display: block;
               margin-top: 10px;
@@ -542,18 +573,26 @@ footer {
 
 
 #blog {}
+  #blog > header h1 a {
+    opacity: .5;
+    filter: alpha(opacity=50); }
+    #blog > header h1 a:hover {
+      opacity: 1;
+      filter: alpha(opacity=100); }
   #blog > header #nav-blog {
     box-shadow: rgba(0,0,0,.5) 0 0 3px inset;
     background: rgba(0,0,0,.25) url(../img/ribbon-small.png) no-repeat 70% -10px; }
+    .no-rgba #blog > header #nav-blog {
+      background: #181817 url(../img/ribbon-small.png) no-repeat 88% -10px; }
   #blog > header #nav-blog a {
     background: none; }
   #blog > header #nav-blog a strong {
-    color: rgba(255,255,255,1);
+    color: #fff;
     background: none; }
   #blog article {
     overflow: hidden;
-    padding-left: 50px;
-    border-top: 2px dashed rgba(0,0,0,.25); }
+    margin: 40px 0;
+    padding: 0 50px; }
     #blog article:first-child {
       border-top: none; }
     #blog article header {
@@ -566,15 +605,22 @@ footer {
         list-style: none;
         border: 1px solid rgba(0,0,0,.25);
         border-width: 1px 0; }
+        .no-rgba #blog article header ul {
+          border: 1px solid #222221;
+          border-width: 1px 0; }
         #blog article header li {
           float: left; }
           #blog article header li em {
             font-weight: 400;
             color: rgba(255,255,255,.4); }
+            .no-rgba #blog article header li em {
+              color: #7F7F7E; }
           #blog article header li strong {
             font-style: normal;
             font-weight: 600;
             color: rgba(255,255,255,.75); }
+            .no-rgba #blog article header li strong {
+              color: #C8C8C7; }
     #blog article .content,
     #blog article .excerpt {
       margin-left: 40%; }
@@ -584,21 +630,33 @@ footer {
       #blog article .excerpt p {
         margin: 0 0 8px 0;
         font-size: 18px;
-        color: rgba(255,255,255.5);
         padding: 0; }
-        #blog article .content a,
-        #blog article .excerpt a {
-          color: rgba(255,255,255,.75);
-          font-weight: 600;
-          text-decoration: underline; }
+      #blog article .content a,
+      #blog article .excerpt a {
+        color: rgba(255,255,255,.75);
+        font-weight: 600;
+        text-decoration: underline; }
+        .no-rgba #blog article .content a,
+        .no-rgba #blog article .excerpt a {
+          color: #CACAC9; }
         #blog article .content a:hover,
         #blog article .excerpt a:hover {
-          color: rgba(255,255,255,1);
+          color: #fff;
           border-color: rgba(255,255,255,.5); }
+          .no-rgba #blog article .content a:hover,
+          .no-rgba #blog article .excerpt a:hover {
+            border-color: #959594; }
+      #blog article .excerpt a {
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255,255,255,.25); }
+        .no-rgba #blog article .excerpt a {
+          border-bottom: 1px solid #61615F; }
   #blog article.single {
     border: none; }
     #blog article.single .content {
-      color: rgba(255,255,255,.85); }
+      color: rgba(255,255,255,.75); }
+      .no-rgba #blog article.single .content {
+        color: #CACAC9; }
 
 @media screen and (max-width: 840px) {
   body > header {
@@ -634,7 +692,7 @@ footer {
   #blog article .content,
   #blog article .excerpt {
     margin-left: 0;
-    padding-top: 30px;
+    padding-top: 0;
     background: none; }
   
   #home #page > header {
@@ -656,6 +714,11 @@ footer {
     padding-right: 30px;
     border-width: 2px; }
   
+  #products article {
+    float: none;
+    width: auto; }
+    #products article.odd {
+      float: none; }
   
   #clients .summary {
     position: relative;

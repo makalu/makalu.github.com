@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('input[placeholder],textarea[placeholder]').placeholder();
+  
   $("a[href*='http']").not("[rel='external'], [rel*=internal], [href*='" + document.location.hostname + "']").each(function() {
     $(this).attr('rel', 'external');
   })
