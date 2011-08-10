@@ -3,7 +3,7 @@ layout: post
 title: Minimum Viable Products
 author: Matt Henderson
 teaser: Our latest post is about minimum viable products.
-excerpt: Having provided client services for nearly a decade, Makalu released its first  product in 2011 — “RaceSplitter,” an application for the iPhone that changes how organizers of sporting events time their races. Our aim for version 1.0 was to deliver a “minimum viable product”. This article discusses what that means to us.
+excerpt: Our aim for version 1.0 of RaceSplitter was to deliver a “minimum viable product”. This article discusses what that means to us.
 ---
 
 Having provided client services for nearly a decade, Makalu released its first  product in 2011 — “RaceSplitter,” an application for the iPhone that changes how organizers of sporting events time their races. Our aim for version 1.0 was to deliver a “minimum viable product”. This article discusses what that means to us.
