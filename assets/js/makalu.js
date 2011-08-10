@@ -11,24 +11,36 @@ $(document).ready(function() {
     window.open($(this).attr('href'), '_blank');
   });
   
+  function showThanks() {
+    $('#contact').addClass('flipped');
+    $('#contact-thanks').click(function() {
+      $('#contact').removeClass('flipped');
+      $('form input[type=text], textarea').val('');
+    });
+    $('p.submit').removeClass('disabled');
+  }
+  
   $('form').submit(function(e) {
     e.preventDefault();
     if ($('#message').val() && $('#name').val() && $('#email').val()) {
       $('p.submit').addClass('disabled');
-      $.ajax($(this).attr('action'), {
-        type: $(this).attr('method'),
-        data: $(this).serialize(),
-        success: function() {},
-        error: function() { /*alert('An error occurred when sending your message. Please try again.');*/ },
-        complete: function() {
-          $('#contact').addClass('flipped');
-          $('#contact-thanks').click(function() {
-            $('#contact').removeClass('flipped');
-            $('form input[type=text], textarea').val('');
-          });
-          $('p.submit').removeClass('disabled');
-        }
-      });
+      
+      if ($.browser.msie && window.XDomainRequest) {
+        // Use Microsoft XDR
+        xdr = new XDomainRequest();        
+        xdr.open("get", $(this).attr('action') + '?' + $(this).serialize());
+        xdr.send();
+        showThanks();
+      } else {
+        $.ajax({
+          url: $(this).attr('action'),
+          type: $(this).attr('method'),
+          data: $(this).serialize(),
+          success: function() {},
+          error: function() {},
+          complete: function() { showThanks(); }
+        });
+      }
     } else {
       alert('Please fill in all the fields.');
     }
