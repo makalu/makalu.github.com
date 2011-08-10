@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1.1em;
-  margin: 2em 0 .5em 0;
+  margin: 2.5em 0 .5em 0;
   font-weight: 700; }
 h1 {
   font-size: 36px; }
@@ -67,7 +67,8 @@ ul, ol {
   padding: 0; }
   ul {
     list-style-image: url(../img/list-diamond.png); }
-  ul li, ol li { }
+  ul li, ol li {
+    margin: 1.5em 0; }
 
 .aside {
   float: left;
@@ -156,8 +157,8 @@ body > header {
     position: relative;
     float: left;
     width: 33%;
-    padding-bottom: 50px;
-    margin-bottom: -50px;
+    padding: 0 0 50px 0;
+    margin: 0 0 -50px 0;
     color: rgba(255,255,255,.5);
     font-size: 18px;
     border-left: 2px solid rgba(0,0,0,.25); }
@@ -467,8 +468,7 @@ footer {
     #home #team li {
       float: left;
       width: 45%;
-      margin-left: 5%;
-      margin-bottom: 1.5em; }
+      margin: 0 0 1.5em 5%; }
     #home #team li.odd {
       clear: left;
       margin-left: 0; }
@@ -658,7 +658,8 @@ footer {
           border: 1px solid #222221;
           border-width: 1px 0; }
         #blog article header li {
-          float: left; }
+          float: left;
+          margin: 0; }
           #blog article header li em {
             font-weight: 400;
             color: rgba(255,255,255,.4); }
