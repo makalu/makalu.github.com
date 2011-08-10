@@ -18,17 +18,14 @@ $(document).ready(function() {
       $.ajax($(this).attr('action'), {
         type: $(this).attr('method'),
         data: $(this).serialize(),
-        success: function() {
+        success: function() {},
+        error: function() { /*alert('An error occurred when sending your message. Please try again.');*/ },
+        complete: function() {
           $('#contact').addClass('flipped');
           $('#contact-thanks').click(function() {
             $('#contact').removeClass('flipped');
             $('form input[type=text], textarea').val('');
           });
-        },
-        error: function() {
-          alert('An error occurred when sending your message. Please try again.');
-        },
-        complete: function() {
           $('p.submit').removeClass('disabled');
         }
       });
