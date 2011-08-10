@@ -5,7 +5,7 @@ tagline: Personal investment companion
 
 icon: 
 website: http://www.rebalanceapp.com/
-twitter: @rebalance
+twitter: @rebalanceapp
 ---
 
 History has shown that time rewards those who save regularly, and invest intelligently. Even people with modest incomes can, through the power of compounding interest, achieve financial freedom. So what's the problem? Unfortunately, it is ourselves — as human nature often works contrary to the very fundamentals of investing success.
