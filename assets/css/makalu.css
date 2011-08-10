@@ -307,7 +307,8 @@ footer {
           opacity: 1;
           filter: alpha(opacity=100); }
       #home #location img {
-        display: block; }
+        display: block;
+        width: 100%; }
     #home #location p {
       margin: 0;
       font-size: 16px; }
