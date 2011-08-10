@@ -68,7 +68,8 @@ ul, ol {
   ul {
     list-style-image: url(../img/list-diamond.png); }
   ul li, ol li {
-    margin: 1.5em 0; }
+    padding-left: 5px;
+    margin: 1.5em 0 1.5em -5px; }
 
 .aside {
   float: left;
@@ -294,6 +295,7 @@ footer {
       #home #location li {
         float: left;
         margin: 0 0 10px 10px;
+        padding: 0;
         box-shadow: rgba(0,0,0,1) 0 0 5px; }
       #home #location li a {
         -webkit-transition: opacity .1s linear;
@@ -468,7 +470,8 @@ footer {
     #home #team li {
       float: left;
       width: 45%;
-      margin: 0 0 1.5em 5%; }
+      margin: 0 0 1.5em 5%;
+      padding: 0; }
     #home #team li.odd {
       clear: left;
       margin-left: 0; }
@@ -659,7 +662,8 @@ footer {
           border-width: 1px 0; }
         #blog article header li {
           float: left;
-          margin: 0; }
+          margin: 0;
+          padding: 0; }
           #blog article header li em {
             font-weight: 400;
             color: rgba(255,255,255,.4); }
