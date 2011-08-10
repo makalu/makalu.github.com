@@ -471,12 +471,9 @@ footer {
       float: left; }
     #products article header .icon {
       float: left;
-      width: 57px;
-      height: 57px;
-      margin: 5px 20px 0 0;
-      box-shadow: rgba(0,0,0,.5) 0 0 5px inset;
-      border-radius: 12px;
-      background: rgba(0,0,0,.25); }
+      width: 80px;
+      height: 80px;
+      margin: -10px 30px 0 -10px; }
       #products article header .icon img {
         display: block; }
     #products article h1 {
