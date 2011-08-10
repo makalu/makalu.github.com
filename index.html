@@ -100,25 +100,37 @@ id: home
   </section>
   
   <section id="contact">
-    <header>
-      <h3>Now you know us. Tell us about you.</h3>
-      <p>Whether you've got an exciting project to discuss, or just want to say hello, we'd love to hear from you.</p>
-    </header>
-    <form>
-      <p class="message">
-        <span>
-          <textarea id="message" name="message" placeholder="Your message..."></textarea>
-        </span>
-      </p>
-      <p class="name">
-        <input type="text" id="name" name="name" placeholder="Name">
-      </p>
-      <p class="email">
-        <input type="email" id="email" name="email" placeholder="Email address">
-      </p>
-      <p class="submit">
-        <input type="submit" name="submit" value="Send">
-      </p>
-    </form>
+    <div class="card">
+      <div id="contact-form" class="face">
+        <header>
+          <h3>Now you know us. Tell us about you.</h3>
+          <p>Whether you've got an exciting project to discuss, or just want to say hello, we'd love to hear from you.</p>
+        </header>
+        <form action="/" method="get">
+          <input type="hidden" name="site" value="Interactive">
+          <input type="hidden" name="referer" value="">
+          <p class="message">
+            <span>
+              <textarea id="message" name="message" placeholder="Your message..."></textarea>
+            </span>
+          </p>
+          <p class="name">
+            <input type="text" id="name" name="name" placeholder="Name">
+          </p>
+          <p class="email">
+            <input type="text" id="email" name="email" placeholder="Email address">
+          </p>
+          <p class="submit">
+            <input type="submit" name="submit" value="Send">
+          </p>
+        </form>
+      </div>
+      <div id="contact-thanks" class="face">
+        <header>
+          <h3>Thanks for your message!</h3>
+          <p>You should receive a reply from us within two business days.</p>
+        </header>
+      </div>
+    </div>
   </section>
 </section>

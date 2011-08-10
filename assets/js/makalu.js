@@ -10,4 +10,30 @@ $(document).ready(function() {
     e.preventDefault();
     window.open($(this).attr('href'), '_blank');
   });
+  
+  $('form').submit(function(e) {
+    e.preventDefault();
+    if ($('#message').val() && $('#name').val() && $('#email').val()) {
+      $('p.submit').addClass('disabled');
+      $.ajax($(this).attr('action'), {
+        type: $(this).attr('method'),
+        data: $(this).serialize(),
+        success: function() {
+          $('#contact').addClass('flipped');
+          $('#contact-thanks').click(function() {
+            $('#contact').removeClass('flipped');
+            $('form input[type=text], textarea').val('');
+          });
+        },
+        error: function() {
+          alert('An error occurred when sending your message. Please try again.');
+        },
+        complete: function() {
+          $('p.submit').removeClass('disabled');
+        }
+      });
+    } else {
+      alert('Please fill in all the fields.');
+    }
+  });
 });
