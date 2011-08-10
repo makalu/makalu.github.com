@@ -3,18 +3,16 @@ layout: post
 title: Minimum Viable Products
 author: Matt Henderson
 teaser: Our latest post is about minimum viable products.
-excerpt: Makalu is a small team of six people who, having provided client design and development services for nearly a decade, released its first own product in 2011 — “RaceSplitter,” an application for the iPhone, that changes how organizers of sporting events time their races. Our aim for the version 1.0 release of RaceSplitter was to deliver a “minimum viable product”. During the process, we discovered that our idea of a MVP differs somewhat from that of others.
+excerpt: Having provided client services for nearly a decade, Makalu released its first  product in 2011 — “RaceSplitter,” an application for the iPhone that changes how organizers of sporting events time their races. Our aim for version 1.0 was to deliver a “minimum viable product”. This article discusses what that means to us.
 ---
 
-Makalu is a small team of six people who, having provided client design and development services for nearly a decade, released its first own product in 2011 — “RaceSplitter,” an application for the iPhone, that changes how organizers of sporting events time their races.
-
-Our aim for the version 1.0 release of RaceSplitter was to deliver a “minimum viable product”. During the process, we discovered that our idea of a MVP differs somewhat from that of others.
+Having provided client services for nearly a decade, Makalu released its first  product in 2011 — “RaceSplitter,” an application for the iPhone that changes how organizers of sporting events time their races. Our aim for version 1.0 was to deliver a “minimum viable product”. This article discusses what that means to us.
 
 #### It’s not just what you build, it’s also how you build it.
 
-Any organization that sets out to bring a product to market must decide what to build, and on that point it’s common to hear people speak of the “minimum viable product”. For Makalu, the MVP contains the minimal functionality to deliver the core of the product’s value proposition. This should not be confused, however, with the minimal *implementation* of this minimal functionality. 
+Any organization that sets out to bring a product to market must decide what to build, and on that point it’s common to hear people speak of a “minimum viable product”. For Makalu, the MVP contains the minimal functionality to deliver the core of the product’s value proposition. This should not be confused, however, with the minimal *implementation* of this minimal functionality. 
 
-And this is where many companies get it wrong. 
+And this is where many organizations get it wrong.
 
 By shipping a minimal *implementation* of the minimal functionality, they overlook the criticality of the user experience in the success of any product — particularly a 1.0.
 
