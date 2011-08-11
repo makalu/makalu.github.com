@@ -30,13 +30,13 @@ Here’s a number of examples:
 
 3. **Reducing interface friction.** We worked to identify momentary pauses occurring when users (and us) interacted with the app, and then made efforts to eliminate those UI friction points. For example, when changing a race from one start mode to another — e.g. from *interval* start to *mass* start — we inform the user what effect that’s going to have on the ordering of any racers already existing in the start list (giving them the chance to cancel the change). This contextual feedback eliminated that momentary, "Uh oh, how's this going to affect things I've already done?" friction.
 
-#### Iterate with high-fidelity prototypes.
+#### Iterate with high-fidelity prototypes
 
 We found that these kinds of user experience refinements are best achieved through an iterative process of testing high-fidelity (working) prototypes of the application, and diligently seeking to identify points of friction. 
 
 You can identify friction by watching someone use the product for the first time, without a manual. For example, with RaceSplitter, when you ask them to create and run a race, and observe a smooth tap-tap-tap-tap-tap-done, you know you’re on the right path. But when you see tap-tap...hmmm...tap...oops...tap — you know further thinking and refinements are needed.
 
-#### Costly, but worth it.
+#### Costly, but worth it
 
 This process of iterating with working prototypes is obviously costly. On the other hand, you simply can't get this kind of deep insight by staring at static mockups, and imagining yourself using the app. We're convinced that in the long run, the costlier development approach maximizes the possibility of the product ultimately succeeding in the marketplace.
 
