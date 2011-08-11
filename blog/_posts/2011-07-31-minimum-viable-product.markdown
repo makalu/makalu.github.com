@@ -44,6 +44,6 @@ In the case of RaceSplitter, our initial users absolutely *loved* the product. T
 
 #### It’s your choice.
 
-Shipping the minimal *implementation* of the minimum viable product increases the chances that your first users will think, “Nice idea. I’ll try to remember to check back  someday.”
+Shipping the minimal *implementation* of the minimum viable product can save money and get a product to market faster. But it increases the chances that your first users will think, “Nice idea. I’ll try to remember to check back someday.” — and then never return.
 
-Perfect execution of the minimal viable product, on the other hand, increases the chances of turning your early adopters into the organic, social marketing force that can be critical to the success of so many 1.0 products.
+Quality execution takes longer and costs more, but ultimately leads to far better chances of success in the marketplace. And at the end of the day, that's all that matters.
