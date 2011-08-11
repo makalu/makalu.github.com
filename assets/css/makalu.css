@@ -229,9 +229,11 @@ body > header {
       line-height: 30px; }
 
 footer {
-  padding: 20px 50px;
+  overflow: hidden;
+  padding: 28px 50px;
   color: rgba(255,255,255,.25);
   font-size: 14px;
+  line-height: 18px;
   border-top: 2px solid rgba(0,0,0,.25);
   background: rgba(0,0,0,.25) url(../img/circle.png) repeat-x 0 2px; }
   .no-rgba footer {
@@ -239,7 +241,33 @@ footer {
     border-top: 2px solid #181817;
     background: #212120 url(../img/circle.png) repeat-x 0 2px; }
   footer p {
-    margin: 0; }
+    float: left;
+    margin: 0;
+    width: 45%; }
+  footer ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    footer ul li {
+      float: left;
+      padding: 0 5px;
+      margin: 0; }
+      footer ul li a {
+        display: block;
+        color: rgba(255,255,255,.5);
+        border-bottom: 1px solid rgba(255,255,255,.25); }
+        .no-rgba footer ul li a {
+          color: #565654;
+          border-bottom: 1px solid #565654; }
+        footer ul li a:hover {
+          border-color: rgba(255,255,255,.5); }
+          .no-rgba footer ul li a:hover {
+            color: #B5B4B4;
+            border-color: #B5B4B4; }
+    footer ul li.spacer {
+      padding: 0 10px;
+      background: url(../img/diamond.png) no-repeat 50% 4px; }
 
 
 #zoomOverlay {
