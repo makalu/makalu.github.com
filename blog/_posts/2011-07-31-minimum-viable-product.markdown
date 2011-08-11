@@ -20,7 +20,7 @@ We believe this is short-sighted, and reflects a flawed perception of the import
 
 After 200 man-hours of effort, we had a version of RaceSplitter which was minimally functional, in that it implemented all of the features we considered core to the product — you could create and configure a race, you could time a race, and you could export results.
 
-But it wasn’t until we’d invested an additional *400 hours* that we felt we had a minimum *viable* product — i.e. a product that delivered the core functionality, and within an experience so delightful that the users would what to tell others about it. That’s right — fully *two thirds* of the overall development cost of the product went into improving the user experience. 
+But it wasn’t until we’d invested an additional *400 hours* improving the user interface — fully *two thirds* of the overall development cost — that we felt we had a minimum *viable* product — i.e. a product that delivered the core functionality, and within an experience so delightful that the users would what to tell others about it.
 
 Here’s a number of examples:
 
