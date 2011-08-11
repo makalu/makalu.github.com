@@ -40,12 +40,10 @@ You can identify friction by watching someone use the product for the first time
 
 This process of iterating with working prototypes is obviously costly. On the other hand, you simply can't get this kind of deep insight by staring at static mockups, and imagining yourself using the app. We're convinced that in the long run, the costlier development approach maximizes the possibility of the product ultimately succeeding in the marketplace.
 
-In the case of RaceSplitter, our initial users absolutely *loved* the product. Time and again, we've received feedback along the lines of, “It’s so easy to use! With no instruction at all, I was able to time the entire event, edit a couple mis-entries, and publish the results online.”
-
-Due to the enthusiasm (and blogging!) of a single early adopter in Norway, we’ve ended up selling nearly as many copies in that one small country as we have in the entire United States.
+In the case of RaceSplitter, our initial users absolutely *loved* the product. Time and again, we've received feedback along the lines of, “It’s so easy to use! With no instruction at all, I was able to time the entire event, edit a couple mis-entries, and publish the results online.” In fact, due to the enthusiasm (and blogging!) of a single early adopter in Norway, we’ve ended up selling nearly as many copies in that one small country as we have in the entire United States.
 
 #### It’s your choice.
 
-Shipping the minimal implementation of the minimum viable product increases the chance that your first users will think, “Nice idea. I’ll try to remember to check back someday.”
+Shipping the minimal *implementation* of the minimum viable product increases the chances that your first users will think, “Nice idea. I’ll try to remember to check back  someday.”
 
 Perfect execution of the minimal viable product, on the other hand, increases the chances of turning your early adopters into the organic, social marketing force that can be critical to the success of so many 1.0 products.
