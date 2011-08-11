@@ -24,7 +24,7 @@ But it wasn’t until we’d invested an additional *400 hours* improving the us
 
 Here’s a number of examples:
 
-1. **Reducing fundamental interface complexity.** The user interaction model went through three fundamental revisions. Each revision reduced one complete level of hierarchy. The result was an interface providing access to the essential features, with far fewer clicks. Identifing potential reductions of hierarchy is as important, as it is difficult, and requires a conscious effort not to get stuck in the current interface paradigm.
+1. **Reducing fundamental interface complexity.** The user interaction model went through three fundamental revisions. Each revision reduced one complete level of hierarchy. The result was an interface providing access to the essential features, with far fewer clicks. Identifing potential reductions of hierarchy is as important as it is difficult, and requires a conscious effort not to get stuck in the current interface paradigm.
 
 2. **Making the user think less.** The interaction of the timing model — i.e. how the user records the time when a racer passes by — went through several iterations until one was found that supported three modes of timing simultaneously: (1) single racer timing, (2) group timing (giving the same time to multiple racers), and (3) sub-group timing (giving the same time to a subset of a selected group of racers). By supporting all timing scenarios in a single interaction model, we avoid one user choice: “Which mode should I select?” That's a lot of effort to reduce a single decision, but in the heat of a race, that can make the difference between successful and failed use of the product.
 
