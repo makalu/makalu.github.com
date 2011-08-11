@@ -394,7 +394,7 @@ footer {
     position: relative;
     overflow: hidden;
     float: right;
-    margin: 0 -50px -22px 0;
+    margin: 0 -50px -20px 0;
     padding: 0 50px 0 0;
     width: 45%;
     box-shadow: rgba(0,0,0,.75) 0 0 3px inset;
@@ -409,11 +409,12 @@ footer {
       -webkit-transform: rotateY(-180deg); }
     #contact .face {
       border: 2px dashed rgba(0,0,0,.25);
-      border-width: 2px 0 2px 2px;
+      border-width: 2px 0 0 2px;
       background-color: #272725;
       -webkit-backface-visibility: hidden; }
       .no-rgba #contact .face {
-        border: 2px dashed #1D1D1B; }
+        border: 2px dashed #1D1D1B;
+        border-width: 2px 0 0 2px; }
     #contact-thanks {
       -webkit-transform: rotateY(-180deg);
       display: none;
