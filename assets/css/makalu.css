@@ -605,8 +605,7 @@ footer {
         width: 100%;
         max-width: 600px; }
       #clients #day-in-the-cloud .hero img {
-        top: 50%;
-        margin-top: -170px; }
+        margin: 20px 0 0 0; }
     #clients .even .hero {
       right: auto;
       left: 25px; }
