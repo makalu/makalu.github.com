@@ -12,7 +12,7 @@ Early in 2011, we at Makalu released our first product — “RaceSplitter,” a
 
 Any organization that sets out to bring a product to market must decide what to build, and on that point it’s common to hear people speak of a “minimum viable product” — i.e. a product with the minimal functionality to deliver the core of the its value proposition. 
 
-Many organizations take this definition one step further, to include the minimum *implementation* of the minimum functionality, believing that — perhaps in the interest of time or costs — it's acceptable to introduce a product to the market that's rough around the edges, and later improve on it (possibly depending on how well it's accepted by the market).
+Many organizations take this definition one step further, to include the minimum *implementation* of the minimum functionality, believing that — perhaps in the interest of time or costs — it's acceptable to release a product that's rough around the edges, and later improve on it (possibly depending on how well it's accepted by the market).
 
 We believe this is short-sighted, and reflects a flawed perception of the importance, even criticality, of the user experience in the success of any new product.
 
