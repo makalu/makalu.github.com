@@ -3,9 +3,6 @@ name: google-maps
 what: Mapping Applications
 client: Google, O'Reilly & Others
 
-link_title: Visit rock-am-ring.com
-link_url: http://www.rock-am-ring.com
-
 gallery:
   -
     type: image

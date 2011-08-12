@@ -13,9 +13,11 @@ id: clients
         <h1>{{ post.client }}</h1>
       </header>
       {{ post.content }}
-      <a href="{{ post.link_url }}" class="stylish">
-        <span>{{ post.link_title }} &raquo;</span>
-      </a>
+      {% if post.link_url %}
+        <a href="{{ post.link_url }}" class="stylish">
+          <span>{{ post.link_title }} &raquo;</span>
+        </a>
+      {% endif %}
       <div class="hero">
         <img src="/uploads/clients/{{ post.name }}/hero.png" alt="Screenshot">
       </div>

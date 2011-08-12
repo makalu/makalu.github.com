@@ -633,7 +633,10 @@ footer {
         right: 0;
         width: 100%;
         max-width: 600px; }
-      #clients #day-in-the-cloud .hero img {
+      #clients #day-in-the-cloud .hero img,
+      #clients #dydra .hero img,
+      #clients #google-maps .hero img,
+      #clients #highend-agents .hero img {
         margin: 20px 0 0 0; }
     #clients .even .hero {
       right: auto;
