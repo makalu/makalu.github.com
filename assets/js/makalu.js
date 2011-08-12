@@ -11,6 +11,20 @@ $(document).ready(function() {
     window.open($(this).attr('href'), '_blank');
   });
   
+  $('#facebook a').click(function(e) {
+    e.preventDefault();
+    var u = location.href;
+    var t = document.title;
+    window.open($(this).attr('href')+'?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');
+  });
+  
+  $('#twitter a').click(function(e) {
+    e.preventDefault();
+    var u = location.href;
+    var t = document.title;
+    window.open($(this).attr('href')+'?url='+encodeURIComponent(u)+'&text='+encodeURIComponent(t), 'twitter');
+  });
+  
   function showThanks() {
     $('#contact').addClass('flipped');
     $('#contact-thanks').click(function() {

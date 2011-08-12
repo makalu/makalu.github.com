@@ -736,6 +736,28 @@ footer {
             color: rgba(255,255,255,.75); }
             .no-rgba #blog article header li strong {
               color: #C8C8C7; }
+        #blog article header li.social {
+          float: right;
+          margin-left: 10px;
+          padding-top: 5px; }
+        #blog article header li#plusone {
+          padding-top: 7px;
+          padding-left: 2px;
+          margin-bottom: -7px; }
+        #blog article header li#facebook a,
+        #blog article header li#twitter a {
+          display: block;
+          width: 24px;
+          height: 24px;
+          text-indent: -9999px;
+          background: url(../img/social-icons.png) no-repeat left top; }
+        #blog article header li#facebook a {
+          background-position: 0 -50px; }
+          #blog article header li#facebook a:hover {
+            background-position: -50px -50px; }
+        #blog article header li#twitter a {}
+          #blog article header li#twitter a:hover {
+            background-position: -50px 0; }
     #blog article .content,
     #blog article .excerpt {
       margin-left: 40%; }
