@@ -826,9 +826,30 @@ footer {
   #page > article {
     padding: 40px 30px; }
 
+  footer p {
+    width: auto;
+    float: none; }
+  footer ul {
+    float: none;
+    width: auto; }
+    footer ul li:first-child {
+      padding-left: 0; }
+
+  #products #page {
+    padding: 0; }
+  #products article {
+    border-bottom: 1px solid rgba(0,0,0,.25); }
+
+  #blog #page {
+    padding-bottom: 30px; }
+  #blog article {
+    margin: 0;
+    padding-bottom: 0; }
   #blog article header {
     float: none;
     width: auto; }
+    #blog article header ul {
+      margin-bottom: 30px; }
   #blog article .content,
   #blog article .excerpt {
     margin-left: 0;
@@ -860,12 +881,14 @@ footer {
     #products article.odd {
       float: none; }
   
-  #clients .summary {
+  #clients .summary,
+  #clients .even .summary {
     position: relative;
     padding: 0; }
     #clients article {
       padding-bottom: 0; }
-    #clients .hero {
+    #clients .hero,
+    #clients .even .hero {
       position: relative;
       top: auto;
       left: auto;
@@ -874,7 +897,8 @@ footer {
       height: auto;
       max-height: 400px;
       padding: 20px 0 0 0 !important; }
-      #clients .hero img {
+      #clients .hero img,
+      #clients .even .hero img {
         position: static;
         display: block;
         margin: 0 auto !important; }
@@ -886,12 +910,13 @@ footer {
   body > header li {
     float: none;
     width: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
     border: none;
     border-top: 1px solid rgba(0,0,0,.25);
     background-image: none !important; }
     #home > header li {
-      margin: 0;
-      padding-bottom: 0; }
+      margin: 0; }
     body > header nav a {
       margin: 0;
       padding: 0 }
