@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Looking for a designer
+title: We’re looking for a designer
 author: Matt Henderson
 teaser: We’re looking to grow our team with someone who loves design.
+excerpt: We’re looking to grow our team with someone who loves design.
 ---
 
 We’re looking to grow our team with someone who loves design.
