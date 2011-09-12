@@ -24,7 +24,7 @@ We believe if those are the priorities, everything else will fall into place. So
 
 #### Who we’re looking for
 
-You’re someone who loves to design product interfaces, and has experience with web and mobile products. Although you feel you still have so much to learn, you know inside you’re really good at what you do.
+You’re someone who loves to design product interfaces, and has experience with web and mobile design. Although you feel you still have so much to learn, you know inside you’re really good at what you do.
 
 Ideally, you like to build what you design, and are proficient in HTML and CSS (maybe even JavaScript.) You’re not afraid of technology.
 
