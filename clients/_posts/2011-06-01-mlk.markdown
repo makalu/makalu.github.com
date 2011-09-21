@@ -1,0 +1,15 @@
+---
+name: mlk
+what: Responsive Design
+client: Marek Lieberberg Konzertagentur
+
+link_title: Visit mlk.com
+link_url: http://www.mlk.com
+
+hero_height: 522
+
+---
+
+No doubt about it; the world has gone mobile. Today, the modern organization needs to deliver its content in a way specifically suited for the viewing context — whether that be a desktop computer, phone, or tablet. The technical solution to this need is known as “responsive design” —  a cutting-edge technique involving an interface implementation that automatically adapts to the viewing device. 
+
+Our recent design refresh delivers a “responsive” implementation for Marek Lieberberg Konzertagentur — the world's third largest concert promoter.
