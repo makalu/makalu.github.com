@@ -1,7 +1,7 @@
 ---
 name: racesplitter
 title: RaceSplitter
-tagline: DYI Race Timing Solution
+tagline: DIY Race Timing Solution
 
 icon: /uploads/products/racesplitter/icon.png
 website: http://www.racesplitter.com/
