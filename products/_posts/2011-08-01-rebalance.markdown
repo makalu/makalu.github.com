@@ -12,4 +12,4 @@ History has shown that time rewards those who save regularly, and invest intelli
 
 Rebalance distills generations of experience and best practices into an iPhone app that helps you ignore the noise and self-defeating forces of the market, and focus on what's truly important in achieving financial security through long-term personal investment.
 
-*Coming in September of 2011.*
+*Coming in December of 2011.*
