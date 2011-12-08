@@ -6,7 +6,7 @@ teaser: It’s not every day you get the chance to build an app for 1.5 million 
 excerpt: It’s not every day that an opportunity presents itself to develop a product for an audience of **1.5 million people**. That’s exactly what happened recently at [Makalu](http://makaluinc.com), as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services. 
 ---
 
-IT’S NOT EVERY DAY that an opportunity presents itself to develop a product for an audience of **1.5 million people**. That’s exactly what happened recently at [Makalu](http://makaluinc.com), as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services. 
+IT’S NOT EVERY DAY that an opportunity presents itself to develop a product for an audience of **1.5 million people**. That’s exactly what happened recently at Makalu, as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services. 
 
 And we can’t wait to tell you about it!
 
