@@ -18,7 +18,7 @@ Within one year, the service signed up more than **one million members**.
 
 When Catalog Choice members receive an unwanted catalog, they login to their account, search for the catalog they received, and register an “opt-out” request. At that point, the Catalog Choice system acts as a powerful agent on behalf of the consumer to get request processed by the sending merchant. In this way, the consumer saves the effort of having to interact with individual companies, and benefits from the effectiveness the influential service has in getting their requests honored.
 
-Through use of Catalog Choice, consumers reduce clutter and simplify their lives. And on the collective scale of millions, the service is helping the environment by considerably reducing the natural resources used in the production unwanted catalogs.
+Through use of Catalog Choice, consumers reduce clutter and simplify their lives. And on the collective scale of millions, the service is helping the environment by considerably reducing the natural resources used in the production of unwanted catalogs.
 
 ### Re-engaging with our friends
 
