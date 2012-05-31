@@ -5,11 +5,11 @@ author: Matt Henderson
 teaser: How design helps keep a growing base of customers happy.
 excerpt: One thing the experience with [RaceSplitter](http://racesplitter.com) has clearly taught us at Makalu Interactive is that customers absolutely love getting personalized service, from somebody who knows the product inside and out. And that love translates to loyalty, retention, word-of-mouth marketing and all sorts of goodness. 
 ---
-One thing the experience with [RaceSplitter](http://racesplitter.com) has clearly taught us at Makalu Interactive is that customers absolutely love getting personalized service, from somebody who knows the product inside and out. And that love translates to loyalty, retention, word-of-mouth marketing and all sorts of goodness.
+One thing the experience with [RaceSplitter](http://racesplitter.com) has clearly taught us at Makalu Interactive is that customers absolutely love getting personalized service from somebody who knows the product inside and out. And that love translates to loyalty, retention, word-of-mouth marketing and all sorts of goodness.
 
 <blockquote>“Support is awesome—quick, personal and great. Multiple messages answering all questions asked with helpful hints. Not a form letter as with some apps I have seen. These guys know their app and take the time to support their users.”<br><em>—recent five-star review in the App Store</em></blockquote>
 
-Obviously nobody’s in a better position to provide this level of customer support, than the product development team. But as a product becomes popular, and you have more and more customers, the problem of course is scaling that support. If your development team is answering hundreds of mails a day, they’re not going to be doing much development. 
+Obviously nobody’s in a better position to provide this level of customer support than the product development team. But as a product becomes popular, and you have more and more customers, the problem of course is scaling that support. If your development team is answering hundreds of mails a day, they’re not going to be doing much development. 
 
 At some point, companies hire support staff, and not having quite the product insight the development team has, service tends to devolve into the land of boilerplate.
 
@@ -25,7 +25,7 @@ What can we do to avoid that fate? (Or at least avoid it for as long as possible
 
 * Anticipate those “first moment” needs — the first-time a person visits the various sections of the website, the first time a customer returns to the website after having bought the app, the first time the customer launches the app and all the blank-slate versions of every functional screen.
 
-* Carefully craft the website copy, and the text of our emails. We grab friends, ask them to read it, and watch their reaction.
+* Carefully craft the website copy and the text of our emails. We grab friends, ask them to read it, and watch their reaction.
 
 * Continually observe how the customers use the product, and enhance the experience to address common problems. (In the case of RaceSplitter, we automatically monitor their published results, looking for likely cases of mis-typed timing entries, and automatically send them a small email when we suspect it happened, and tell them how to recover.)
 
