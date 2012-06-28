@@ -1,13 +1,13 @@
 ---
-name: rebalance
-title: Rebalance
-tagline: Personal investment companion
+name: moneyforsomething
+title: Money for Something
+tagline: A book about financial freedom
 
 icon: 
-website: http://www.rebalanceapp.com/
-twitter: @rebalanceapp
+website: http://moneyforsomethingbook.com/
+twitter: @handyguidebook
 ---
 
-History has shown that time rewards those who save regularly, and invest intelligently. Even people with modest incomes can, through the power of compounding returns, achieve financial security. So what's the problem? Unfortunately, it is ourselves — as human nature often works contrary to the very fundamentals of investing success.
+It seems profoundly important that financial freedom is so accessible—just by following a set of basic principles, with discipline. At the same time, it’s profoundly sad that so many never do, simply because they are unaware. That’s why Makalu founder, Matt Henderson, wrote this book.
 
-Rebalance distills generations of experience and best practices into an iPhone app that helps you ignore the noise and self-defeating forces of the market, and focus on what's truly important in achieving financial security through long-term personal investment.
+The problem with many books about investing is that they are too long and complex. The essential message that everyone should be investing gets lost in discussion of choices and optimization. Matt’s approach in this book is to present the core principles as concisely as possible—hopefully both motivating you, and convincing you to get started today.
