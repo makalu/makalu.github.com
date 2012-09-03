@@ -108,4 +108,4 @@ If you haven't already you can [download the complete project from Github](http:
 
 I can only imagine we'll be seeing more Apple APIs that use blocks in the future. Delegate-based APIs like NSURLConnection are clumsy and begging for a more modern interface. As an exercise, try rewriting our PriceFetcher class using NSURLConnection without JCDHTTPConnection and see how much code it takes (sure you can cheat by using stringWithContentsOfURL but what if we need to make a POST request?). Blocks are a great addition to the Objective C language and they can help us all write better, and less, code.
 
-_This post was been reposted from my personal blog at [A Developing Story](http://adevelopingstory.com)._
+_This article was reposted from my personal blog at [A Developing Story](http://adevelopingstory.com)._
