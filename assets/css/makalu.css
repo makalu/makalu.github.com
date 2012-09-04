@@ -99,12 +99,12 @@ pre {
   font: normal normal 87.5%/1em Menlo, monospace, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 code {
   margin: 0;
   padding: 0;
   display: inline;
-  white-space: nowrap;
   font: normal normal 87.5%/1em Menlo, monospace, sans-serif;
 }
 .highlight {
@@ -113,7 +113,6 @@ code {
   padding:10px;
   font: normal normal 87.5%/1.2em Menlo, monospace, sans-serif;
   overflow: auto;
-  white-space: nowrap;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
       -ms-border-radius: 3px;
