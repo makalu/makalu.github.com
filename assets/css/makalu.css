@@ -817,11 +817,36 @@ footer {
         .no-rgba #blog article .excerpt a {
           border-bottom: 1px solid #61615F; }
   #blog article.single {
-    border: none; }
+    border: none;
+    max-width: 680px;
+    margin: 0 auto; }
+    #blog article.single header {
+      float: none;
+      width: auto;
+      padding: 40px 0;
+    }
+      #blog article.single header h1 {
+        font-size: 46px;
+      }
     #blog article.single .content {
+      float: none;
+      width: auto;
+      margin-left: 0;
+      font-size: 20px;
+      line-height: 32px;
       color: rgba(255,255,255,.75); }
       .no-rgba #blog article.single .content {
         color: #CACAC9; }
+
+      #blog article.single .highlight {
+        width: 100%;
+        overflow-x: auto;
+      }
+
+      #blog article.single pre {
+        white-space: pre;
+        word-wrap: normal;
+      }
 
 @media screen and (max-width: 840px) {
   body > header {
@@ -880,18 +905,18 @@ footer {
     margin-left: 0;
     padding-top: 0;
     background: none; }
-  
+
   #home #page > header {
     background-position: 160% 100%; }
-  
+
   #home #team {
     width: auto; }
-  
+
   #home #location {
     clear: left;
     width: auto;
     float: none; }
-  
+
   #home #contact {
     clear: left;
     width: auto;
@@ -899,13 +924,13 @@ footer {
     margin-right: 0;
     padding-right: 30px;
     border-width: 2px; }
-  
+
   #products article {
     float: none;
     width: auto; }
     #products article.odd {
       float: none; }
-  
+
   #clients .summary,
   #clients .even .summary {
     position: relative;
@@ -958,13 +983,13 @@ footer {
       display: none;
       padding: 0 50px 20px 30px;
       line-height: 24px; }
-      
+
   #home #page > header {
     background-image: none; }
     #home #page > header p {
       width: auto;
       padding: 0; }
-      
+
   #home #team li {
     float: none;
     width: auto;
