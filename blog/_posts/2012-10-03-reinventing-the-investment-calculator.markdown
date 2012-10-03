@@ -48,7 +48,7 @@ After some back and forth we decided to focus on just three variables:
 
 What these variables have in common is that they're all unique to your circumstances. Do you already have some savings? Adjust the starting balance accordingly. You're making $5k per month? You probably want to be saving at least $500. You're 25 years old? Maybe you want to retire when you're 50 years old.
 
-It's not that the rest of the variables, like rate of return and commissions, are any less important, but you have much less influence over them. Our guess is that most people will be fine with the default values. That being said, it *is* useful to see how a higher or lower rate of return influences the calculations, so these values should still be editable.
+It's not that the rest of the variables, like rate of return and commissions, are any less important, but you just have much less influence over them. Our guess is that most people will be fine with the default values. That being said, it *is* useful to see how a higher or lower rate of return influences the calculations, so these values should still be editable.
 
 When you add up all of those variables, and run them through some formulas, what you end up with is a final balance in dollars. However, the dollar amount by itself is not terribly useful. One million dollars is a nice round number—and who doesn't want to be a millionaire—but is it enough to retire on? It's difficult to put into perspective without some more context.
 
@@ -122,8 +122,8 @@ Or so we thought. Here are some things we changed shortly after launching the ca
 The calculator was designed and built almost entirely by Marcus Andersson, our new intern from Sweden, with a little guidance from yours truly. Marcus is studying mobile development at Hyper Island, but wants to learn more about design and front-end development, so this was the perfect bite-size project for him to get started.
 
 In the process he improved his Javascript skills and learned CoffeeScript, SCSS, and HAML (yes, we like abstractions). He also got a crash course to how we approach design at Makalu. Here are some of his lessons learned:
-* Start with the content first. Be sure to understand what you're designing and always use real content. Before adding anything extra, look for connections and opportunities inherent to what you already have.
-* Iterate and test. Test your designs frequently against the defined goals and keep experimenting with alternative solutions. When you think you have the perfect design, push further, try other approaches and be open to change.
-* Re-evaluate your assumptions. If you feel stuck with the design, take a step back and try questioning the constraints and assumptions that led to where you are.
+* **Start with the content first.** Be sure to understand what you're designing and always use real content. Before adding anything extra, look for connections and opportunities inherent to what you already have.
+* **Iterate and test.** Test your designs frequently against the defined goals and keep experimenting with alternative solutions. When you think you have the perfect design, push further, try other approaches and be open to change.
+* **Re-evaluate your assumptions.** If you feel stuck with the design, take a step back and try questioning the constraints and assumptions that led to where you are.
 
 We think the end result is by far the easiest-to-use investment calculator anywhere. [Give it a go](http://www.moneyforsomethingbook.com/investment-calculator) and let us know what you think.
