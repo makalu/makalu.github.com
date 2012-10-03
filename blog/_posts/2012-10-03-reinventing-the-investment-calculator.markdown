@@ -34,7 +34,7 @@ We knew our calculator needed to be friendlier and much more interactive than an
 To achieve that, there should be no forms to fill in, it should be easy to adjust the values, and most importantly, it would need to update live.
 
 ## The Interaction Design
-Our first design challenge was deciding what the focus should be. The calculation is based on a number of variables: rate of return, initial balance, monthly savings, inflation, estimated annual savings increase, etc. Obviously we can't just ask people to fill in all of those. Even having read Matt's book, I wouldn't have any idea where to start. So we needed to narrow down the options.
+Our first design challenge was to decide what the focus should be. The calculation is based on a number of variables: rate of return, initial balance, monthly savings, inflation, estimated annual savings increase, etc. Obviously we can't just ask people to fill in all of those. Even having read Matt's book, I wouldn't have any idea where to start. So we needed to narrow down the options.
 
 <figure class="full">
   <img src="/uploads/blog/2012-10-02/wireframes-1.png" alt="Early design sketches">
@@ -71,7 +71,7 @@ We need something that's unconstrained, as if you were typing the values directl
 
 [Bret Victor](http://www.worrydream.com/) to the rescue. His [Tangle](http://worrydream.com/Tangle/) Javascript library allows you to change values by dragging them directly. It gives us the convenience of sliders, with the flexibility of input fields (minus the hassle). Perfect.
 
-Well, aside from the fact that people in general are not accustomed to dragging text, so we need to somehow communicate that they can do that. Once you get a hang of it, though, it's by far the most convenient way to adjust the values. In this case we were willing to sacrifice a bit of discoverability for increased usability. (It did end up biting us though. Keep reading…)
+Well, perfect except that people in general are not accustomed to dragging text, so we need to somehow communicate that they can do that. Once you get a hang of it, though, it's by far the most convenient way to adjust the values. In this case we were willing to sacrifice a bit of discoverability for increased usability. (It did end up biting us though. Keep reading…)
 
 ## The UI & Visual Design
 If you look at the design explorations above, you'll notice that we had actually gotten ahead of ourselves by adding styling to what was supposed to be wireframes. So we took a couple steps back, stripped all the styling and made an inventory of the content.
