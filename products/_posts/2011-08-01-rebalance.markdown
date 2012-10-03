@@ -3,7 +3,6 @@ name: moneyforsomething
 title: Money for Something
 tagline: A book about financial freedom
 
-icon: 
 website: http://moneyforsomethingbook.com/
 twitter: @handyguidebook
 ---

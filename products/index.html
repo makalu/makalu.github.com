@@ -9,15 +9,12 @@ id: products
   <article id="{{ post.name }}" class="{% cycle 'odd', 'even' %}">
     <div class="summary">
       <header>
-        <div class="icon">
-          <img src="/uploads/products/{{ post.name }}/icon.png" alt="Application Icon">
-        </div>
         <h1>{{ post.title }}</h1>
         <em>{{ post.tagline }}</em>
       </header>
-      
+
       {{ post.content }}
-      
+
       <a href="{{ post.website }}" class="stylish">
         <span>Website</span>
       </a>
