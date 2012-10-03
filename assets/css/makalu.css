@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1.1em;
-  margin: 2.5em 0 .5em 0;
+  margin: 2em 0 .5em 0;
   font-weight: 700; }
 h1 {
   font-size: 36px; }
@@ -33,7 +33,7 @@ h6 {
 
 
 p {
-  margin: 1.5em 0; }
+  margin: 1.25em 0; }
 p:first-child {
   margin-top: 0; }
 
@@ -63,13 +63,13 @@ a.stylish:hover {
 
 
 ul, ol {
-  margin: 1.5em 0;
+  margin: 1.25em 0;
   padding: 0; }
   ul {
     list-style-image: url(../img/list-diamond.png); }
   ul li, ol li {
     padding-left: 5px;
-    margin: 1.5em 0 1.5em -5px; }
+    margin: .75em 0 .75em -5px; }
 
 .aside {
   float: left;
@@ -731,11 +731,13 @@ footer {
     color: #fff;
     background: none; }
   #blog article {
-    overflow: hidden;
     margin: 40px 0;
     padding: 0 50px; }
     #blog article:first-child {
       border-top: none; }
+    #blog article img {
+      max-width: 100%;
+    }
     #blog article header {
       float: left;
       width: 36%; }
@@ -819,7 +821,7 @@ footer {
   #blog article.single {
     border: none;
     max-width: 680px;
-    margin: 0 auto; }
+    margin: 0 auto 60px; }
     #blog article.single header {
       float: none;
       width: auto;
@@ -846,6 +848,15 @@ footer {
       #blog article.single pre {
         white-space: pre;
         word-wrap: normal;
+      }
+
+      #blog article.single figure.full {
+        margin: 0 -100px;
+      }
+      #blog article.single figcaption {
+        font-style: italic;
+        font-size: 14px;
+        text-align: center;
       }
 
 @media screen and (max-width: 840px) {
