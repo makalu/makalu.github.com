@@ -34,7 +34,7 @@ We knew our calculator needed to be friendlier and much more interactive than an
 To achieve that, there should be no forms to fill in, it should be easy to adjust the values, and most importantly, it would need to update live.
 
 ## The Interaction Design
-Our first design challenge was to decide what the focus should be. The calculation is based on a number of variables: rate of return, initial balance, monthly savings, inflation, estimated annual savings increase, etc. Obviously we can't just ask people to fill in all of those. Even having read Matt's book, I wouldn't have any idea where to start. So we needed to narrow down the options.
+Our first design challenge was to decide what to focus on. The calculation is based on a number of variables: rate of return, initial balance, monthly savings, inflation, annual savings increase, etc. Obviously we can't just ask people to fill in all of those. Even having read Matt's book, I wouldn't have any idea where to start. So we needed to narrow down the options.
 
 <figure class="full">
   <img src="/uploads/blog/2012-10-02/wireframes-1.png" alt="Early design sketches">
@@ -48,13 +48,13 @@ After some back and forth we decided to focus on just three variables:
 
 What these variables have in common is that they're all unique to your circumstances. Do you already have some savings? Adjust the starting balance accordingly. You're making $5k per month? You probably want to be saving at least $500. You're 25 years old? Maybe you want to retire when you're 50 years old.
 
-It's not that the rest of the variables, like rate of return and commissions, are any less important, but you just have much less influence over them. Our guess is that most people will be fine with the default values. That being said, it *is* useful to see how a higher or lower rate of return influences the calculations, so these values should still be editable.
+It's not that the rest of the variables, like rate of return and commissions, are any less important, but you just have much less influence over them. Our guess is that most people will be fine with the default values. That being said, it *is* useful to see how a different rate of return influences the calculations, so these values should still be editable.
 
 When you add up all of those variables, and run them through some formulas, what you end up with is a final balance in dollars. However, the dollar amount by itself is not terribly useful. One million dollars is a nice round number—and who doesn't want to be a millionaire—but is it enough to retire on? It's difficult to put into perspective without some more context.
 
 Thankfully, Matt's book introduces a rule of thumb known as the "4% rule", which states that you can annually withdraw 4% of your savings for the rest of your life, without risking to run out of money. That makes it easy to compare the final balance to your current income and see if it's even in the ballpark.
 
-Another thing we wanted to emphasize was the power of compounding interest. Given sufficient time, the amount you make from interest will far outgrow the money you've put in. Just a couple years can make a surprisingly big difference. We chose to use a stacked area graph to illustrate how this proportion changes over time. It nicely contrasts the linear growth of the savings with the hockey stick curve of the earnings.
+Another thing we wanted to emphasize was the power of compounding interest. Given sufficient time, the amount you make from interest will far outgrow the money you've put in. Just a couple years can make a surprisingly big difference. We chose a stacked area graph to illustrate how this proportion changes over time. It nicely contrasts the linear growth of the savings with the hockey stick curve of the earnings.
 
 <figure class="full">
   <img src="/uploads/blog/2012-10-02/wireframes-2.png" alt="More design sketches">
@@ -63,15 +63,15 @@ Another thing we wanted to emphasize was the power of compounding interest. Give
 
 At this point we had the basic building blocks: a chart, basic variables, advanced variables, and a summary showing both the final balance and 4% rule. Our next challenge was figuring out the easiest way to edit the variables.
 
-The obvious solution is to use standard text fields—just like every other calculator on the web. While easy to implement and flexible, they're also cumbersome to edit. Not to mention we'd have to deal with formatting differences, validations, and whatnot. Not ideal.
+The obvious solution is to use standard text fields—just like every other calculator on the web. While flexible and easy to implement, they're cumbersome to actually use. Not to mention we'd have to deal with formatting differences, validations, and whatnot. Not ideal.
 
-How about sliders? They're easier to adjust, that's for sure, but they also implicitly suggest a range of values. The amount I can invest per month is in no way related to what the slider's maximum value is configured to, and we don't want to suggest any relationship between the two.
+How about sliders? They're easier to adjust, that's for sure, but they also implicitly suggest a range of values. The amount I can invest per month should in no way be related to what the slider's maximum value happens to be configured to. It's a potential point of confusion, so we continued looking for something else.
 
 We need something that's unconstrained, as if you were typing the values directly, but that's easy to change, just like dragging a slider.
 
-[Bret Victor](http://www.worrydream.com/) to the rescue. His [Tangle](http://worrydream.com/Tangle/) Javascript library allows you to change values by dragging them directly. It gives us the convenience of sliders, with the flexibility of input fields (minus the hassle). Perfect.
+[Bret Victor](http://www.worrydream.com/) to the rescue. If you're not familiar with Bret's work, you should definitely go read some of his essays. Impressive stuff. His [Tangle](http://worrydream.com/Tangle/) Javascript library lets you change variables in text, simply by dragging them directly in context. It gives us the convenience of sliders, with the flexibility of input fields (minus the hassle). Perfect.
 
-Well, perfect except that people in general are not accustomed to dragging text, so we need to somehow communicate that they can do that. Once you get a hang of it, though, it's by far the most convenient way to adjust the values. In this case we were willing to sacrifice a bit of discoverability for increased usability. (It did end up biting us though. Keep reading…)
+Well, perfect except that people in general are not accustomed to dragging text, so we need to somehow communicate that they can do that. Once you get a hang of it, though, it's super convenient to play with the values. In this case we were willing to sacrifice a bit of discoverability for increased usability. (It did end up biting us though. Keep reading…)
 
 ## The UI & Visual Design
 If you look at the design explorations above, you'll notice that we had actually gotten ahead of ourselves by adding styling to what was supposed to be wireframes. So we took a couple steps back, stripped all the styling and made an inventory of the content.
@@ -80,7 +80,7 @@ Here's an abridged version of the thought process that followed:
 
 ![](/uploads/blog/2012-10-02/ui-1.png)
 
-From here, it's easy to focus on what matters and start grouping things together. Try to resist the temptation to make things symmetrical, or to align them perfectly, or to add something new, and instead look for connections and opportunities inherent to the content.
+Now that everything is laid out, it's easy to focus on what matters and start grouping things together. Try to resist the temptation to make things symmetrical, or to align them perfectly, or to add something new, and instead look for inherent connections in the content.
 
 Let's start by grouping the main variables together. They should probably be at the top, since they're the first thing you'll want to tweak. The chart, final balance, and 4% rule are all part of the result, so let's bunch those together as well. And for now, let's just put the "advanced options" at the bottom.
 
@@ -94,9 +94,9 @@ Better. Except that now the whole thing looks top-heavy. It also lacks a clear f
 
 ![](/uploads/blog/2012-10-02/ui-4.png)
 
-OK, things are starting to look better. That right column with the final balance just doesn't sit right, though. It's taking up way too much space to show so little information. Space that could be used for a bigger chart.
+OK, things are starting to look more balanced. That right column with the final amount just doesn't sit right, though. It's taking up way too much space to show so little information. Space that could be used for a bigger chart. Not only that, but its alignment with the years could be confusing.
 
-See that big empty space in the upper-left corner of the chart? Doesn't it look like the results block would fit perfectly there? Let's give it a shot…
+Where else could we put it? See that big empty space in the upper-left corner of the chart? Doesn't it look like the results block would fit perfectly there? Let's give it a shot…
 
 ![](/uploads/blog/2012-10-02/ui-5.png)
 
@@ -104,7 +104,7 @@ That's it. We're left with two distinct units: one for displaying the results, a
 
 [![](/uploads/blog/2012-10-02/ui-6.png)](http://www.moneyforsomethingbook.com/investment-calculator)
 
-Apart from the visuals, quite a few other things were also refined in this final iteration:
+In addition to the visuals, we made a few other refinements in this final iteration:
 * We added arrows to indicate that the values are draggable.
 * We turned the chart legend into supporting content, which not only better integrates it with the rest of the design, but also increases its usefulness.
 * We turned the 4% rule into a self-explanatory sentence, therefore avoiding having to add a separate help link for it.
