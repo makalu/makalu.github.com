@@ -13,7 +13,7 @@ id: blog
             by <strong>{{ page.author }}</strong>
             {% if page.twitter_username %}
               <a target="_blank" href="http://www.twitter.com/{{ page.twitter_username }}">@{{ page.twitter_username }}</a>
-            {{ endif }}
+            {% endif %}
           </em>
         </li>
       {% endif %}
@@ -36,7 +36,7 @@ id: blog
     <p>
       <a href="https://twitter.com/{{ page.twitter_username }}" class="twitter-follow-button" data-show-count="false">Follow @{{ page.twitter_username }}</a>
     </p>
-    {{ endif }}
+    {% endif %}
   </div>
 </article>
 
