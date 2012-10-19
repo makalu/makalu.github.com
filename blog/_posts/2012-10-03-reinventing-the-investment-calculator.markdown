@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Reinventing the investment calculator
 author: Alex Bendiken
+twitter_username: minimaltwist
 teaser: How we reinvented the investment calculator.
 excerpt: Matt's recently published book, Money for Something, is a simple and straightforward guide to investing. To help readers put the theory into practice, we built a tool that lets you experiment and create your unique investment plan. We took a boring financial calculator and turned it into something you'd actually want to use. Read on to see how it all came together.
 ---
