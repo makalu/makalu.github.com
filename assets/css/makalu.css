@@ -760,10 +760,6 @@ footer {
             color: rgba(255,255,255,.4); }
             .no-rgba #blog article header li em {
               color: #7F7F7E; }
-            #blog article header li em a {
-              color: rgba(255,255,255,.4); }
-            #blog article header li em a:hover {
-              color: rgba(255,255,255,.8); }
           #blog article header li strong {
             font-style: normal;
             font-weight: 600;

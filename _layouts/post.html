@@ -9,12 +9,7 @@ id: blog
     <ul>
       {% if page.author %}
         <li>
-          <em>
-            by <strong>{{ page.author }}</strong>
-            {% if page.twitter_username %}
-              <a target="_blank" href="http://www.twitter.com/{{ page.twitter_username }}">@{{ page.twitter_username }}</a>
-            {{ endif }}
-          </em>
+          <em>by <strong>{{ page.author }}</strong></em>
         </li>
       {% endif %}
       <li id="plusone" class="social">
@@ -31,12 +26,6 @@ id: blog
   </header>
   <div class="content">
     {{ content }}
-
-    {% if page.twitter_username %}
-    <p>
-      <a href="https://twitter.com/{{ page.twitter_username }}" class="twitter-follow-button" data-show-count="false">Follow @{{ page.twitter_username }}</a>
-    </p>
-    {{ endif }}
   </div>
 </article>
 
@@ -47,4 +36,3 @@ id: blog
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
