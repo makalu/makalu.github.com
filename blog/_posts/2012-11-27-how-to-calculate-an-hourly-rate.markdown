@@ -39,7 +39,7 @@ That wasn’t the particular number in Makalu’s case back when we got started,
 
 Now that we have a starting point, is that it? Not quite. We now need to adjust that rate to balance supply and demand.
 
-Over time, as we produced good work for our customers (and through some lucky breaks!), we found ourselves with consistently more demands on our time than we had availability. It's important to note, however, that doesn’t necessarily imply a higher level of chargeability per person!
+Over time, as we produced good work for our customers (and through some lucky breaks!), we found ourselves with consistently more demands on our time than we had availability. It’s important to note, however, that doesn’t necessarily imply a higher level of chargeability as all the elements relating to that 70% are usually still applicable.
 
 As is natural in free markets, prices adjust in order to balance supply and demand, and so we began to slowly increase our hourly rate, in order to alleviate the excess demand. Some companies would have just ramped up their staff count. In Makalu, however, we place far greater importance on maintaining our ability to produce great work and deliver measurable value, and that means only hiring great people. We simply couldn’t find legions of great people; we’ve been lucky to find one per year!
 
