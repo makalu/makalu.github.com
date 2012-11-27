@@ -43,4 +43,4 @@ Over time, as we produced good work for our customers (and through some lucky br
 
 As is natural in free markets, prices adjust in order to balance supply and demand, and so we began to slowly increase our hourly rate, in order to alleviate the excess demand. Some companies would have just ramped up their staff count. In Makalu, however, we place far greater importance on maintaining our ability to produce great work and deliver measurable value, and that means only hiring great people. We simply couldn’t find legions of great people; we’ve been lucky to find one per year!
 
-An interesting—though obvious, after-the-fact—consequence of increasing our hourly rate, is that the customers that were left tended to be exactly the type of customers we’ve always wanted to work for—they appreciate high quality, demand real value and are doing interesting things!
+An interesting consequence of increasing our hourly rate, is that the customers that were left tended to be exactly the type of customers we’ve always wanted to work for—they appreciate high quality, demand real value and are doing interesting things!
