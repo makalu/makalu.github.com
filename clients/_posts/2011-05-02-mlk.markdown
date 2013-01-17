@@ -10,6 +10,6 @@ hero_height: 522
 
 ---
 
-No doubt about it; the world’s gone mobile. Today’s modern organization delivers its content in a way specifically suited for the viewing context — whether that be a desktop computer, phone, or tablet. The technical solution to this need is known as “responsive design” —  a cutting-edge technique involving an interface implementation that adapts dynamically and automatically to the viewing device. 
+No doubt about it; the world’s gone mobile. Today’s modern organization delivers its content in a way specifically suited for the viewing context—whether that be a desktop computer, phone, or tablet. The technical solution to this need is known as “responsive design”—a cutting-edge technique involving an interface implementation that adapts dynamically and automatically to the viewing device. 
 
-Our recent site design refresh for Marek Lieberberg Konzertagentur — the world's third largest concert promoter — was delivered with a “responsive” implementation.
+Our recent site design refresh for Marek Lieberberg Konzertagentur—the world's third largest concert promoter—was delivered with a “responsive” implementation.

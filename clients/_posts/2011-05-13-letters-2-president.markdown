@@ -26,4 +26,4 @@ gallery:
     original: http://www.google.com/
 ---
 
-Google & The National Writing Project chose Makalu to design, develop and operate “Letters to the Next President” — an online product allowing US high-school teachers to manage and publish student letters, authored in Google Docs, to the next American president.
+Google & The National Writing Project chose Makalu to design, develop and operate “Letters to the Next President”—an online product allowing US high-school teachers to manage and publish student letters, authored in Google Docs, to the next American president.
