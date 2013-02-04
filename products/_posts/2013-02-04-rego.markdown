@@ -1,0 +1,14 @@
+---
+name: rego
+title: Rego
+tagline: iOS App—The place for all your places
+
+website: http://www.regoapp.com
+twitter: @regoapp
+---
+
+Bookmark, organize and find the places you care about.
+
+Where was that breakfast place I enjoyed last year in this town? Where's a cafe near here with wifi? Can you send me some interesting places to visit when I'm in town? Let's go hiking around Ronda next weekend; what are the options?
+
+We made Rego after being frustrated one too many times at how difficult it still is to bookmark a location, especially if you want to share it with a friend. The app is small, focused and has only the absolute essential features to get the job done.

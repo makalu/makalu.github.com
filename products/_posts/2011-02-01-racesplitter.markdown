@@ -1,7 +1,7 @@
 ---
 name: racesplitter
 title: RaceSplitter
-tagline: DIY Race Timing Solution
+tagline: iOS App—Do it yourself sport event timing
 
 icon: /uploads/products/racesplitter/icon.png
 website: http://www.racesplitter.com/

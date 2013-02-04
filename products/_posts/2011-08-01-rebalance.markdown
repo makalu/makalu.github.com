@@ -1,7 +1,7 @@
 ---
 name: moneyforsomething
 title: Money for Something
-tagline: A book about financial freedom
+tagline: Book—An introduction to investing
 
 website: http://moneyforsomethingbook.com/
 twitter: @handyguidebook
