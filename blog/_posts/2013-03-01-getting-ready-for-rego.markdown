@@ -55,13 +55,13 @@ The reaction to this article from several people, including my wife, went someth
 
 <blockquote>Oh, wow—<em>now I get Rego</em>! It's the ultimate  app for planning and documenting travels. I want it, I want it, I want it!</blockquote>
 
-Planning and journaling travels will probably be the most common use case for Rego, and where its value will shine the most. But that's just one of an infinite number of usages—which presents us with a delima: Should we position Rego as a general purpose utility, or should we position it as a travel app?
+Planning and journaling travels will probably be the most common use case for Rego, and where its value will shine the most. But that's just one of an infinite number of usages—which presents us with a delimma: Should we position Rego as a general purpose utility, or should we position it as a travel app?
 
 Our current inclination is to position it as a travel app, but we're torn over potentially losing the broader general-purpose market. We'll likely be doing some A/B testing to help answer this question. 
 
 ## Coming soon
 We're going to be submitting Rego to the App Store next week, the first of March, and expect it to be available about a week after that.
 
-Rego will be a free download, limited to about 10 place. An in-app purchase of $2.99 will unlock it for unlimited usage.
+Rego will be a free download, limited to about 10 places. An in-app purchase of $2.99 will unlock it for unlimited usage.
 
 We're planning to run a launch sale of $0.99 for about a week, so if you'd like to be notified when it's available just [head over to the Rego site](http://regoapp.com) and sign up today!
