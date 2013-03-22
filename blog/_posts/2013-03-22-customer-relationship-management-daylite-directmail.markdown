@@ -1,11 +1,11 @@
 ---
 layout: post
 published: true
-title: Managing customer relations and communications on the Mac with Daylite and Direct Mail
+title: Managing customer relations on the Mac with Daylite and Direct Mail
 author: Matt Henderson
 twitter_username: mhenders
 teaser: How we use two Mac apps to more effectively communicate with our contacts.
-excerpt: We use two Mac OS X applications—Daylite, a customer relationship management (CRM) tool and Direct Mail, an emailing tool—which together allow us to segment and execute such announcements more effectively.
+excerpt: We use two Mac OS X applications—Daylite, a customer relationship management (CRM) tool and Direct Mail, an emailing tool—which together allow us to communicate more effectively.
 ---
 
 To help spread the word about the recent launch of [Rego](http://www.regoapp.com)—an iPhone app for bookmarking locations—we wanted to send an email announcement to our contacts. We use two Mac OS X applications—[Daylite](http://marketcircle.com), a customer relationship management (CRM) tool and [Direct Mail](http://directmailmac.com), an emailing tool—which together allow us to segment and execute such announcements more effectively.
@@ -56,15 +56,15 @@ Let's take a look at these:
 
 Relationships are important, so let's look at those in more detail.
 
-* *Family* is obvious. 
+* **Family** is obvious. 
 
-* *Friend* is probably obvious as well. Among the thousands of contacts I have, only about 120 are classified as friends. 
+* **Friend** is probably obvious as well. Among the thousands of contacts I have, only about 120 are classified as friends. 
 
-* *Personal* might need some explanation. A personal relationship isn't quite a friend, but if you asked them, "Do you know Matt Henderson?" they would immediately say yes. 
+* **Personal** might need some explanation. A personal relationship isn't quite a friend, but if you asked them, "Do you know Matt Henderson?" they would immediately say yes. 
 
-* *Acquaintance* is someone with whom we've had a conversation in the past. 
+* **Acquaintance** is someone with whom we've had a conversation in the past. 
 
-* *Unknown* means we (for whatever reason) have them as a contact, but have never had a conversation with them (perhaps they were copied on some client communication to us).
+* **Unknown** means we (for whatever reason) have them as a contact, but have never had a conversation with them (perhaps they were copied on some client communication to us).
 
 Why is relationship so important? Mostly for segmenting our announcements, since you don't want to send a close friend an email that says, "Hi there, my name is Matt Henderson..."
 
