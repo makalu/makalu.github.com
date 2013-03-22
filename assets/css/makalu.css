@@ -248,7 +248,9 @@ body > header {
     background: url(../img/triangle.png) repeat-x 0 2px; }
     .no-rgba #page > section {
       border-top: 2px solid #212120; }
-  #page > header {}
+  #page > header {
+    position: relative;
+  }
     #page > header p {
       font-size: 20px;
       line-height: 30px; }
@@ -352,8 +354,10 @@ footer {
         display: block; }
 
   #home #page > header {
-    padding-top: 60px;
-    background: url(../img/mountains.png) no-repeat 110% 100%; }
+    padding-top: 60px; }
+    #home #page > header h1 {
+      width: 50%;
+    }
     #home #page > header p {
       width: 50%;
       margin: 1em 0 0 0; }
@@ -972,6 +976,9 @@ footer {
 }
 
 @media screen and (max-width: 660px) {
+  #rego-banner {
+    display: none;
+  }
   body > header h1 {}
   body > header ul {}
   body > header li {
@@ -1020,3 +1027,58 @@ footer {
   #home #contact form p.email {
     margin: 5px 115px 5px 0; }
 }
+
+
+#rego-banner {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 40%;
+  height: 75%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #201F1E;
+}
+#rego-banner strong {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 90px 50% 0 35px;
+}
+#rego-banner .button {
+  display: inline-block;
+  line-height: 36px;
+  margin: 20px 50% 0 35px;
+  padding: 0 14px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-border-radius:100px;
+  -moz-border-radius:100px;
+  border-radius:100px;
+  background: #D57210;
+}
+.logo-icon {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.logo-wordmark {
+  position: absolute;
+  top: 33px;
+  left: 85px;
+}
+.iphone {
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  top: -50px;
+  width: 45%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+  .iphone img {
+    width: 100%;
+  }
