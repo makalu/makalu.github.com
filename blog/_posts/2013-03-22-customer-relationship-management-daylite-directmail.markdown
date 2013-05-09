@@ -10,7 +10,7 @@ excerpt: We use two Mac OS X applications—Daylite, a customer relationship man
 
 To help spread the word about the recent launch of [Rego](http://www.regoapp.com)—an iPhone app for bookmarking locations—we wanted to send an email announcement to our contacts. We use two Mac OS X applications—[Daylite](http://marketcircle.com), a customer relationship management (CRM) tool and [Direct Mail](http://directmailmac.com), an emailing tool—which together allow us to segment and execute such announcements more effectively.
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-coverimage.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-coverimage.png)
 
 This article introduces these tools and describes how we use them.
 
@@ -24,7 +24,7 @@ In [Makalu](http://makaluinc.com), we primarily use Daylite to keep track of peo
 
 Daylite runs as a server/client system. I have the server running on a home iMac and serving clients running on a MacBook Air, an iPhone 5 and an iPad mini.
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-daylite-architecture.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-daylite-architecture.png)
 
 The Daylite clients are smart enough to detect whether they need to connect to the server over the local network, or over the internet. Connecting over the internet obviously requires a fixed hostname, and we use a dynamic DNS provider for that. The Daylite server will automatically configure modern routers to provide the necessary external access.
 
@@ -34,7 +34,7 @@ An important component of the Daylite architecture is the **Daylite Mail Assista
 
 In this screenshot, you can see I've linked this email to my contact Alex Bendiken, as well as our MLK Maintenance project.
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-email-from-alex.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-email-from-alex.png)
 
 (If I wanted to, I could also create a delegated task for Alex, and set a reminder for myself to follow up later—but again, we mostly use Basecamp, rather than Daylite, for project management.)
 
@@ -44,7 +44,7 @@ Daylite allows you to add any number of keywords to your contacts. These are lik
 
 In Makalu, we've decided to classify our contacts primarily by three different groups of keywords — Context, Role and Relationship.
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-daylite-keywords.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-daylite-keywords.png)
 
 Let's take a look at these:
 
@@ -72,19 +72,19 @@ Why is relationship so important? Mostly for segmenting our announcements, since
 
 Daylite allows you to segment or filter your contacts through smart filters. If I need to quickly identify the RaceSplitter customers with whom we have an acquaintance relationship, it's as simple as this:
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-daylite-smartfilter.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-daylite-smartfilter.png)
 
 And we can get much more complex! Say I want to identify all my contacts, excluding friends, family, personal and those I've tagged "A-List" and "Influential". And say I want to exclude our competitors, my Dydra contacts, those people I came into contact with during the Catalog Choice project, and those people who commented on my Telefonica and Vodafone blog articles. 
 
 All that would look something like this:
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-daylite-segmenting.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-daylite-segmenting.png)
 
 Daylite's ability to include sub-groups of filter criteria in the construction of smart filters basically removes all limits to the scope of possible segmentation.
 
 Once I've filtered my contacts, I'll add those people to Daylite **Group** objects, like these I created for our Rego announcement campaign.
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-daylite-groups.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-daylite-groups.png)
 
 Why use Groups? Because as we'll see in the next section, Groups are the link between Daylite and our emailing tool—Direct Mail. Also in the next section, we'll see why I prefixed the Group names with numbers.
 
@@ -104,7 +104,7 @@ In announcing Rego, I wanted to send different emails to different types of cont
 
 So being able to segment is important, and we've seen how to do that with Daylite. Now we'll look at the Direct Mail side of the  setup.
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-directmail-groups.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-directmail-groups.png)
 
 From this screenshot, you can see that I've created a Direct Mail project document, called "Rego Announcement".
 
@@ -128,7 +128,7 @@ Make sense? It's pretty cool!
 
 Direct Mail provides extensive delivery and interaction reporting and statistics through a Mac app, as well as through iOS reporting apps running on the iPhone and iPad.
 
-![](http://dafactofiles.s3.amazonaws.com/2013-03-12-directmail-reports.png)
+![](http://makalufiles.s3.amazonaws.com/2013-03-12-directmail-reports.png)
 
 
 ## Hope you enjoyed the article!
