@@ -8,13 +8,13 @@ teaser: Can unsolicited design be good design?
 excerpt: From time to time, a designer will post his or her personal redesign of a popular site or product. These are usually referred to as unsolicited designs, since they’re done outside the scope of a professional engagement. Other designers will often follow-up with opinions about whether good design can come from such activities. This article looks at that question.
 ---
 
-<p style="font-size:24px;font-style:italic;line-height:1.5">From time to time, a designer will post his or her personal redesign of a popular site or product. These are usually referred to as unsolicited designs, since they’re done outside the scope of a professional engagement. Other designers will often follow-up with opinions about whether good design can come from such activities. This article looks at that question.</p>
+<p style="font-size:22px;line-height:1.7">From time to time, a designer will post his or her personal redesign of a popular site or product. These are usually referred to as unsolicited designs, since they’re done outside the scope of a professional engagement. Other designers will often follow-up with opinions about whether good design can come from such activities. This article looks at that question.</p>
 
 Whenever we do design, it’s to meet one or more *objectives*. Perhaps the objective is to be aesthetically pleasing. Perhaps it’s to increase conversion on a landing page. Perhaps it’s to minimize the errors made by the operator of a satellite control system.
 
 And when we do design, it’s usually in the context of one or more *constraints*. Perhaps the design has to be completed within a week. Perhaps it has to be completed within a particular budget. Perhaps it has to be delivered on a particular platform or device, or implementable with a certain technology.
 
-Considered in this way, it’s better to characterize design by the extent to which it meets its objectives within its constraints — i.e. by how *effective* it is. 
+Considered in this way, it’s better to characterize design by the extent to which it meets its objectives within its constraints — i.e. by how *effective* it is.
 
 So the better question is whether *effective* design can come out of an unsolicited activity?
 

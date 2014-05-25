@@ -3,16 +3,16 @@ layout: post
 title: Making of the Catalog Choice iPhone App
 author: Matt Henderson
 teaser: It’s not every day you get the chance to build an app for 1.5 million people.
-excerpt: It’s not every day that an opportunity presents itself to develop a product for an audience of **1.5 million people**. That’s exactly what happened recently at [Makalu](http://makaluinc.com), as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services. 
+excerpt: It’s not every day that an opportunity presents itself to develop a product for an audience of **1.5 million people**. That’s exactly what happened recently at [Makalu](http://makaluinc.com), as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services.
 ---
 
-IT’S NOT EVERY DAY that an opportunity presents itself to develop a product for an audience of **1.5 million people**. That’s exactly what happened recently at Makalu, as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services. 
+IT’S NOT EVERY DAY that an opportunity presents itself to develop a product for an audience of **1.5 million people**. That’s exactly what happened recently at Makalu, as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services.
 
 And we can’t wait to tell you about it!
 
 ### The background
 
-In 2007, Makalu was engaged by The Ecology Center of Berkeley, California to design and build a website that would provide American consumers with an effective tool to combat the growing number of unwanted catalogs they receive in the mail. The website — CatalogChoice.org — was launched, and quickly received the attention of nearly every large media channel in the United States, including a  focus spot on “Good Morning America”. 
+In 2007, Makalu was engaged by The Ecology Center of Berkeley, California to design and build a website that would provide American consumers with an effective tool to combat the growing number of unwanted catalogs they receive in the mail. The website — CatalogChoice.org — was launched, and quickly received the attention of nearly every large media channel in the United States, including a  focus spot on “Good Morning America”.
 
 Within one year, the service signed up more than **one million members**.
 
@@ -40,11 +40,11 @@ The service is preparing to launch the new design, which so far has addressed th
 
 We’re thrilled to show you three sneak-peek screenshots of the new look:
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/web-01.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/web-01.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/web-02.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/web-02.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/web-03.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/web-03.png">
 
 We’re really happy about the design, and looking forward to seeing its launch, and extended implementation throughout the site.
 
@@ -52,7 +52,7 @@ We’re really happy about the design, and looking forward to seeing its launch,
 
 The MailStop suite was conceived as a set of premium add-on services that both extend the ways in which consumers can be protected, and make using the existed Catalog Choice services even easier.
 
-In that regard, Makalu was engaged to design and develop an iPhone app that saves consumers the effort of even having to login to the website. Having purchased opt-out credits (as an in-app purchase), users of the service can simply capture the relevant information related to their unwanted mail in images, and submit them directly to the service. Catalog Choice takes it from there. 
+In that regard, Makalu was engaged to design and develop an iPhone app that saves consumers the effort of even having to login to the website. Having purchased opt-out credits (as an in-app purchase), users of the service can simply capture the relevant information related to their unwanted mail in images, and submit them directly to the service. Catalog Choice takes it from there.
 
 With the MailStop iPhone app, it couldn’t be easier to opt-out of unwanted mail!
 
@@ -72,24 +72,24 @@ The design and development process, however, was definitely an improvement over 
 
 And with that, we’d love to show you the app, with this 10-image tour.
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-01.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-01.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-02.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-02.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-03.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-03.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-04.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-04.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-05.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-05.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-06.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-06.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-07.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-07.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-08.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-08.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-09.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-09.png">
 
-<img src="http://thisux.com/content/images/makalu/catalogchoice/iphone-10.png">
+<img src="http://dafacto.com/content/images/makalu/catalogchoice/iphone-10.png">
 
 Look interesting? Why not give it a try right now? It’s free, and [available today on the App Store](http://bit.ly/mailstopapp)!

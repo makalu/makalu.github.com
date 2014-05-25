@@ -55,6 +55,11 @@ h3 {
   margin: 90px auto 30px;
   font-size: 24px;
   line-height: 32px; }
+h4 {
+  max-width: 660px;
+  margin: 90px auto 30px;
+  font-size: 20px;
+  line-height: 32px; }
 
 p {
   max-width: 660px;
@@ -105,9 +110,30 @@ ul, ol {
 
 
 blockquote {
-  margin: 1.5em 0 1.5em -17px;
-  padding: 0 0 0 15px;
-  border-left: 2px solid rgba(255,255,255,.25); }
+  max-width: 660px;
+  margin: 1.5em auto;
+  padding: 1.5em 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  border: 1px solid #eee;
+  border-width: 1px 0; }
+  blockquote em {
+    display: block;
+    margin-top: 1em;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+figure {
+  margin: 3em 0; }
+  figure img {
+    margin: 0 0 10px !important; }
+figcaption {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999; }
 
 
 small {
@@ -119,6 +145,11 @@ em {}
 
 .nowrap {
   white-space: nowrap;
+}
+
+.highlight {
+  margin: 0 auto;
+  text-align: left;
 }
 
 pre {
@@ -193,7 +224,10 @@ article {
       .single header a:hover {
         color: #3c3c3c; }
   .single p,
-  .single ul {
+  .single ul,
+  .single ol,
+  .single blockquote,
+  .single .highlight {
     max-width: 760px; }
   .single ul {
     list-style-type: none; }
