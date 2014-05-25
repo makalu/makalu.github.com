@@ -3,118 +3,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.title != null %}{{ page.title }} - {% endif %}Makalu Interactive</title>
-	<meta content='index, follow' name='robots'>
-	<meta content='' name='description'>
-	<meta content='' name='keywords'>
-
-	<link href="http://feeds.feedburner.com/makalublog" rel="alternate" title="Makalu Interactive - Blog" type="application/atom+xml" />
-
-	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
-	<!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-	<script src="http://use.typekit.com/teo3haq.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-  <script src="/assets/js/modernizr.js"></script>
-	<script src="/assets/js/css_browser_selector.js"></script>
+	<title>{% if page.title != null %}{{ page.title }} - Makalu Interactive{% else %}Makalu Interactive - It’s about what you do.{% endif %}</title>
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/659616/730682/css/fonts.css" />
 	<link rel="stylesheet" href="/assets/css/makalu.css">
-  <link rel="stylesheet" href="/assets/css/pygments/native.css">
 </head>
 <body id="{{ page.id }}">
-  <header>
-    <h1>
-      <a href="/">
-        <strong>makalu</strong>
-        <small>interactive</small>
-      </a>
-    </h1>
-    <nav>
-      <ul>
-        <li id="nav-products">
-          <a href="/products/">
-            <strong>Products</strong>
-            <span>We make pretty awesome iPhone, iPad and web apps.</span>
-          </a>
-        </li>
-        <li id="nav-clients">
-          <a href="/clients/">
-            <strong>Clients</strong>
-            <span>
-              We’ve worked with the biggest brands and the tiniest startups.
-            </span>
-          </a>
-        </li>
-        <li id="nav-blog">
-          <a href="/blog/">
-            <strong>Blog</strong>
-            <span>
-              {% for post in site.categories.blog limit: 1 %}
-                {{ post.teaser }}
-              {% endfor %}
-            </span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="border"></div>
-  </header>
-
-  <section id="page">
-    {{ content }}
-  </section>
-
-  <footer>
-    <p>&copy; 2011 MakaluMedia, Inc. All Rights Reserved.</p>
-    <ul>
-      <li><a href="/products/">Products</a></li>
-      <li><a href="/clients/">Clients</a></li>
-      <li><a href="/blog/">Blog</a></li>
-      <li class="spacer">&nbsp;</li>
-      <li><a href="/#contact">Contact us</a></li>
-      <li><a href="http://twitter.com/makalu">Follow us on Twitter</a></li>
-    </ul>
-  </footer>
-
-  <div id="zoomOverlay"></div>
-  <div id="zoomLoader"></div>
-  <div id="zoomContainer">
-    <div id="zoomImage"></div>
-  </div>
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script src="/assets/js/jquery.placeholder.js"></script>
-  <script src="/assets/js/jquery.easing.js"></script>
-	<script src="/assets/js/makalu.js"></script>
-
-	 <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-20938798-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-  <script type="text/javascript">
-    var _sf_async_config={uid:3507,domain:"makaluinc.com"};
-    (function(){
-      function loadChartbeat() {
-        window._sf_endpt=(new Date()).getTime();
-        var e = document.createElement('script');
-        e.setAttribute('language', 'javascript');
-        e.setAttribute('type', 'text/javascript');
-        e.setAttribute('src',
-           (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
-           "js/chartbeat.js");
-        document.body.appendChild(e);
-      }
-      var oldonload = window.onload;
-      window.onload = (typeof window.onload != 'function') ?
-         loadChartbeat : function() { oldonload(); loadChartbeat(); };
-    })();
-  </script>
+  <a href="/" class="logo"><img src="/assets/img/makalu.svg" alt="Makalu Logo"></a>
+  {{ content }}
 </body>
 </html>

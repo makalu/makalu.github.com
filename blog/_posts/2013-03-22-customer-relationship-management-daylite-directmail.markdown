@@ -14,7 +14,7 @@ To help spread the word about the recent launch of [Rego](http://www.regoapp.com
 
 This article introduces these tools and describes how we use them.
 
-# Daylite
+## Daylite
 
 Daylite is a powerful, multi-user CRM for the Mac, and one that we've been using for close to 15 years. It provides integrated management of people, companies, opportunities, projects, and tasks.
 
@@ -56,13 +56,13 @@ Let's take a look at these:
 
 Relationships are important, so let's look at those in more detail.
 
-* **Family** is obvious. 
+* **Family** is obvious.
 
-* **Friend** is probably obvious as well. Among the thousands of contacts I have, only about 120 are classified as friends. 
+* **Friend** is probably obvious as well. Among the thousands of contacts I have, only about 120 are classified as friends.
 
-* **Personal** might need some explanation. A personal relationship isn't quite a friend, but if you asked them, "Do you know Matt Henderson?" they would immediately say yes. 
+* **Personal** might need some explanation. A personal relationship isn't quite a friend, but if you asked them, "Do you know Matt Henderson?" they would immediately say yes.
 
-* **Acquaintance** is someone with whom we've had a conversation in the past. 
+* **Acquaintance** is someone with whom we've had a conversation in the past.
 
 * **Unknown** means we (for whatever reason) have them as a contact, but have never had a conversation with them (perhaps they were copied on some client communication to us).
 
@@ -74,7 +74,7 @@ Daylite allows you to segment or filter your contacts through smart filters. If 
 
 ![](http://makalufiles.s3.amazonaws.com/2013-03-12-daylite-smartfilter.png)
 
-And we can get much more complex! Say I want to identify all my contacts, excluding friends, family, personal and those I've tagged "A-List" and "Influential". And say I want to exclude our competitors, my Dydra contacts, those people I came into contact with during the Catalog Choice project, and those people who commented on my Telefonica and Vodafone blog articles. 
+And we can get much more complex! Say I want to identify all my contacts, excluding friends, family, personal and those I've tagged "A-List" and "Influential". And say I want to exclude our competitors, my Dydra contacts, those people I came into contact with during the Catalog Choice project, and those people who commented on my Telefonica and Vodafone blog articles.
 
 All that would look something like this:
 
@@ -90,7 +90,7 @@ Why use Groups? Because as we'll see in the next section, Groups are the link be
 
 ## Direct Mail
 
-Direct Mail is a bulk-emailing tool for the Mac that integrates with Daylite. Like Daylite, Direct Mail is an established product that's been on the market for many years. 
+Direct Mail is a bulk-emailing tool for the Mac that integrates with Daylite. Like Daylite, Direct Mail is an established product that's been on the market for many years.
 
 And as with Daylite, this article will hardly scratch the surface of everything Direct Mail can do. It provides extensive capabilities for importing and validating addresses, and extensive support for message creation, allowing both text and HTML, and even the import of templates from popular online services like MailChimp and Campaign Monitor. It provides token substitution in messages (with fallback), and will even tell you how likely your message is to get caught in spam filters.
 
@@ -112,15 +112,15 @@ In that document, I've created one address list corresponding to each of the Reg
 
 ## Avoiding multiple mailings
 
-It's quite likely that some of my contacts will be found in multiple Rego Groups within Daylite. For example, some of our beta testers also signed up on the Rego website to be notified about the launch. 
+It's quite likely that some of my contacts will be found in multiple Rego Groups within Daylite. For example, some of our beta testers also signed up on the Rego website to be notified about the launch.
 
-I want to ensure that we only announce Rego *once* per contact, and that's the reason for adding a numeric prefix to my Group names. 
+I want to ensure that we only announce Rego *once* per contact, and that's the reason for adding a numeric prefix to my Group names.
 
-In the above example, we first announced Rego to our beta testers, and then converted that Group to a *Blacklisted* group, to ensure that when emailing our Signups, none of our beta testers would additionally receive *that* email. 
+In the above example, we first announced Rego to our beta testers, and then converted that Group to a *Blacklisted* group, to ensure that when emailing our Signups, none of our beta testers would additionally receive *that* email.
 
 Then we announced to the people invited to the beta, but who didn't ultimately participate. To do that, we emailed the "Beta Invites" group, while blacklisting the "Signups" and "Beta Testers".
 
-And so on through all our groups, ultimately emailing the largest group, our "Acquaintances". 
+And so on through all our groups, ultimately emailing the largest group, our "Acquaintances".
 
 Make sense? It's pretty cool!
 

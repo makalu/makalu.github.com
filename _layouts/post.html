@@ -1,50 +1,32 @@
 ---
 layout: main
-id: blog
+id: post
 ---
 <article class="single">
   <header>
-    <em>{{ page.date | date: "%B %d, %Y" }}</em>
-    <h1>{{ page.title }}</h1>
-    <ul>
+    <em>
+      {{ page.date | date: "%B %d, %Y" }}
       {% if page.author %}
-        <li>
-          <em>
-            by <strong>{{ page.author }}</strong>
-            {% if page.twitter_username %}
-              <a target="_blank" href="http://www.twitter.com/{{ page.twitter_username }}">@{{ page.twitter_username }}</a>
-            {% endif %}
-          </em>
-        </li>
+        &nbsp;&bull;&nbsp;
+        by {{ page.author }}
+        {% if page.twitter_username %}
+          &nbsp;&bull;&nbsp;
+          <a target="_blank" href="http://www.twitter.com/{{ page.twitter_username }}">@{{ page.twitter_username }}</a>
+        {% endif %}
       {% endif %}
-      <li id="plusone" class="social">
-        <!-- Place this tag where you want the +1 button to render -->
-        <g:plusone size="medium" count="false"></g:plusone>
-      </li>
-      <li id="facebook" class="social">
-        <a href="http://www.facebook.com/share.php" rel="internal">Facebook</a>
-      </li>
-      <li id="twitter" class="social">
-        <a href="https://twitter.com/share" rel="internal">Tweet</a>
-      </li>
-    </ul>
+    </em>
+    <h1>{{ page.title }}</h1>
   </header>
+
   <div class="content">
     {{ content }}
-
-    {% if page.twitter_username %}
-    <p>
-      <a href="https://twitter.com/{{ page.twitter_username }}" class="twitter-follow-button" data-show-count="false">Follow @{{ page.twitter_username }}</a>
-    </p>
-    {% endif %}
   </div>
+
+  {% if page.twitter_username %}
+  <div class="follow">
+    <a href="https://twitter.com/{{ page.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter_username }}</a>
+  </div>
+  {% endif %}
 </article>
 
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
