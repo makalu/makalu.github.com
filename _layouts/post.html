@@ -8,11 +8,7 @@ id: post
       {{ page.date | date: "%B %d, %Y" }}
       {% if page.author %}
         &nbsp;&bull;&nbsp;
-        by {{ page.author }}
-        {% if page.twitter_username %}
-          &nbsp;&bull;&nbsp;
-          <a target="_blank" href="http://www.twitter.com/{{ page.twitter_username }}">@{{ page.twitter_username }}</a>
-        {% endif %}
+        {{ page.author }}
       {% endif %}
     </em>
     <h1>{{ page.title }}</h1>
