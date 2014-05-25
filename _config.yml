@@ -1,3 +1,4 @@
+markdown: kramdown
 permalink: /blog/:year/:month/:title.html
 highlighter: pygments
 exclude:
