@@ -8,12 +8,13 @@ teaser: How we reinvented the investment calculator.
 excerpt: Matt's recently published book, Money for Something, is a simple and straightforward guide to investing. To help readers put the theory into practice, we built a tool that lets you experiment and create your unique investment plan. We took a boring financial calculator and turned it into something you'd actually want to use. Read on to see how it all came together.
 ---
 
-<p style="font-size:24px;font-style:italic;line-height:1.5">
+<p style="font-size:22px;line-height:1.7">
   Matt's recently published book, <a href="http://www.moneyforsomethingbook.com/">Money for Something</a>, is a simple and straightforward guide to investing. To help readers put the theory into practice, we built a tool that lets you experiment and create your unique investment plan. We took a boring financial calculator and turned it into something you'd actually want to use. Read on to see how it all came together.
 </p>
 
 ## The Challenge
-  Make an online investment calculator that helps readers of Money for Something answer questions like:
+Make an online investment calculator that helps readers of Money for Something answer questions like:
+
 * How much do I need to save each month to have a certain amount of money at a certain time in the future?
 * If I'm saving this much per month, and earning that rate of return, how long will it take to accumulate one million dollars?
 * If I increase my monthly savings, how will that affect my savings in the future, and the amount of income it'll provide?
@@ -43,6 +44,7 @@ Our first design challenge was to decide what to focus on. The calculation is ba
 </figure>
 
 After some back and forth we decided to focus on just three variables:
+
 - **Starting balance.** How much do you have saved right now?
 - **Monthly savings.** How much can you afford to save per month?
 - **Years to invest.** When do you want to retire?
@@ -106,6 +108,7 @@ That's it. We're left with two distinct units: one for displaying the results, a
 [![](/uploads/blog/2012-10-02/ui-6.png)](http://www.moneyforsomethingbook.com/investment-calculator)
 
 In addition to the visuals, we made a few other refinements in this final iteration:
+
 * We added arrows to indicate that the values are draggable.
 * We turned the chart legend into supporting content, which not only better integrates it with the rest of the design, but also increases its usefulness.
 * We turned the 4% rule into a self-explanatory sentence, therefore avoiding having to add a separate help link for it.
@@ -123,6 +126,7 @@ Or so we thought. Here are some things we changed shortly after launching the ca
 The calculator was designed and built almost entirely by Marcus Andersson, our new intern from Sweden, with a little guidance from yours truly. Marcus is studying mobile development at Hyper Island, but wants to learn more about design and front-end development, so this was the perfect bite-size project for him to get started.
 
 In the process he improved his Javascript skills and learned CoffeeScript, SCSS, and HAML (yes, we like abstractions). He also got a crash course to how we approach design at Makalu. Here are some of his lessons learned:
+
 * **Start with the content first.** Be sure to understand what you're designing and always use real content. Before adding anything extra, look for connections and opportunities inherent to what you already have.
 * **Iterate and test.** Test your designs frequently against the defined goals and keep experimenting with alternative solutions. When you think you have the perfect design, push further, try other approaches and be open to change.
 * **Re-evaluate your assumptions.** If you feel stuck with the design, take a step back and try questioning the constraints and assumptions that led to where you are.
