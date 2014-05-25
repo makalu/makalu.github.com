@@ -42,7 +42,8 @@ h2 {
   margin: 0 auto 50px;
   font-size: 29px;
   line-height: 40px;
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  word-spacing: 1px; }
   h2 a {
     color: #222;
     font-weight: 600;
