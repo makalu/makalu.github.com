@@ -95,7 +95,8 @@ a:visited {}
 ul, ol {
   max-width: 660px;
   margin: 1.5em auto;
-  padding: 0; }
+  padding: 0;
+  text-align: left; }
   ul li, ol li {
     margin: 1.5em 0; }
   ul li p, ol li p {
