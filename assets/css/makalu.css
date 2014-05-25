@@ -51,7 +51,10 @@ h2 {
     h2 a:hover {
     color: #FC5C5F; }
 h3 {
-  font-size: 24px; }
+  max-width: 660px;
+  margin: 90px auto 30px;
+  font-size: 24px;
+  line-height: 32px; }
 
 p {
   max-width: 660px;
@@ -143,12 +146,14 @@ code {
 header {}
 
 section {}
-  section + section {
+  section + section,
+  article + section {
     position: relative;
     padding-top: 60px;
     margin-top: 120px;
   }
-    section + section::before {
+    section + section::before,
+    article + section::before {
       content: '';
       position: absolute;
       top: 0;
