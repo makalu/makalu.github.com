@@ -71,14 +71,15 @@ p:first-child {
 
 
 a {
-  color: #222;
+  color: #3C3C3C;
   font-weight: 300;
   text-decoration: none;
   background-image: linear-gradient(0deg, #222, #222 50%, transparent 50%);
   background-size: 100% 1px;
   background-repeat: no-repeat;
   background-position: 0 98%; }
-a:hover {}
+a:hover {
+  color: #000; }
 a:visited {}
   a.button {
     display: inline-block;
