@@ -284,13 +284,15 @@ article {
     max-width: 540px;
     margin: -15px auto;
     padding: 0;
-    list-style: none; }
+    list-style: none;
+    text-align: center;
+    font-size: 0; }
   .people ul li {
     cursor: default;
     position: relative;
     overflow: hidden;
     float: left;
-    width: 150px;
+    display: inline-block;
     height: 150px;
     margin: 15px;
     color: #aaa;
@@ -313,8 +315,9 @@ article {
       padding-top: 4px;
       line-height: 150px;
       font-weight: 500;
+      font-size: 19px;
       color: #fff;
       display: none;
     }
     .people ul li:hover span {
-      display: block;
+      display: block; }
