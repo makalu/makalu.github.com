@@ -291,8 +291,8 @@ article {
     cursor: default;
     position: relative;
     overflow: hidden;
-    float: left;
     display: inline-block;
+    width: 150px;
     height: 150px;
     margin: 15px;
     color: #aaa;
@@ -315,7 +315,7 @@ article {
       padding-top: 4px;
       line-height: 150px;
       font-weight: 500;
-      font-size: 19px;
+      font-size: 21px;
       color: #fff;
       display: none;
     }
