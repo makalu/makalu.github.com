@@ -530,7 +530,7 @@ body > article {
 }
 
 .logo {
-  font-size: 22px;
+  font-size: $bigFontSize;
   font-weight: $regularFontWeight;
   img {
     position: relative;
