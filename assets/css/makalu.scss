@@ -245,7 +245,12 @@ code {
 
 // Home page header
 body > header {
-  padding: 30px 25px 0;
+  padding: ($margin / 2) 25px 0;
+  margin-bottom: (-$margin) + 2rem;
+
+  @include wide {
+    padding-top: $margin;
+  }
 }
 
 // Home page sections
@@ -258,6 +263,7 @@ body > section {
     }
 
     @include wide {
+      padding-bottom: $margin * 1.2;
       h1 {
         margin-right: -$margin;
       }
