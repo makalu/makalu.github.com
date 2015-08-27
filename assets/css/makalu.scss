@@ -19,10 +19,11 @@ $lightFontWeight:   300;
 $regularFontWeight: 400;
 $boldFontWeight:    700;
 
+$maxWidth: 760px;
 $margin: 4.5rem;
 
 @mixin wide() {
-  @media only screen and (min-width: 640px) { @content; }
+  @media only screen and (min-width: $maxWidth) { @content; }
 }
 
 @mixin flexbox() {
@@ -95,7 +96,12 @@ h1 {
   }
 }
 h2 {
-  font-size: 28px; }
+  font-size: 28px;
+
+  @include wide {
+    font-size: 31px;
+  }
+}
 h3 {
   font-size: 24px; }
 h4 {
@@ -245,10 +251,13 @@ code {
 
 // Home page header
 body > header {
-  padding: ($margin / 2) 25px 0;
+  max-width: $maxWidth;
+  margin: 0 auto;
   margin-bottom: (-$margin) + 2rem;
+  padding: ($margin / 2) 25px 0;
 
   @include wide {
+    padding: 0 50px;
     padding-top: $margin;
   }
 }
@@ -257,16 +266,22 @@ body > header {
 body > section {
   padding: $margin 25px;
 
+  @include wide {
+    padding: ($margin * 1.25) 50px;
+  }
+
   &.intro {
-    .contain > p {
+    max-width: $maxWidth;
+    margin: 0 auto;
+
+    > p {
       margin-top: 1.25em;
     }
 
     @include wide {
+      padding-top: $margin * 1.5;
       padding-bottom: $margin * 1.2;
-      h1 {
-        margin-right: -$margin;
-      }
+      padding-right: $margin * 2;
     }
   }
 
@@ -363,13 +378,19 @@ body > section {
     }
   }
 
+  &.quotes {
+    padding: ($margin / 2) 25px $margin;
+    border-top: 1px solid $borderColor;
+    background: rgba($darkColor, .03);
+  }
+
   &.team {
     border-top: 1px solid $borderColor;
 
     article {
       position: relative;
       font-size: $smallFontSize;
-      margin-top: ($margin / 2);
+      margin-top: ($margin / 1.5);
       @include flexbox();
       -webkit-align-items: center;
       -webkit-justify-content: center;
@@ -389,7 +410,7 @@ body > section {
 
       h5 {
         line-height: 1;
-        font-size: 13px;
+        font-size: $tinyFontSize;
       }
 
       p {
@@ -417,6 +438,23 @@ body > section {
           order: 2;
           margin-right: -50px;
           margin-left: 15px;
+        }
+      }
+
+      @include wide {
+        img {
+          margin: 0 !important;
+        }
+
+        div {
+          padding-left: 25px;
+        }
+
+        &:nth-child(even) {
+          div {
+            padding-left: 0;
+            padding-right: 25px;
+          }
         }
       }
     }
@@ -638,7 +676,8 @@ body > article {
 
 .quote {
   position: relative;
-  margin-top: $margin;
+  max-width: $maxWidth / 1.5;
+  margin: 0 auto;
   padding-left: 55px;
   padding-top: 45px;
 
@@ -651,8 +690,8 @@ body > article {
   img {
     float: left;
     margin-right: 10px;
-    width: 44px;
-    height: 44px;
+    width: 45px;
+    height: 45px;
   }
 
   &::before {
@@ -678,10 +717,17 @@ body > article {
     font-weight: bold;
     font-style: italic;
   }
+
+  @include wide {
+    font-size: $bigFontSize;
+    /* background: $grayColor; */
+  }
 }
 
 .logos {
   overflow: hidden;
+  max-width: $maxWidth;
+  margin: 0 auto;
   margin-top: $margin;
 
   span {
@@ -714,9 +760,6 @@ body > article {
   }
 
   @include wide {
-    margin-left: -($margin * 1.5);
-    margin-right: -($margin * 1.5);
-
     span {
       width: 33.3333%;
 
@@ -731,8 +774,19 @@ body > article {
 }
 
 .contain {
-  max-width: 480px;
+  position: relative;
+  max-width: $maxWidth;
   margin: 0 auto;
+
+  @include wide {
+    padding-left: 280px;
+    h2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 260px;
+    }
+  }
 }
 
 .bg {
