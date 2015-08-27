@@ -251,7 +251,7 @@ code {
 
 // Home page header
 body > header {
-  max-width: $maxWidth;
+  max-width: $maxWidth + 100px;
   margin: 0 auto;
   margin-bottom: (-$margin) + 2rem;
   padding: ($margin / 2) 25px 0;
@@ -271,7 +271,7 @@ body > section {
   }
 
   &.intro {
-    max-width: $maxWidth;
+    max-width: $maxWidth + 100px;
     margin: 0 auto;
 
     > p {
@@ -281,7 +281,7 @@ body > section {
     @include wide {
       padding-top: $margin * 1.5;
       padding-bottom: $margin * 1.2;
-      padding-right: $margin * 2;
+      padding-right: $margin * 3;
     }
   }
 
