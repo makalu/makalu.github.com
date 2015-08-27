@@ -13,7 +13,7 @@ $borderColor: #eeeeee;
 $bigFontSize:     1.250rem;
 $regularFontSize: 1.000rem;
 $smallFontSize:   0.875rem;
-$tinyFontSize:    0.750rem;
+$tinyFontSize:    0.800rem;
 
 $lightFontWeight:   300;
 $regularFontWeight: 400;
@@ -200,7 +200,7 @@ form {
     line-height: 38px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: $tinyFontSize;
     font-weight: $boldFontWeight;
     border: none;
     background: lighten($tintColor, 3%);
@@ -220,7 +220,7 @@ small,
   font-size: $smallFontSize;
 }
 .tiny {
-  font-size: 12px;
+  font-size: $tinyFontSize;
 }
 
 strong {
@@ -364,6 +364,8 @@ body > section {
   }
 
   &.team {
+    border-top: 1px solid $borderColor;
+
     article {
       position: relative;
       font-size: $smallFontSize;
@@ -416,6 +418,20 @@ body > section {
           margin-right: -50px;
           margin-left: 15px;
         }
+      }
+    }
+  }
+
+  &.work {
+    padding: ($margin / 2) 0;
+    > div::after {
+      content: 'flickity';
+      display: none; /* hide :after */
+    }
+
+    @include wide {
+      > div::after {
+        content: '';
       }
     }
   }
@@ -615,10 +631,10 @@ body > article {
   position: relative;
   margin-top: $margin;
   padding-left: 55px;
-  padding-top: 55px;
+  padding-top: 45px;
 
   div {
-    padding-right: 55px;
+    padding-right: 25px;
     color: #111;
     line-height: 1;
   }
@@ -643,7 +659,7 @@ body > article {
   &::after {
     content: '“';
     position: absolute;
-    top: 55px;
+    top: 45px;
     left: 0;
     margin: -5px;
     line-height: 1;
@@ -712,6 +728,33 @@ body > article {
 
 .bg {
   background: $grayColor;
+}
+
+.column {
+  width: calc(100% - 50px);
+  text-align: center;
+
+  & + & {
+    margin-left: 25px;
+  }
+
+  img {
+    height: 100%;
+  }
+}
+
+.short {
+  height: 225px;
+  background: #fff;
+  & + & {
+    margin-top: 25px;
+  }
+}
+
+.long {
+  height: 475px;
+  padding: 25px;
+  background: #fff;
 }
 
 .cf:before,
