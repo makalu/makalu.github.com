@@ -301,7 +301,9 @@ body > section {
         position: absolute;
         top: 30px;
         left: 25px;
-        max-width: 220px;
+        p {
+          max-width: 240px;
+        }
       }
 
       &::before {
