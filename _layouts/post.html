@@ -2,7 +2,7 @@
 layout: main
 id: post
 ---
-<article class="single">
+<article>
   <header>
     <em>
       {{ page.date | date: "%B %d, %Y" }}
@@ -14,14 +14,12 @@ id: post
     <h1>{{ page.title }}</h1>
   </header>
 
-  <div class="content">
-    {{ content }}
-  </div>
+  {{ content }}
 
   {% if page.twitter_username %}
-  <div class="follow">
+  <footer>
     <a href="https://twitter.com/{{ page.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter_username }}</a>
-  </div>
+  </footer>
   {% endif %}
 </article>
 

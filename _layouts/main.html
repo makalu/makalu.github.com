@@ -3,12 +3,30 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-	<title>{% if page.title != null %}{{ page.title }} - Makalu Interactive{% else %}Makalu Interactive - It’s about what you do.{% endif %}</title>
+  <meta name="viewport" content="initial-scale=1">
+	<title>
+    {% if page.title != null %}
+      {{ page.title }} - Makalu Interactive
+    {% else %}
+      Makalu Interactive - It’s about what you do.
+    {% endif %}
+  </title>
 	<link rel="stylesheet" href="/assets/css/makalu.css">
 </head>
 <body id="{{ page.id }}">
-  <a href="/" class="logo"><img src="/assets/img/makalu.svg" alt="Makalu Logo"></a>
+  <header>
+    <div class="contain">
+      <a href="/" class="logo">
+        <img src="/assets/img/makalu.svg" alt="Makalu">
+        makalu
+      </a>
+    </div>
+  </header>
+
   {{ content }}
+
+  <script src="/assets/js/sprint.js"></script>
+  <script src="/assets/js/flickity.js"></script>
+  <script src="/assets/js/makalu.js"></script>
 </body>
 </html>

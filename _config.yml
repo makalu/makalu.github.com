@@ -5,3 +5,5 @@ exclude:
 - Rakefile
 - README.textile
 - public
+sass:
+  style: compressed
