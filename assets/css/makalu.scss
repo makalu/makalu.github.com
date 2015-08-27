@@ -57,7 +57,7 @@ html, body {
 
 html {
   font-size: 16px;
-  background: $grayColor;
+  background: rgba($darkColor, 0.08);
 
   @include wide {
     font-size: 17px;
