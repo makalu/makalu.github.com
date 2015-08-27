@@ -69,6 +69,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
   color: #555;
   line-height: 1.55;
   font-family: 'nexa-web';
@@ -682,9 +683,13 @@ body > article {
   padding-top: 45px;
 
   div {
-    padding-right: 25px;
+    max-width: 260px;
     color: #111;
     line-height: 1;
+
+    @include wide {
+      line-height: .8;
+    }
   }
 
   img {
@@ -720,7 +725,6 @@ body > article {
 
   @include wide {
     font-size: $bigFontSize;
-    /* background: $grayColor; */
   }
 }
 
