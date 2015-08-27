@@ -592,9 +592,7 @@ body > article {
 }
 
 .logo {
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-size: $smallFontSize;
+  font-size: $bigFontSize;
   font-weight: $boldFontWeight;
   img {
     position: relative;
