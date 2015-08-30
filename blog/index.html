@@ -1,20 +1,18 @@
 ---
-layout: main
-title: Blog
+layout: blog
 id: blog
 ---
 
 {% for post in site.categories.blog %}
-  <article>
-    <header>
-      <em>{{ post.date | date: "%B %d, %Y" }}</em>
+  <article class="post is-excerpt">
+    <header class="post-header">
       <h2>
         <a href="{{ post.url }}" title="{{ post.title }}">
           {{ post.title }}
         </a>
       </h2>
     </header>
-    <div class="excerpt">
+    <div class="post-excerpt">
       {{ post.excerpt | markdownify }}
     </div>
   </article>

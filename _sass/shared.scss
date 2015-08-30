@@ -1,0 +1,179 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 100%;
+  min-width: 320px;
+}
+
+html {
+  font-size: 16px;
+
+  @include wide {
+    font-size: 17px;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #555;
+  line-height: 1.55;
+  font-family: 'nexa-web';
+  font-size: $regularFontSize;
+  font-weight: $regularFontWeight;
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: #111;
+  line-height: 1.2;
+  font-weight: $boldFontWeight;
+
+  & + p {
+    margin-top: 0.5em;
+  }
+}
+
+h1 {
+  font-size: 35px;
+
+  @include wide {
+    font-size: 45px;
+  }
+}
+h2 {
+  font-size: 28px;
+
+  @include wide {
+    font-size: 31px;
+  }
+}
+h3 {
+  font-size: 24px; }
+h4 {
+  font-size: 20px; }
+h5 {
+  font-size: $tinyFontSize;
+  font-weight: $boldFontWeight;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 1.25em 0;
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+a {
+  color: $tintColor;
+  text-decoration: none;
+  &:visited {}
+}
+
+ul, ol {
+  margin: 1.25em 0 0;
+  padding: 0;
+  text-align: left;
+  li {
+    margin: 0.75em 0;
+  }
+}
+
+// Typography
+big,
+.big {
+  font-size: $bigFontSize;
+  font-weight: $lightFontWeight;
+  color: #111;
+}
+small,
+.small {
+  font-size: $smallFontSize;
+}
+.tiny {
+  font-size: $tinyFontSize;
+}
+
+strong {
+  font-weight: $boldFontWeight;
+}
+em {}
+
+pre {
+  display: block;
+  font: normal normal 87.5%/1em Menlo, monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+code {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font: normal normal 87.5%/1em Menlo, monospace, sans-serif;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.highlight {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tinted {
+  color: $tintColor;
+}
+.muted {
+  opacity: #999;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.contain {
+  position: relative;
+  max-width: $maxWidth / 1.5;
+  margin: 0 auto;
+
+  @include wide {
+    max-width: $maxWidth;
+    padding-left: 280px;
+    h2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 260px;
+    }
+  }
+}
+
+.bg {
+  background: $grayColor;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

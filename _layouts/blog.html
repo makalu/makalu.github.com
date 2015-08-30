@@ -2,9 +2,9 @@
 
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1">
-	<title>
+  <title>
     {% if page.title != null %}
       {{ page.title }} - Makalu Interactive
     {% else %}
@@ -12,20 +12,16 @@
     {% endif %}
   </title>
   <link rel="stylesheet" href="/assets/css/flickity.css">
-	<link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/post.css">
 </head>
 <body id="{{ page.id }}">
   <header>
-    <a href="/" class="logo">
-      <img src="/assets/img/makalu.svg" alt="Makalu">
-      makalu
-    </a>
+    <h2>The Makalu Blog.</h2>
   </header>
 
-  {{ content }}
+  <div class="blog">
+    {{ content }}
+  </div>
 
-  <script src="/assets/js/sprint.js"></script>
-  <script src="/assets/js/flickity.js"></script>
-  <script src="/assets/js/main.js"></script>
 </body>
 </html>

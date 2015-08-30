@@ -1,31 +1,53 @@
----
-layout: main
-id: post
----
-<article>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1">
+  <title>
+    {% if page.title != null %}
+      {{ page.title }} - Makalu Interactive
+    {% else %}
+      Makalu Interactive - It’s about what you do.
+    {% endif %}
+  </title>
+  <link rel="stylesheet" href="/assets/css/flickity.css">
+  <link rel="stylesheet" href="/assets/css/post.css">
+</head>
+<body id="{{ page.id }}">
   <header>
-    <em>
-      {{ page.date | date: "%B %d, %Y" }}
-      {% if page.author %}
-        &nbsp;&bull;&nbsp;
-        {{ page.author }}
-      {% endif %}
-    </em>
-    <h1>{{ page.title }}</h1>
+    You're reading the <a href="/blog">Makalu blog</a>.
   </header>
 
-  {{ content }}
+  <article class="post">
+    <header class="post-header">
+      <h1>{{ page.title }}</h1>
+      <em>
+        {{ page.date | date: "%B %d, %Y" }}
+        {% if page.author %}
+          &nbsp;&bull;&nbsp;
+          {{ page.author }}
+        {% endif %}
+      </em>
+    </header>
 
-  {% if page.twitter_username %}
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    {% if page.twitter_username %}
+    <footer class="post-footer">
+      <a href="https://twitter.com/{{ page.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter_username }}</a>
+    </footer>
+    {% endif %}
+  </article>
+
   <footer>
-    <a href="https://twitter.com/{{ page.twitter_username }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter_username }}</a>
+    <h2>Makalu Interactive is a small digital agency that consistently delivers big results.</h2>
+    <a href="/" class="button">More about Makalu</a>
   </footer>
-  {% endif %}
-</article>
 
-<section>
-  <h2>Makalu Interactive is a small digital agency that consistently delivers big results.</h2>
-  <a href="/" class="button">More about Makalu</a>
-</section>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</body>
+</html>
