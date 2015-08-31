@@ -6,20 +6,16 @@
   <meta name="viewport" content="initial-scale=1">
 	<title>
     {% if page.title != null %}
-      {{ page.title }} - Makalu Interactive
+      {{ page.title }}
     {% else %}
-      Makalu Interactive - It’s about what you do.
+      Makalu Interactive.
     {% endif %}
   </title>
+  <script src="//use.typekit.net/teo3haq.js"></script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
 	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body id="{{ page.id }}">
-  <header>
-    <a href="/" class="logo">
-      <img src="/assets/img/makalu.svg" alt="Makalu">
-      makalu
-    </a>
-  </header>
 
   {{ content }}
 

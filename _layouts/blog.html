@@ -1,26 +1,28 @@
-<!DOCTYPE html>
+---
+layout: main
+id: blog
+title: Makalu's blog about design, code & everything else.
+---
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1">
-  <title>
-    {% if page.title != null %}
-      {{ page.title }} - Makalu Interactive
-    {% else %}
-      Makalu Interactive - It’s about what you do.
-    {% endif %}
-  </title>
-  <link rel="stylesheet" href="/assets/css/post.css">
-</head>
-<body id="{{ page.id }}">
-  <header>
-    <h2>The Makalu Blog.</h2>
+<div class="blog">
+  <header class="blog-intro">
+    <img src="/assets/img/makalu.svg" alt="Makalu">
+    <p>Makalu's blog about design, code & everything else.</p>
+    <nav class="blog-nav">
+      <a href="/">makaluinc.com</a>
+      <em>/</em>
+      <a href="/blog">blog</a>
+    </nav>
   </header>
 
-  <div class="blog">
-    {{ content }}
+  <div class="blog-content">
+    {{content}}
   </div>
 
-</body>
-</html>
+  <footer class="blog-outro">
+    <div>
+      <p>Makalu Interactive is a small digital agency that consistently delivers big results.</p>
+      <a href="/" class="button">More about Makalu</a>
+    </div>
+  </footer>
+</div>

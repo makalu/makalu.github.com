@@ -8,8 +8,6 @@ teaser: Starting a services company? Here's how to determine your rates.
 excerpt: Sometimes I get contacted by individuals who are planning to start a services company and are seeking advice on a variety of related topics. One of the most common questions is, “How do I determine an hourly rate?”
 ---
 
-<p class="intro">Sometimes I get contacted by individuals who are planning to start a services company and are seeking advice on a variety of related topics. One of the most common questions is: “How do I determine an hourly rate?”</p>
-
 This article describes how we determine our rates here at Makalu.
 
 ## Start with the minimum

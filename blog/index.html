@@ -4,16 +4,26 @@ id: blog
 ---
 
 {% for post in site.categories.blog %}
-  <article class="post is-excerpt">
-    <header class="post-header">
-      <h2>
+  <article class="post-excerpt">
+    <div class="post-excerpt-title">
+      <h3>
         <a href="{{ post.url }}" title="{{ post.title }}">
           {{ post.title }}
         </a>
-      </h2>
-    </header>
-    <div class="post-excerpt">
+      </h3>
+      <p>
+        {% if post.author %}
+          <em>by</em>
+          <strong> {{ post.author }}</strong>
+        {% endif %}
+      </p>
+    </div>
+
+    <div class="post-excerpt-text">
       {{ post.excerpt | markdownify }}
+      <a href="{{ post.url }}" title="{{ post.title }}" class="read-link">
+        Read post <span class="arrow">&rarr;</span>
+      </a>
     </div>
   </article>
 {% endfor %}

@@ -6,8 +6,6 @@ teaser: We’re looking to grow our team with someone who loves design.
 excerpt: We’re looking to grow our team with someone who loves design.
 ---
 
-We’re looking to grow our team with someone who loves design.
-
 #### Who we are
 
 Makalu Interactive is a small company that provides its clients with high quality design, development and consulting services. We regularly get to work on interesting projects for great companies like Google, YouTube, Virgin America and O’Reilly.
@@ -28,7 +26,7 @@ You’re someone who loves to design product interfaces, and has experience with
 
 Ideally, you like to build what you design, and are proficient in HTML and CSS (maybe even JavaScript.) You’re not afraid of technology.
 
-You enjoy studying well designed products, like those from Apple. You like to think about the process of design, and try to figure out how to *consistently* produce great design. Your work is thoughtful, reasoned and justified; very little is arbitrary. 
+You enjoy studying well designed products, like those from Apple. You like to think about the process of design, and try to figure out how to *consistently* produce great design. Your work is thoughtful, reasoned and justified; very little is arbitrary.
 
 Characteristics that are likely important to you are humility, honesty, objectivity and authenticity.
 
