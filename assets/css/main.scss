@@ -185,8 +185,6 @@ figcaption {
 
 big {
   font-size: $bigFontSize;
-  font-weight: $lightFontWeight;
-  color: #111;
 }
 small {
   font-size: $smallFontSize;
@@ -675,12 +673,16 @@ form {
 
   div {
     max-width: 260px;
-    color: #111;
     line-height: 1;
 
     @include wide {
       line-height: .8;
     }
+  }
+
+  p {
+    color: #111;
+    font-family: 'rooney-web-1', 'rooney-web-2', serif;
   }
 
   img {
