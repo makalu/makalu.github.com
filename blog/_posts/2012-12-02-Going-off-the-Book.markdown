@@ -13,7 +13,7 @@ In chess, there’s a moment when a game deviates (if it ever does) from a well 
 We open with the platform, or platforms, on which our software will run. This could be a desktop or mobile OS or even the web. We probably also need to decide on a minimum level of functionality we’ll require.
 
 _Pawn to iOS >= 5.1_
- 
+
 We then often build upon this initial move by choosing a language. Like in chess, our options for the next move are limited by the choices we've already made. Even still, there are a huge number of options for developing web applications and even on iOS there are [alternatives to Objective-C](http://www.rubymotion.com/) that we might consider.
 
 _Bishop to Objective-C 2.0_
