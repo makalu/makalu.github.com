@@ -978,13 +978,26 @@ form {
         border-color: $tintColor;
       }
     }
+
+    ul {
+      padding-left: 1.1em;
+    }
   }
+
     &-intro {
       margin-bottom: 1.25em;
       font-size: $bigFontSize;
       color: #222;
     }
     &-content {}
+
+  @include mid {
+    &-main {
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
 
   @include wide {
     &-header {
