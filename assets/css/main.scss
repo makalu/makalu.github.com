@@ -944,7 +944,9 @@ form {
       font-size: $bigFontSize;
 
       @include wide {
-        font-size: 25px;
+        margin-top: 2em;
+        font-size: 1.66rem;
+        line-height: 1.2;
       }
     }
     h3 {
@@ -959,7 +961,8 @@ form {
     }
 
     img {
-      padding: 8px;
+      margin: 0 -5px;
+      padding: 4px;
       border: 1px solid $borderColor;
     }
 
@@ -1003,49 +1006,48 @@ form {
 
   @include wide {
     &-header {
-      padding: 60px 0;
+      max-width: 880px;
+      margin: 0 auto;
+      padding-top: 50px;
+      text-align: center;
 
       h1 {
         font-size: 48px;
       }
 
       p {
-        margin-top: .5em;
-        font-size: $bigFontSize;
+        margin-top: 1em;
+        font-size: 1.1rem;
       }
     }
 
     &-main {
-      @include flexbox;
+      max-width: 620px;
+      margin: 0 auto;
 
       .full {
-        margin-left: calc(-75% + -60px);
-      }
-
-      figure {
-        &.full {
-          position: relative;
-          figcaption {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 50%;
-            padding-right: 50px;
-            border-bottom: none;
-          }
-        }
+        margin-left: -100px;
+        margin-right: -100px;
       }
     }
-      &-intro {
-        @include flex(3);
-        padding-right: 30px;
-        color: #888;
+
+    &-intro {
+      margin: 3rem 0 2rem 0;
+      font-size: 1.45rem;
+      color: #111;
+      p {
+        margin-right: -25px;
       }
-      &-content {
-        @include flex(4);
-        padding-top: 3px;
-        padding-left: 30px;
+    }
+
+    &-content {
+      font-size: 1.1rem;
+      color: #444;
+
+      img {
+        min-width: 630px;
       }
+    }
   }
 }
 
@@ -1070,7 +1072,7 @@ form {
     p {
       margin-top: 1em;
       margin-bottom: 1em;
-      color: #888;
+      color: #666;
 
       a {
         color: #111;
