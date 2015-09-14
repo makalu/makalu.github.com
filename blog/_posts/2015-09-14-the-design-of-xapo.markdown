@@ -86,7 +86,7 @@ We continue, just to finish the tour…
 
 Now we’re on a page that gives the visual impression that we’re floating in space—complete with moving stars in the background—and boasting that Xapo has raised $40 million. This is the last screen in the product tour, and it’s the screen least related to the product.
 
-At this point, I’ve finished the “product tour”, but I feel I know even less about the product than I did at the beginning. I certainly am left with the impression that Xapo take security seriously, but I still don’t know exactly what Xapo _is_ or whether it’s relevant to _me_.
+At this point, I’ve finished the tour, but I feel I know even less about the product than I did at the beginning. I certainly am left with the impression that Xapo take security seriously, but I still don’t know exactly what Xapo _is_ or whether it’s relevant to _me_.
 
 ## The tour didn’t work. Let’s try navigating around.
 
