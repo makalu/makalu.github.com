@@ -331,6 +331,7 @@ form {
 }
 
 .home-header {
+  position: relative;
   max-width: ($maxWidth / 1.5) + 50px;
   margin: 0 auto;
   margin-bottom: (-$margin) + 2rem;
@@ -340,6 +341,34 @@ form {
     max-width: $maxWidth + 100px;
     padding: 0 50px;
     padding-top: $margin;
+  }
+}
+
+.home-nav {
+  position: absolute;
+  bottom: 2px;
+  right: 25px;
+
+  a {
+    display: inline-block;
+    color: #888;
+    & + a {
+      margin-left: 20px;
+    }
+
+    &.active {
+      color: $tintColor;
+    }
+
+    &:hover {
+      color: $tintColor;
+    }
+  }
+
+  @include wide {
+    a + a {
+      margin-left: 25px;
+    }
   }
 }
 
