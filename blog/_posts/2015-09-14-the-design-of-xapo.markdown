@@ -168,7 +168,9 @@ And here’s some poor attention to detail. Margin spacing is off. Font size doe
 
 ## Redesigning the product
 
-To design Xapo, specifically, would require an understanding of the business priorities of the company, which we don’t currently have. For example, we don’t know the relative importance of providing services to individuals vs institutions. (Xapo was recently announced to be the custodian for a new Bitcoin ETF traded on the stock market.)
+The design of a product like Xapo has to both bridge the conceptual gap between people’s existing mental models of currency storage, security and use, and the realities associated with a complex system like bitcoin. And it has to do that within the context of a product that’s engaging, confidence-inspiring and easy to use. 
+
+But to design Xapo, specifically, would require an understanding of the business priorities of the company, which we don’t currently have. For example, we don’t know the relative importance of providing services to individuals vs institutions. (Xapo was recently announced to be the custodian for a new Bitcoin ETF traded on the stock market.)
 
 So while a Xapo redesign is beyond the scope of this article, we can at least identify some likely objectives.
 
@@ -188,6 +190,6 @@ So while a Xapo redesign is beyond the scope of this article, we can at least id
 
 - Let’s make the user experience engaging and reassuring. The dark theme of the current product feels somehow omninous.
 
-The design of a product like Xapo has to both bridge the conceptual gap between people’s existing mental models of currency storage, security and use, and the realities associated with a complex system like bitcoin. And it has to do that within the context of a product that’s engaging, confidence-inspiring and easy to use.
+Finally, let’s keep in mind that as early adopters, we’re participating in a historic process of transitioning normal people into an exciting but unfamiliar new world. Ultimately, after using the product, we want the user to feel better about entering the bitcoin economy than before they joined.
 
 It’s a big challenge, indeed, but an exciting and worthwhile one to take on, as we all want bitcoin to succeed.
