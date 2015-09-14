@@ -27,25 +27,25 @@ excerpt: Bitcoin is a digital currency that may represent the most important tec
 
 ## The challenge
 
-Through generations of experience, we comfortably relate to the concepts surrounding traditional stores of value and transactional currencies. For example, as a commodity that we can touch and hold, we have an intuitive understanding of gold. If we want to store it, we can put it in a safe or entrust it to a custodian like Brinks. When we transact in gold, we understand that we’re passing ownership of a physical object from one to another. 
+Through generations of experience, we comfortably relate to the concepts surrounding traditional stores of value and transactional currencies. As a commodity that we can touch and hold, we have an intuitive understanding of gold. We understand that we can put it in a safe or entrust it to a custodian like Brinks. When we transact in gold, we understand that we’re passing ownership of a physical object from one to another. 
 
-Similarly, we also tend to relate to fiat currencies like Dollars, Euros and Pesos as physical objects, although their realities are more abstract. Like gold, we intuitively understand that we can secure and transact ourselves in physical cash, or we can entrust its security and access to the vaults, credit cards and transfer services of banks.
+We also tend to relate to fiat currencies like Dollars, Euros and Pesos as physical objects, although their realities are more abstract. Like gold, we intuitively understand that we can secure and transact ourselves in physical cash, or we can entrust its security and access to the vaults, credit cards and transfer services of banks.
 
-Bitcoin represents an entirely new paradigm. There’s nothing physical about bitcoin; it’s purely a mathematical concept. The “owning” of a bitcoin means the “controlling” of a complex number known as a private key. If we try to relate that private key to something with which we have familiarity, it would be a “wallet”, where we store our cash, or a checking account, when we entrust our currency to a bank. But whereas most people have one wallet and one checking account, with bitcoin it can be advantageous to create a new private key for every transaction we make!
+Bitcoin represents an entirely new paradigm. There’s nothing physical about bitcoin. The “owning” of a bitcoin means the “controlling” of a complex number known as a private key. If we try to relate that private key to something with which we have familiarity, it would be a “wallet”, or a bank account. But whereas most people have one wallet and one checking account, with bitcoin it can be advantageous to create a new private key for every transaction we make!
 
-For products offering storage, security, and access to one’s bitcoins, translating such foreign notions into concepts that are approachable and understandable by consumers and organizations represents a considerable design challenge—and one that is of critical importance if we’re to achieve widespread adoption of this promising technology.
+For products offering the storage, security, and access to one’s bitcoins, translating such foreign notions into concepts that are approachable and understandable by consumers and organizations represents a considerable design challenge—and one that is of critical importance if we’re to achieve widespread adoption of this promising technology.
 
 ## A personal interest in Xapo
 
-While investigating bitcoin storage options, I created an account at [Xapo][16], but ended up switching to another product a few weeks later. I didn’t give much thought to why I switched; something just didn’t feel quite “right” about the Xapo product.
+While evaluating bitcoin storage options, I created an account at [Xapo][16], but soon afterwards switched to another product. I didn’t give much thought to why I switched; something just didn’t feel quite “right” about the Xapo product.
 
-Sometime later, though, I happened to read the book, “Digital Gold”, by Nathaniel Popper. In his telling of the history of bitcoin, we’re introduced to Wences Casares, a successful Argentinean entrepreneur and the founder of Xapo. I so related to the life experiences, frugal disposition and passions of Wences, that I finished the book thinking, “If I could work with anyone in the bitcoin industry, it would be with him.”
+Then I happened to read the book, “Digital Gold”, by Nathaniel Popper. In his telling of the history of bitcoin, we’re introduced to Wences Casares, an Argentinean entrepreneur and the founder of Xapo. I so related to the life experiences, frugal disposition and passions of Wences, that I finished the book thinking that if I could choose to work with anyone in the bitcoin industry, it would be with him.
 
-And that led me to begin thinking deeper about why Xapo didn’t stick with me as a product, and what I’d do to fix it.
+And that led me to think deeper about why his product Xapo didn’t stick with me, and what I’d do to fix it.
 
-In the rest of this article, I’ll retrace my onboarding experience with the Xapo product, highlighting the frictions and confusions I felt along the way, and I’ll conclude with thoughts on the approach I’d take to addressing these problems. The reader will notice that the article grows harsh in tone, and my fear is that it might come across as offensive. 
+In the rest of this article, I’ll retrace my onboarding experience with Xapo, highlighting the frictions and confusions I felt along the way, and I’ll conclude with thoughts on the approach I’d take to addressing those problems. 
 
-I considering editing down the tone, but then realized that the review’s growing harshness is a direct reflection of the growing frustration I felt in my introduction to the product. And since that ultimately led me to leave Xapo, I decided it was an important ingredient that should stay.
+The reader will notice that the article grows harsh in tone, and my fear is that it might come across as offensive. But just before editing all that out, I realized that the growing harshness is a direct reflection of the growing frustration I felt trying to get to know the product. And since that ultimately led me to leave Xapo, I decided it was an important ingredient to keep in the article.
 
 ## So you’ve landed at Xapo
 
@@ -57,13 +57,13 @@ My very first thought was that the word “most” must be missing, i.e. that th
 
 Moving on, this first screen immediately refers to “cold storage” and “multi-signature” technologies. These are concepts that are unlikely to be commonly understood, and as such represents the first potential point of friction in terms of converting a new customer. If I were a new bitcoin user, still grappling with the concept of a “bitcoin wallet”, I think I’d feel unsure whether this product is or isn’t relevant to me.
 
-So feeling unsure, I’m far more likely to click “Start tour”, than to directly create an account.
+Still feeling unsure about this product, I’m far more likely to click “Start tour”, than to directly create an account.
 
 ![][4]
 
-Starting the tour, I’m dropped _straight_ into the the topic of “offline encrypted servers”, that are “never connected to the internet”. Remember, this is the *second screen* I see as a potential new Xapo customer, and possibly even a new bitcoin user.
+Starting the tour, I’m dropped _straight_ into the the topic of “offline encrypted servers”, that are “never connected to the internet”. Remember, this is the *second screen* I see as a potential new Xapo customer, and possibly even a new bitcoin user. I still don't really know what the product is, but I'm launched into a presentation of how its security is implemented.
 
-Immediate questions that come to mind:
+In that context, some immediate questions that come to mind:
 
 - If my bitcoins are offline, does that mean I can’t use them?
 - Why are the servers “never connected to the internet”?
@@ -72,7 +72,7 @@ Clicking next…
 
 ![][5]
 
-I’m on screen number three, and I’m looking at “Wave-blocking Faraday cages”. I’m guessing a lot of people might be returning to their Google search at this point.
+I’m on screen number three, and I’m looking at “Wave-blocking Faraday cages”. I’m guessing a lot of people might return to their Google search at this point.
 
 But for those who continue…
 
@@ -84,19 +84,19 @@ We continue, just to finish the tour…
 
 ![][15]
 
-Now we’re on a page which makes us feel we’re floating in space—complete with moving stars in the background—and boasting that Xapo has raised $40 million. This is the last screen in the product tour, and it’s the screen least related to the product.
+Now we’re on a page that gives the visual impression that we’re floating in space—complete with moving stars in the background—and boasting that Xapo has raised $40 million. This is the last screen in the product tour, and it’s the screen least related to the product.
 
 At this point, I’ve finished the “product tour”, but I feel I know even less about the product than I did at the beginning. I certainly am left with the impression that Xapo take security seriously, but I still don’t know exactly what Xapo _is_ or whether it’s relevant to _me_.
 
 ## The tour didn’t work. Let’s try navigating around.
 
-Let’s look at the Xapo navigation options. We find six navigational items that are treated equally from a visual design point of view:
+Let’s look at the Xapo navigation options. We find six items that are treated equally from a visual design point of view:
 
 ![][7]
 
 1. An “about” area, where I hope I can learn more about what this product actually is.
 2. Two “product” areas, for the wallet and the vault.
-3. One “context” area, Institutions. I’m an individual, so I’ll skip that one.
+3. One “contextual” area, Institutions. I’m an individual, so I guess I should skip that one.
 4. A functional area, “login”. I’ll also skip that for the moment.
 5. And a hamburger menu, which, although it can have its place, is known to be the junk drawer of navigation controls, as you have no idea what to expect there.
 
@@ -104,7 +104,7 @@ So here’s the About page:
 
 ![][8]
 
-Reading this, I’m now thinking that the product is somehow a _combination_ of a bitcoin wallet, but not exposed to the risks I’ve read about with other online wallets. That sounds pretty good, and I find myself wanting to learn more about that works.
+Reading this, I’m now thinking that the product is somehow a _combination_ of a bitcoin wallet and a vault, perhaps not exposed to the risks I’ve read about with other online wallets. That sounds pretty good, and I find myself wanting to learn more about how that works.
 
 But to learn more, it looks like I’ll need to tap the pulsating “down arrow”, because the designers felt that before understanding more about the product, I’m more likely to want to read—again—about the company’s investors.
 
@@ -112,7 +112,7 @@ So I click the down arrow, expecting to be taken somewhere where I can learn mor
 
 ## Let’s just create an account
 
-If I can't understand the product from the marketing site, maybe it'll all make sense if I just create an account. After doing that and logging in, I see three equal navigation items—xapo, wallet and vault. (And I find myself wondering why they’re all displayed in lower case, since at least Xapo has until now been consistently capitalized.) 
+If I can’t understand the product from the marketing site, maybe it’ll all make sense once I create an account. After doing that and logging in, I see three equal navigation items—xapo, wallet and vault. (And I find myself wondering why they’re all displayed in lower case, since at least Xapo has until now been consistently capitalized.) 
 
 So I click to access the “wallet”.
 
@@ -126,15 +126,15 @@ Let’s try clicking on the gear icon:
 
 ![][10]
 
-Now I’m even more confused:
+This feels a bit overwhelming, and now I’m even more confused:
 
-- I still don’t know why I’m looking at an “X”
+- I still don’t know why I’m looking at an “X”. Should I email support about that?
 - Apparently this is the wallet I’ll use to send “micropayments” through “Twitter and third-party apps”. What if I want to send payments that are not “micro”? And what’s a “third party app”?
 - There’s no contextual help information around the concepts of “Who can access this wallet?” What does it even mean to “invite someone to my wallet”? Why should anyone other than me have access?
 
-At this point I’m thinking, “OK, I was just looking for a place to store my bitcoins, but this thing looks WAAAY to complicated for my needs.”
+At this point I’m thinking, “OK, I was just looking for a place to store my bitcoins, but this thing looks *waaaaaay* too complicated for my needs.”
 
-Let’s click on the “vault”:
+Let’s try the “vault”:
 
 ![][11]
 
@@ -148,15 +148,15 @@ This UI gives the impression I’m transfering from my black "X" (different type
 
 And for some reason, whereas everywhere else in the site the submit buttons span the width of the window, _here_ it’s shorter.
 
-I believe it was around now, when I decided to switch to another product. All of these conceptual friction points caused me to feel insecure in using the product, and I also had a lingering suspicion that the product wasn’t really even intended for _me_.
+I believe it was around now, when I decided to just switch to another product. All of these conceptual and UI friction points caused me to feel insecure in using the product, and I also had a lingering suspicion that the product wasn’t really even intended for _me_.
 
 ## Miscellaneous issues
 
-I observered a number of other, minor, design and copy quibbles at the website, none of which were show-stoppers, but all of which compound in terms of experience and impression.
+I observered a number of other, minor design and copy quibbles at the website, none of which were show-stoppers, but all of which compound in terms of experience and impression.
 
 ![][1]
 
-I think the website needs some tightening and editing of the copy. For example, when you say, “Secure bitcoin storage is what we do best,” the first thing that comes to my mind is, “Everything else we do, we do worse.” Something like, “We’re the industry leader in secure bitcoin storage.” would be better.
+I think the website needs some tightening and editing of the copy. For example, when you say, “Secure bitcoin storage is what we do best,” the first thing that comes to my mind is, “Everything else we do, we do worse.” Something like, “We’re the industry leader in secure bitcoin storage” might be better.
 
 ![][2]
 
@@ -168,17 +168,17 @@ And here’s some poor attention to detail. Margin spacing is off. Font size doe
 
 ## Redesigning the product
 
-The design Xapo, specifically, would require an understanding of the business priorities of the company, which we don’t currently have. For example, we don’t know the relative importance of providing services to individuals vs institutions. (Xapo, for example, happens to be the custodian for a new Bitcoin ETF traded on the stock market.)
+To design Xapo, specifically, would require an understanding of the business priorities of the company, which we don’t currently have. For example, we don’t know the relative importance of providing services to individuals vs institutions. (Xapo was recently announced to be the custodian for a new Bitcoin ETF traded on the stock market.)
 
-So while redesigning Xapo is beyond the scope of this article, we can at least identify some likely objectives.
+So while a Xapo redesign is beyond the scope of this article, we can at least identify some likely objectives.
 
 - Let’s communciate what the product is, why you need it, and why you should choose Xapo _long_ before getting into the implementation details of encrypted servers and 100 meter bunkers.
 
 - A considerable conceptual challenge is helping the user to understand _why_ they would need both hot and cold wallets. Savings vs checking accounts comes to mind as an analogy, but falls short.
 
-- In the UI, consider presenting the wallet and vault more like components of a single product, instead of two separate things.
+- In the UI, let’s consider presenting the wallet and vault more like components of a single product, instead of two separate things.
 
-- Let's ensure that the process of signing up, creating a wallet, getting bitcoins into the wallet, and then understanding that we might want _some_ of those bitcoins put into cold storage, is friction-free in concept and workflow.
+- Let’s ensure that the process of signing up, creating a wallet, getting bitcoins into the wallet, and then understanding that we might want _some_ of those bitcoins put into cold storage, is friction-free in concept and workflow.
 
 - Let’s introduce the secondary concepts around the product—multi-signatures, buying bitcoins, etc.—only after we’re sure users understand the core product.
 
@@ -188,4 +188,6 @@ So while redesigning Xapo is beyond the scope of this article, we can at least i
 
 - Let’s make the user experience engaging and reassuring. The dark theme of the current product feels somehow omninous.
 
-The design of a product like Xapo is a big challenge, as it has to both bridge the conceptual gap between people’s existing mental models of currency storage, security and use, and the realities associated a complex system like bitcoin. But it’s a worthwhile challenge to take on, as we want bitcoin to succeed!
+The design of a product like Xapo has to both bridge the conceptual gap between people’s existing mental models of currency storage, security and use, and the realities associated with a complex system like bitcoin. And it has to do that within the context of a product that’s engaging, confidence-inspiring and easy to use.
+
+It’s a big challenge, indeed, but an exciting and worthwhile one to take on, as we all want bitcoin to succeed.
