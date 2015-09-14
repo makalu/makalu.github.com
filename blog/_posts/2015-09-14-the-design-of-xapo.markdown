@@ -190,6 +190,6 @@ So while a Xapo redesign is beyond the scope of this article, we can at least id
 
 - Let’s make the user experience engaging and reassuring. The dark theme of the current product feels somehow omninous.
 
-Finally, let’s keep in mind that as early adopters, we’re participating in a historic process of transitioning normal people into an exciting but unfamiliar new world. Ultimately, after using the product, we want the user to feel better about entering the bitcoin economy than before they joined.
+Finally, let’s keep in mind that as early adopters, we’re participating in a historic process of transitioning people into an exciting but unfamiliar new world. Ultimately, after using the product, we want the user to feel better about entering the bitcoin economy than before they joined.
 
 It’s a big challenge, indeed, but an exciting and worthwhile one to take on, as we all want bitcoin to succeed.
