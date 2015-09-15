@@ -57,28 +57,30 @@ My very first thought was that the word “most” must be missing, i.e. that th
 
 Moving on, this first screen immediately refers to “cold storage” and “multi-signature” technologies. These are concepts that are unlikely to be commonly understood, and as such represents the first potential point of friction in terms of converting a new customer. If I were a new bitcoin user, still grappling with the concept of a “bitcoin wallet”, I think I’d feel unsure whether this product is or isn’t relevant to me.
 
-Still feeling unsure about this product, I’m far more likely to click “Start tour”, than to directly create an account.
+Still feeling unsure about this product, I’m probably more likely to click “Start tour”, than to directly create an account.
 
 ![][4]
 
 Starting the tour, I’m dropped _straight_ into the the topic of “offline encrypted servers”, that are “never connected to the internet”. Remember, this is the *second screen* I see as a potential new Xapo customer, and possibly even a new bitcoin user. I still don't really know what the product is, but I'm launched into a presentation of how its security is implemented.
 
-In that context, some immediate questions that come to mind:
+In that context, some questions a new bitcoin user might have:
 
 - If my bitcoins are offline, does that mean I can’t use them?
 - Why are the servers “never connected to the internet”?
+
+(I know the answers to these questions, but I don’t expect the non-technical bitcoin user would.)
 
 Clicking next…
 
 ![][5]
 
-I’m on screen number three, and I’m looking at “Wave-blocking Faraday cages”. I’m guessing a lot of people might return to their Google search at this point.
+I’m on screen number three, and I’m looking at “Wave-blocking Faraday cages”. I’m afraid a lot of people might return to their Google search at this point.
 
 But for those who continue…
 
 ![][14]
 
-Screen number four talks about storing my bitcoins in Switzerland. Is that even legal? I vaguely remember some recent stories about Americans getting in trouble for having money there. And is the length of the access column _really_ relevant to my decision to use this product?
+Screen number four talks about storing my bitcoins in Switzerland. A new bitcoin user might wonder if that’s even legal, vaguely recalling stories about Americans getting in trouble for having money there. And is the length of the access column _really_ relevant to my decision to use this product?
 
 We continue, just to finish the tour…
 
@@ -174,22 +176,20 @@ But to design Xapo, specifically, would require an understanding of the business
 
 So while a Xapo redesign is beyond the scope of this article, we can at least identify some likely objectives.
 
-- Let’s communciate what the product is, why you need it, and why you should choose Xapo _long_ before getting into the implementation details of encrypted servers and 100 meter bunkers.
+- Let’s communciate what the product is, why you need it, and why you should choose Xapo _long_ before getting into the implementation details of encrypted servers and 100 meter bunkers. Xapo are the best at security, but security is not the _product_.
 
-- A considerable conceptual challenge is helping the user to understand _why_ they would need both hot and cold wallets. Savings vs checking accounts comes to mind as an analogy, but falls short.
-
-- In the UI, let’s consider presenting the wallet and vault more like components of a single product, instead of two separate things.
+- A considerable conceptual challenge is helping the user understand _why_ they would need both hot and cold wallets. Savings vs checking accounts comes to mind as an analogy, but falls short. (Perhaps we could even discover a way to present the wallet and vault as integral components of a single product, instead of two separate things?)
 
 - Let’s ensure that the process of signing up, creating a wallet, getting bitcoins into the wallet, and then understanding that we might want _some_ of those bitcoins put into cold storage, is friction-free in concept and workflow.
 
 - Let’s introduce the secondary concepts around the product—multi-signatures, buying bitcoins, etc.—only after we’re sure users understand the core product.
 
-- Let’s push the heavy stuff on the institutions—e.g. our $40 million dollar funding, our A-level advisors, our bunkers in Switzerland. It’s those who will have the time and interest in all that before making a decision.
+- Let’s divert the heavy stuff to the institutions—e.g. our $40 million dollar funding, our A-level advisors, our bunkers in Switzerland. It’s those who will have the time and interest in all that before making a decision.
 
 - Let’s make sure individuals know that using Xapo is free.
 
-- Let’s make the user experience engaging and reassuring. The dark theme of the current product feels somehow omninous.
+- Let’s make the user experience engaging and reassuring. (The dark theme of the current product feels somehow omninous.)
 
 Finally, let’s keep in mind that as early adopters, we’re participating in a historic process of transitioning people into an exciting but unfamiliar new world. Ultimately, after using the product, we want the user to feel better about entering the bitcoin economy than before they joined.
 
-It’s a big challenge, indeed, but an exciting and worthwhile one to take on, as we all want bitcoin to succeed.
+It’s a big challenge, indeed, but an exciting and worthwhile one to take on, since as product designers we have a huge opportunity to help bitcoin succeed!
