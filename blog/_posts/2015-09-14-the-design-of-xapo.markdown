@@ -192,4 +192,4 @@ So while a Xapo redesign is beyond the scope of this article, we can at least id
 
 Finally, let’s keep in mind that as early adopters, we’re participating in a historic process of transitioning people into an exciting but unfamiliar new world. Ultimately, after using the product, we want the user to feel better about entering the bitcoin economy than before they joined.
 
-It’s a big challenge, indeed, but an exciting and worthwhile one to take on, since as product designers we have a huge opportunity to help bitcoin succeed!
+It’s a big challenge, indeed, but an exciting and worthwhile one to take on, since as product designers we have a huge opportunity and role to play in helping bitcoin succeed!
