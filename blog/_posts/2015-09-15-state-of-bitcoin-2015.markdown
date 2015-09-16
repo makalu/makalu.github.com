@@ -107,7 +107,7 @@ That implies a requirement for anyone using bitcoin to continually track cost ba
 
 Given its relative stabilization in price, observing its continual increase in transaction volume, and witnessing a growing momentum in the emergence of related innovative products and services, I’m more optimistic about the future of bitcoin than ever. It’s exciting to imagine the possibilities that would be enabled in a world in which bitcoin is successful, especially for people like myself, who enjoy geographical independence of home, business, employees and customers.
 
-On the other hand, slow-to-adapt governments _already_ make it difficult for people to operate internationally, and since the widespread use of digital currencies is not particularly in their interests, I foresee governments becoming even larger points of friction in the process of bitcoin realizing its full potential.
+On the other hand, slow-to-adapt governments _already_ make it difficult for people to operate internationally, and since the widespread use of digital currencies is not particularly in their interest, I foresee governments becoming even larger points of friction in the process of bitcoin realizing its full potential.
 
 In any case, as with past technological shifts, translating unfamiliar concepts into engaging and usable consumer products is an exciting and important design challenge, and one I hope our team at Makalu has the opportunity to take on, whether through helping an innovator’s product to achieve widespread appeal, or in developing our own.
 
