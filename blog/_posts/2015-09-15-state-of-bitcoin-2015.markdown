@@ -73,7 +73,7 @@ And using blockchain technology, the platform allows public confirmation that, a
 
 ![][11]
 
-Since the only way to get funds _out_ of Bitreserve presently is bitcoin, the platform seems to be of minimal transactional utility, but they claim to be in the process developing interfaces with traditional financial channels like debit cards, bank transfers, etc. 
+Since the only way to get funds _out_ of Bitreserve is bitcoin, the platform presently seems to be of minimal transactional utility; however, Bitreserve claim to be in the process developing interfaces with traditional financial channels like debit cards, bank transfers, etc. 
 
 For the moment, the practical uses of Bitreserve would include, say, holding of one’s cash savings, mitigating exchange rate risks associated with future expenses in a foreign currency, speculation on currencies or metals, or even to retain one’s investment in, say, physical gold (although with a 2% exchange commission, I think BitGold, discussed below, is a better options for that.)
 
