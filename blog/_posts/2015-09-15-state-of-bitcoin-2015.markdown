@@ -4,7 +4,7 @@ published: true
 title: The State of Bitcoin in 2015
 author: Matt Henderson
 twitter_username: mhenders
-excerpt: This article assesses the bitcoin landscape in 2015, and the changes we’ve observed since first becoming interested in the digital technology back in 2012.
+excerpt: This article takes a look at the bitcoin landscape in 2015, in terms of the changes we’ve observed since first becoming interested in the digital technology back in 2012.
 ---
 
 [1]: http://coinbase.com
