@@ -73,23 +73,23 @@ And using blockchain technology, the platform allows public confirmation that, a
 
 ![][11]
 
-Since the only way to get funds _out_ of Bitreserve is bitcoin, the platform presently seems to be of minimal transactional utility; however, Bitreserve claim to be in the process developing interfaces with traditional financial channels like debit cards, bank transfers, etc. 
+Since the only way to get funds _out_ of Bitreserve is bitcoin, the platform presently seems to be of minimal transactional utility; however, Bitreserve claim to be in the process of developing interfaces with traditional financial channels like debit cards, bank transfers, etc. 
 
-For the moment, the practical uses of Bitreserve would include, say, holding of one’s cash savings, mitigating exchange rate risks associated with future expenses in a foreign currency, speculation on currencies or metals, or even to retain one’s investment in, say, physical gold (although with a 2% exchange commission, I think BitGold, discussed below, is a better options for that.)
+But for the moment, the practical uses of Bitreserve would include, say, holding of one’s cash savings, mitigating exchange rate risks associated with future expenses in a foreign currency, speculation on currencies or metals, or even to retain one’s investment in, say, physical gold (although with a 2% exchange commission, I think BitGold, discussed below, is a better options for that.)
 
 Payment processors like [**Stripe**][13] have integrate bitcoin into their products, allowing businesses to extend product marketing into regions where credit card penetration is lower, but digital currency adoption is higher—e.g. developing nations, and nations with currency instability like Argentina.
 
 ![][12]
 
-Although not directly bitcoin-related, the Canadian company [**BitGold**][8] has brought convenience and improvements to the area of acquiring, storing and using gold. 
+Although not directly related to bitcoin, the Canadian company [**BitGold**][8] has brought convenience and improvements to the acquisition, storing and usage of gold. 
 
 ![][14]
 
 Previously I used BullionVault as custodian of physical gold, but eventually left due to its inconveniences; for example, their gold accounts can only be associated with one bank account, and so moving funds into and out of the service proved restrictive and involved costly (and error prone) international wire transfers.
 
-BitGold allow you to purchase physical gold through ACH bank transfer, credit card purchase and bitcoin—and even choose among several vaults worldwide for its storage. (It’s interesting, however, that when purchasing gold with bitcoin, the only vault option provided is Dubai.)
+BitGold allow you to purchase physical gold through ACH bank transfer, credit card purchase and bitcoin—and even choose among several vaults worldwide for its storage. It’s interesting, however, that when purchasing gold with bitcoin, the only vault option provided is Dubai.
 
-You can sell gold and retrieve funds via ACH bank transfer (to any account you’ve connected) or via a super-convenient pre-paid debit card, available in any of three currencies. If you want, there’s even an option to have your physical gold shipped to your house. Finally, BitGold have promised to allow withdrawals in bitcoin in the near future.
+You can sell gold and retrieve funds via ACH bank transfer—to any account you’ve connected—or via a super-convenient pre-paid debit card, available in any of three currencies. If you want, there’s even an option to have your physical gold shipped to your house. Finally, BitGold have promised to allow withdrawals in bitcoin in the near future.
 
 BitGold’s costs are attractive. Purchasing or selling gold is done at 1% within the spot price, and there are _no storage costs_. I simulated a cost comparsion with BullionVault, who have a lower purchase fee, but charge an annual storage fee. If you hold gold for more than a few years, the overall costs easily work out in favor of BitGold.
 
