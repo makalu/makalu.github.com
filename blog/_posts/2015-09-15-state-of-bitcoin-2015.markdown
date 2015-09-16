@@ -23,11 +23,11 @@ excerpt: This article takes a look at the bitcoin landscape today, in terms of t
 [14]: http://files.dafacto.com/uploads/Screen%20Shot%20on%202015-09-16%20at%2012_44_04.png
 [15]: http://www.irs.gov/pub/irs-drop/n-14-21.pdf
 
-In 2012, a visiting friend from Berlin got me excited about bitcoin. During the next several months, wild price fluctuations, the scent of speculation and spectacular collapses of exchanges like Mt. Gox, caused many to dismiss bitcoin as nothing more than a bubble that would eventually pop and disappear, like the Dutch Tulip mania of the 1600s.
+In 2012, a visiting friend from Berlin got me excited about bitcoin. During the next several months, wild price fluctuations, the scent of speculation and spectacular collapses of exchanges like Mt. Gox, caused many to dismiss bitcoin as nothing more than craze that would eventually disappear like the Dutch Tulip mania of the 1600s.
 
-The effects of speculation unfortunately obscured the promise of bitcoin’s underlying technology. With bitcoin, the transfer of value—whether $1 or a million—is instantaneous, irreversable and nearly cost free. And its network-distributed “blockchain” provides a level of transparency and accountability that has never before existed in financial transations.
+The focus on speculation at the time obscured the promise of bitcoin’s underlying technology. With bitcoin, the transfer of value—whether $1 or a million—is instantaneous, irreversable and nearly cost free. And its network-distributed “blockchain” provides a level of transparency and accountability that has never before existed in financial transations.
 
-In 2012, my hope was that bitcoin would survive. Today, in September 2015, I thought I’d reflect on some observations of how its doing.
+In 2012, my hope was that bitcoin would survive. Today, in September 2015, I’d like to reflect on how it’s doing.
 
 ## Price stability & adoption
 
@@ -35,23 +35,23 @@ The price of bitcoin seems to have (relatively) stabilized around $240, as seen 
 
 ![][4]
 
-It hasn’t reached a level of stability that would give me the confidence to store large values, but nonetheless it’s a promising sign in terms of its liklihood to survive.
+It hasn’t reached a level of stability that would give me the confidence to hold significant value in bitcoin, but nonetheless it’s an optimistic sign in terms of its liklihood to survive.
 
 In terms of adoption, it’s also promising to see a steady increase in the number of daily bitcoin transactions.
 
 ![][5]
 
-Many, myself included, imagine that there’s only two outcomes for bitcoin—that it will eventually replace gold as the world’s principle non-fiat store of value, or that it’s value will go to zero. 
+Many, myself included, imagine there’s only two possible outcomes for bitcoin—that it will eventually replace gold as the world’s principle non-fiat store of value, or that its value will go to zero. 
 
 It’s interesting to consider that if bitcoin attained even half of gold’s current $6.5 trillion market cap, the value of a single bitcoin would be worth over $150,000.
 
 ## Wallet technologies
 
-The emergence of **multi-signature wallets** allow users to store their bitcoins with providers like [**Coinbase**][1] and [**Bitgo**][3] in such a way that they can’t be lost to hackers or mischief on the part of platform staff (think Mt Gox).
+The emergence of **multi-signature wallets** allow users to store their bitcoins with providers like [**Coinbase**][1] and [**BitGo**][3] in such a way that they can’t be lost to hackers or mischief on the part of platform staff (think Mt Gox).
 
 The emergence of **hierarchical deterministic wallets** allow  far greater privacy and security, in that a unqiue address can be generated for each transaction, and the entire wallet can be recovered from a complex passphrase in the case of, say, loss of device.
 
-And for those who want to completely delegate the custody of their bitcoins to a third-party, we’ve seen the emergence of services like [**Xapo**][2], who currently lead the market in custody of bitcoins held by large institutions (such as the Bitcoin Investment Trust ETF.)
+And for those who want to completely delegate custody of their bitcoins to a third-party, we’ve seen the emergence of ultra-secure services like [**Xapo**][2], who currently lead the market in custody of bitcoins held by large institutions (including the Bitcoin Investment Trust ETF.)
 
 ![][9]
 
@@ -59,7 +59,9 @@ And for those who want to completely delegate the custody of their bitcoins to a
 
 As someone who has lived in one country, operated a business in another, hired staff in a third, and serviced customers in a forth, I have direct experience with the friction involved in dealing with border-constrained financial institutions, multiple currencies and slow, costly and outdated monetary transfer mechanisms. (Speaking of which, did you know people still send *paper checks* in the United States?)
 
-In that context, I’ve been excited to see the emergence of innovative financial products set to disrupt international finance—many of which use bitcoin as an *infrastructure or access component*, rather than as a currency, exploiting the speed, low cost and blockchain validation benefits inherent to the technology, while mitigating risks associated with bitcoin’s relative price volatility.
+In that context, I’ve been excited to see the emergence of innovative financial products set to disrupt international finance—many of which use bitcoin as an *infrastructure or access component*, rather than as a currency, taking advantage of the speed, low cost and blockchain validation benefits inherent to the technology, while mitigating risks associated with bitcoin’s price volatility.
+
+For example, [**Bitwage**][7] is a platform working to allow companies to extend payroll services worldwide, from native currency of the business to local currency of the workers, using bitcoin and its network as a fast and low cost transport.
 
 [**Bitreserve**][6] is a product created by one of the Salesforce founders, whose value proposition is to act like a bank, but without exposing its customers to the risks associated with traditional fractional reserve banking. 
 
@@ -78,8 +80,6 @@ For the moment, the practical uses of Bitreserve would include, say, holding of 
 Payment processors like [**Stripe**][13] have integrate bitcoin into their products, allowing businesses to extend product marketing into regions where credit card penetration is lower, but digital currency adoption is higher—e.g. developing nations, and nations with currency instability like Argentina.
 
 ![][12]
-
-[**Bitwage**][7] is a platform working to allow companies to extend payroll services and payments to anyone in the world, from native currency to local currency of the workers, using bitcoin and its network as a low cost and instantaneous transport.
 
 Although not directly bitcoin-related, the Canadian company [**BitGold**][8] has brought convenience and improvements to the area of acquiring, storing and using gold. 
 
