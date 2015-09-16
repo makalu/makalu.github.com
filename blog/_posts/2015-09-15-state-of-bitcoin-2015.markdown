@@ -97,11 +97,11 @@ Although a relatively new company, BitGold acquired BullionVault’s main compet
 
 ## Future concerns
 
-If Bitcoin succeeds, we can imagine ourselves in a world in which we’re transacting daily with the currency as we would today in dollars and euros, in which bitcoin is used as an transport layer to bring speed, low costs and accountability to fiat systems, and in which we possibly store a portion of our wealth in bitcoin.
+If bitcoin succeeds, we can imagine ourselves in a world in which we’re transacting daily with the currency as we would today in dollars and euros, in which bitcoin is used as an transport layer to bring speed, low costs and accountability to fiat systems, and in which we possibly store a portion of our wealth in bitcoin.
 
 A concern I have imagining such a world, is government’s tax treatment of digital currencies. For example, the US government currently [treats digital currencies as property][15], subject to capital gains on certain transactions.
 
-That implies a requirement for anyone using bitcoin to continually track their fiat-equivalent cost basis when purchasing, as well as current exchange rates when disposing of bitcoin. Such a burden would obviously become impractical in the world described above. Just imagine if every time you earned or spent a dollar, you were required to keep track of the current exchange rate of gold. And imagine if having earned $1,000 in January and later spent that $1,000 in June, you could find yourself subject to capital gains tax if, in the meantime, the USD exchange rate with gold had dropped.
+That implies a requirement for anyone using bitcoin to continually track cost basis and fiat-equivalent exchange rates when buying and using bitcoin. Such a burden would obviously become impractical in the world described above. Just imagine if every time you earned or spent a dollar, you were required to keep track of the current exchange rate of gold. And imagine if having earned $1,000 in January and later spent that $1,000 in June, you found yourself subject to capital gains tax because, in the meantime, the USD exchange rate with gold had dropped.
 
 ## Conclusions
 
