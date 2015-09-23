@@ -26,17 +26,17 @@ Our aim is for ChessDrop users to enter their games directly while at tournament
 
 ## Communicating positional evaluation
 
-Like many chess products, ChessDrop includes an “engine” that can be used to evaluate the current position on the board. Engines return their evaluations as a positive or negative number. Anything between +1 and -1 would be considered equal. An evaluation like +3 or -3, on the other hand, would communicate a winning advantage for white or black, respectively.
+Like many chess products, ChessDrop includes an “engine” that can be used to evaluate the current position on the board. Engines return their evaluations as a positive or negative numbers. Anything between +1 and -1 would be considered equal. An evaluation like +3 or -3, on the other hand, would communicate a winning advantage for white or black, respectively.
 
 In addition to displaying the numerical evaluation, as most products do, we wanted to additionally communicate the positional evaluation in a visual way, and arrived at a solution which involves the vertical background color weighting, dynamically adjusted from move-to-move.
 
 ![][3]
 
-At each move in the game, we also display the game continuation (series of moves) that the chess engine calculates as optimal at this point in the game. The ChessDrop user can, if desired, tap or click into that continuation to explore it, and can return to the recorded game moves at any time.
+At each point in the game, we also display directly below the recorded moves, the game continuation (series of moves) that the chess engine calculates as optimal. The ChessDrop user can, if desired, tap or click into that continuation to explore it, and then return to the recorded game at any time.
 
 ## Annotating the game with comments
 
-Chess players (and their trainers) depend on the ability to annotate their recorded games with comments. Most chess products display those comments in the textual representation of the game:
+Chess players (and their trainers) depend on the ability to annotate their recorded games with comments. Most chess products display those comments in the textual representation of the game, as you can see here.
 
 ![][4]
 
@@ -46,12 +46,12 @@ In ChessDrop, we wanted to find an alternative approach, that would allow commen
 
 ## Game sharing
 
-Finally, we were interested in designing a concluding experience that clearly indicated that the game was over, what the result was, and encouraged you to share. As an incentive to share, we allow players who have entered their game in ChessDrop to send their opponent an invitation to add a copy of the game into their own account. In addition to saving the opponent time, we open the door to social interaction within the platform, and help to organically spread the word about the product.
+Finally, we were interested in designing a concluding experience that clearly indicated that the game was over, what the result was, and then encourage sharing. As an incentive to share, we allow players who have entered their game in ChessDrop to send their opponent an invitation to add a copy of the game into their own account. In addition to saving the opponent time, we open the door to social interaction within the platform, and help to organically spread the word about the product.
 
 ![][6]
 
 
 ## More to come
 
-Designing and building ChessDrop was a tremendously enjoyable process for us, in which we discovered some new design and interation platform, and had the opportunity to gain experience with the exciting React+Meteor technology stack. We’ll be publishing more articles about the experience in the coming weeks, so be sure to [follow us on Twitter](http://twitter.com/makalu) to be notified when those posts appear.
+Designing and building ChessDrop was a tremendously enjoyable process for us, in which we discovered some new design and interaction patterns, and had the opportunity to gain experience with the exciting React+Meteor technology stack. We’ll be publishing more  about the experience in the coming weeks, so be sure to [follow us on Twitter](http://twitter.com/makalu) to be notified when those posts appear.
 
