@@ -20,7 +20,7 @@ The Makalu team recently launched its third product, [ChessDrop][1], a cloud-bas
 
 ## Mobile first
 
-Our aim is for ChessDrop users to enter their games directly while at the tournaments, and so clearly mobile-first was a priority. From the positioning of the player names, to interacting with the game moves, to lower thumb-targeting placement of the forward/backward controls, visual and interaction designs taking into account smartphone, tablet and desktop environments, in portrait and landscape orientation, was a considerable challenge.
+Our aim is for ChessDrop users to enter their games directly while at tournaments, and so designing for mobile was a clear priority. From positioning of the player names, to game move interaction, to thumb-targeted placement of the forward/backward controls, the design and implementation of the user interface to work well in smartphone, tablet and desktop environments was a considerable challenge.
 
 ![][2]
 
