@@ -16,6 +16,8 @@ excerpt: In this article, we share some interesting design details from our late
 
 The Makalu team recently launched its third product, [ChessDrop][1], a cloud-based personal chess games database. From the technology stack we chose—React, Meteor & Heroku—to the design process, there’s much I plan to tell you about in the coming weeks. But for now, in this brief post, I’d like to whet your appetite with a few of the key design details you’ll find in the product.
 
+(And please pardon some of the UI artifacts from the process of creating animated GIF demos!)
+
 ## Mobile first
 
 Our aim is for ChessDrop users to enter their games directly while at the tournaments, and so clearly mobile-first was a priority. From the positioning of the player names, to interacting with the game moves, to lower thumb-targeting placement of the forward/backward controls, visual and interaction designs taking into account smartphone, tablet and desktop environments, in portrait and landscape orientation, was a considerable challenge.
