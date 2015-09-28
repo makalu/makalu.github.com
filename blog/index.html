@@ -1,29 +1,32 @@
 ---
-layout: blog
+layout: main
 id: blog
 ---
+<section>
+  <div class="mountains"></div>
+  <header>
+    <h1>The Summit</h1>
+    <p>
+      <big>
+        Makalu's blog about design, code & everything else.
+      </big>
+     </p>
+  </header>
 
-{% for post in site.categories.blog %}
-  <article class="post-excerpt">
-    <div class="post-excerpt-title">
-      <h3>
+  {% for post in site.categories.blog %}
+    <article class="post-excerpt">
+      <h3 class="post-excerpt-title">
         <a href="{{ post.url }}" title="{{ post.title }}">
           {{ post.title }}
         </a>
       </h3>
-      <p>
-        {% if post.author %}
-          <em>by</em>
-          <strong> {{ post.author }}</strong>
-        {% endif %}
-      </p>
-    </div>
 
-    <div class="post-excerpt-text">
-      {{ post.excerpt | markdownify }}
+      <div class="post-excerpt-text">
+        {{ post.excerpt | markdownify }}
+      </div>
       <a href="{{ post.url }}" title="{{ post.title }}" class="read-link">
         Read post <span class="arrow">&rarr;</span>
       </a>
-    </div>
-  </article>
-{% endfor %}
+    </article>
+  {% endfor %}
+</section>

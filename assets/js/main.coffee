@@ -1,23 +1,31 @@
 ---
 ---
 
+$body = $('body')
+$sections = $('section')
+
+windowHeight = $(window).height()
+offset = (windowHeight / 4)
+direction = 'down'
+lastScrollTop = 0
+
+$(window).on 'resize', (e) ->
+  windowHeight = $(window).height()
+  offset = (windowHeight / 2.5)
+
 $(window).on 'scroll', (e) ->
-  if document.body.scrollTop > ($('section.clients').position().top - 400)
-  	$(document.body).addClass('alt-1')
-  else
-  	$(document.body).removeClass('alt-1')
+  scrollTop = $body.scrollTop()
+  direction = if lastScrollTop < scrollTop then 'down' else 'up'
 
-  if document.body.scrollTop > ($('section.services').position().top - 400)
-  	$(document.body).addClass('alt-2')
-  else
-  	$(document.body).removeClass('alt-2')
+  $sections.each (i, section) =>
+    className = $(section).attr('class').split(' ')[0]
 
-  if document.body.scrollTop > ($('section.about').position().top - 400)
-  	$(document.body).addClass('alt-3')
-  else
-  	$(document.body).removeClass('alt-3')
+    if scrollTop > ($(section).position().top - (if direction == 'down' then offset else offset / 2))
+      $body.addClass("#{className}-active")
+    else
+      $body.removeClass("#{className}-active")
 
-  if document.body.scrollTop > ($('section.contact').position().top - 400)
-  	$(document.body).addClass('alt-4')
-  else
-  	$(document.body).removeClass('alt-4')
+    if scrollTop + windowHeight > ($(section).position().top + windowHeight - (offset / 1.5))
+      $body.addClass("#{className}-visible")
+
+  lastScrollTop = scrollTop
