@@ -15,19 +15,21 @@
   <link rel="alternate" type="application/atom+xml" href="/feed.xml" />
 </head>
 <body id="{{ page.id }}">
-  <header>
-    <a href="/" class="logo">
-      <img src="/assets/img/makalu.svg" alt="" class="logo-icon">
-      <img src="/assets/img/makalu.png" alt="makalu" class="logo-type">
-    </a>
-    <nav>
-      <a {% if page.id == "home" %} class="active"{% endif %} href="/">home</a>
-      <a {% if page.id == "story" %} class="active"{% endif %} href="/our-story">our story</a>
-      <a {% if page.id == "blog" or page.id == "post" %} class="active"{% endif %} href="/blog">blog</a>
-    </nav>
-  </header>
+  <div class="wrapper">
+    <header>
+      <a href="/" class="logo">
+        <img src="/assets/img/makalu.svg" alt="" class="logo-icon">
+        <img src="/assets/img/makalu.png" alt="makalu" class="logo-type">
+      </a>
+      <nav>
+        <a {% if page.id == "home" %} class="active"{% endif %} href="/">home</a>
+        <a {% if page.id == "story" %} class="active"{% endif %} href="/our-story">our story</a>
+        <a {% if page.id == "blog" or page.id == "post" %} class="active"{% endif %} href="/blog">blog</a>
+      </nav>
+    </header>
 
-  {{ content }}
+    {{ content }}
+  </div>
 
   <script src="/assets/js/sprint.js"></script>
   <script src="/assets/js/main.js"></script>

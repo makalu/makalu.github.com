@@ -195,6 +195,11 @@ form {
     &:active {
       border-color: darken($borderColor, 20%);
     }
+
+    @include min {
+      height: 52px;
+      font-size: 24px;
+    }
   }
 
   textarea {
@@ -335,9 +340,9 @@ $transition: .25s cubic-bezier(.65, .65, .30, 1);
 $borderColor: #E0DCCA;
 
 body {
-  max-width: $normalWidth;
-  margin: 0 auto;
-  padding-bottom: 100px;
+  min-width: $wideWidth + 80px;
+  padding: 40px;
+  padding-bottom: 160px;
 
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -351,36 +356,17 @@ body {
   background: #F5F2E9;
   transition: background-color $transition;
 
-  > header {
-    padding: 120px 0;
-
-    nav {
-      display: inline-block;
-      padding: 0 16px;
-      a {
-        display: inline-block;
-        padding: 0 16px;
-        font-size: 16px;
-        font-weight: 800;
-        color: desaturate(darken($borderColor, 25%), 15%);
-
-        &:hover {
-          color: $tintColor;
-        }
-
-        &.active {
-          color: inherit;
-        }
-      }
-    }
-  }
-
   &#home {
     padding-bottom: 0;
   }
 
   &.contact-active {
     background: #2d3640;
+  }
+
+  @include min {
+    min-width: $normalWidth + 80px;
+    font-size: 20px;
   }
 }
 
@@ -412,7 +398,7 @@ h4 {
 }
 
 strong {
-  font-size: 19px;
+  font-size: 1.05em;
   font-weight: 800;
 }
 
@@ -420,6 +406,12 @@ big {
   font-size: 30px;
   font-weight: 400;
   line-height: 42px;
+}
+
+small {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 blockquote {
@@ -433,11 +425,53 @@ blockquote {
   border-width: 3px 0;
 }
 
+.wrapper {
+  max-width: $normalWidth;
+  margin: 0 auto;
+
+  > header {
+    padding: 120px 0;
+
+    nav {
+      display: inline-block;
+      padding: 0 16px;
+      a {
+        display: inline-block;
+        padding: 0 16px;
+        font-size: 16px;
+        font-weight: 800;
+        color: desaturate(darken($borderColor, 25%), 15%);
+
+        &:hover {
+          color: $tintColor;
+        }
+
+        &.active {
+          color: inherit;
+        }
+      }
+    }
+
+    @include min {
+      padding-top: 60px;
+      nav {
+        a {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
 .wide {
   width: $wideWidth;
   margin: {
     left: -($wideWidth - $normalWidth) / 2;
     right: -($wideWidth - $normalWidth) / 2;
+  }
+
+  @include min {
+    max-width: $normalWidth;
+    margin: 0 auto;
   }
 }
 .narrow {
@@ -455,6 +489,9 @@ blockquote {
 }
 .medium {
   font-size: 16px;
+  @include min {
+    font-size: 18px;
+  }
 }
 .big-margin {
   margin-top: 60px;
@@ -522,6 +559,13 @@ section {
       border: dotted $borderColor;
       border-width: 3px 0;
     }
+
+    @include min {
+      &::before {
+        left: 0;
+        right: 0;
+      }
+    }
   }
 
   &.intro {
@@ -565,6 +609,12 @@ section {
         &:nth-child(6) { transition-delay: .5s }
       }
     }
+
+    @include min {
+      > header {
+        margin: 0 30px;
+      }
+    }
   }
 
   &.services {
@@ -604,7 +654,6 @@ section {
     transition: opacity $transition;
 
     > header {
-      margin: 0 -20px;
       padding-bottom: 60px;
       p:first-of-type {
         font-size: 22px;
@@ -651,11 +700,22 @@ section {
           left: -120px;
           right: -120px;
           border-bottom: 3px dotted $borderColor;
+
+          @include min {
+            left: 0;
+            right: 0;
+          }
         }
       }
 
       > header {
         font-size: 22px;
+      }
+    }
+
+    @include min {
+      > header {
+        margin: 0 20px;
       }
     }
   }
@@ -667,6 +727,7 @@ section {
     padding-bottom: 100px;
     @include flexbox;
     align-items: center;
+    justify-content: center;
 
     &::before {
       display: none;
@@ -679,6 +740,10 @@ section {
   border-radius: 5px;
   box-shadow: $borderColor 0 2px;
   background: #fff;
+
+  @include min {
+    padding: 50px;
+  }
 }
 
 .quote {
@@ -735,8 +800,8 @@ ul.people {
     list-style: none;
 
     img {
-      @include flex(0 0 280px);
-      height: 280px;
+      @include flex(0 0 290px);
+      height: 290px;
     }
 
     div {
@@ -773,6 +838,14 @@ ul.people {
       }
     }
   }
+
+  @include min {
+    li {
+      div {
+        padding: 20px 30px;
+      }
+    }
+  }
 }
 
 ul.check {
@@ -789,6 +862,14 @@ ul.check {
 
   strong {
     display: block;
+  }
+
+  @include min {
+    font-size: 1.25em;
+    line-height: 1.4;
+    strong {
+      margin-bottom: 5px;
+    }
   }
 }
 
@@ -830,6 +911,19 @@ ul.four-up {
       padding-left: 80px;
     }
   }
+
+  @include min {
+    li {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      &:nth-child(odd) {
+        padding-right: 40px;
+      }
+      &:nth-child(even) {
+        padding-left: 40px;
+      }
+    }
+  }
 }
 
 ul.logos {
@@ -852,6 +946,13 @@ ul.logos {
     &.oreilly { background-image: url('/assets/img/logos/oreilly.png'); }
     &.mlk { background-image: url('/assets/img/logos/mlk.png'); }
     &.catalogchoice { background-image: url('/assets/img/logos/catalogchoice.png'); }
+  }
+
+  @include min {
+    margin: 60px 60px 80px !important;
+    li {
+      @include flex(0 0 50%);
+    }
   }
 }
 
@@ -923,6 +1024,10 @@ ul.links {
   &-type {
     height: 28px;
   }
+
+  @include min {
+    margin-left: 0;
+  }
 }
 
 .attention {
@@ -934,6 +1039,10 @@ ul.links {
   color: #fff;
   border-radius: 3px;
   background: $tintColor;
+
+  @include min {
+    font-size: 22px;
+  }
 }
 
 .browser {
@@ -948,6 +1057,7 @@ ul.links {
 
   img {
     display: block;
+    width: 100%;
     margin: 0;
     margin-bottom: -2px;
   }
@@ -970,13 +1080,18 @@ ul.links {
   position: absolute;
   top: 0;
   right: 100%;
-  margin-top: -120px;
-  margin-right: -270px;
+  margin-top: -122px;
+  margin-right: -271px;
 
   width: 768px;
   height: 391px;
   background: url(/assets/img/mountains.png) no-repeat left top;
   background-size: 100% 100%;
+
+  @include min {
+    margin-right: -488px;
+    transform: scaleX(-1);
+  }
 }
 
 
@@ -1100,6 +1215,10 @@ ul.links {
       @extend .big-margin;
       font-size: 26px;
       line-height: 1.55;
+
+      @include min {
+        font-size: 32px;
+      }
     }
 }
 
@@ -1118,6 +1237,10 @@ ul.links {
       &:hover {
         color: $tintColor;
       }
+    }
+
+    @include min {
+      font-size: 32px;
     }
   }
 
