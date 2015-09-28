@@ -5,7 +5,7 @@ $body = $('body')
 $sections = $('section')
 
 windowHeight = $(window).height()
-offset = (windowHeight / 4)
+offset = (windowHeight / 3.33)
 direction = 'down'
 lastScrollTop = 0
 
