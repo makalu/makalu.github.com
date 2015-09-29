@@ -1,6 +1,7 @@
 ---
 ---
 
+$window = $(window)
 $body = $('body')
 $sections = $('section')
 
@@ -15,7 +16,7 @@ if $body.attr('id') == 'home'
     offset = (windowHeight / 2.5)
 
   $(window).on 'scroll', (e) ->
-    scrollTop = $body.scrollTop()
+    scrollTop = $window.scrollTop()
     direction = if lastScrollTop < scrollTop then 'down' else 'up'
 
     $sections.each (i, section) =>
