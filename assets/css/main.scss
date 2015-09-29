@@ -497,6 +497,10 @@ blockquote {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+.extra-big-margin {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
 .big {
   @extend big;
 }
@@ -532,6 +536,22 @@ blockquote {
   -ms-hyphens: auto;
   hyphens: auto;
   word-wrap: break-word;
+}
+.grid {
+  @include flexbox;
+  @include flex-wrap;
+  margin: -10px;
+
+  &-cell {
+    @include flex(0 0 50%);
+    padding: 10px;
+  }
+
+  @include min {
+    &-cell {
+      @include flex(0 0 100%);
+    }
+  }
 }
 .cf {
   &:before,
@@ -706,6 +726,99 @@ section {
     }
 
     article {
+      @include flex(0 0 50%);
+      overflow: hidden;
+      position: relative;
+      height: 240px;
+      font-size: 16px;
+      color: #fff;
+      border-radius: 5px;
+
+      div {
+        z-index: 2;
+        position: absolute;
+        top: 35px;
+        left: 30px;
+        p {
+          max-width: 240px;
+        }
+      }
+
+      &::before {
+        z-index: 1;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      img {
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+      }
+
+      h5 {
+        margin-bottom: 1.5em;
+        color: #fff;
+      }
+
+      &.racesplitter {
+        background: #00bc6a;
+        &::before {
+          background: linear-gradient(90deg, #00bc6a 33%, rgba(#00bc6a, .5));
+        }
+      }
+
+      &.rego {
+        background: #203253;
+        &::before {
+          background: linear-gradient(90deg, #203253 33%, rgba(#203253, .5));
+        }
+      }
+
+      &.mlk {
+        background: #000;
+        &::before {
+          background: linear-gradient(90deg, #000 33%, rgba(#000, .5));
+        }
+      }
+
+      &.day-in-the-cloud {
+        background: #2d78aa;
+        &::before {
+          background: linear-gradient(90deg, #2d78aa 33%, rgba(#2d78aa, .5));
+        }
+      }
+
+      &.referralexchange {
+        background: #35597c;
+        &::before {
+          background: linear-gradient(90deg, #35597c 33%, rgba(#35597c, .5));
+        }
+      }
+
+      @include min {
+        height: 300px;
+        font-size: 22px;
+
+        h5 {
+          font-size: 16px;
+        }
+
+        div {
+          p {
+            max-width: 320px;
+          }
+        }
+      }
+    }
+
+    /* article {
       margin: 160px 0;
 
       & + article {
@@ -729,7 +842,7 @@ section {
       > header {
         font-size: 22px;
       }
-    }
+    } */
 
     @include min {
       > header {
