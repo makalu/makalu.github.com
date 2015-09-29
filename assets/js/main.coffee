@@ -30,3 +30,18 @@ if $body.attr('id') == 'home'
         $body.addClass("#{className}-visible")
 
     lastScrollTop = scrollTop
+
+scrollTo = (element, to, duration) ->
+  return if duration < 0
+  difference = to - element.scrollTop
+  perTick = difference / duration * 10
+
+  setTimeout(->
+    element.scrollTop = element.scrollTop + perTick
+    return if element.scrollTop == to
+    scrollTo(element, to, duration - 10)
+  , 10)
+
+$('.contact-link').on 'click', (e) =>
+  e.preventDefault()
+  scrollTo(document.body, $('.contact').position().top, 333)
