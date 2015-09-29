@@ -808,6 +808,13 @@ section {
         }
       }
 
+      &.chessdrop {
+        background: #333230;
+        &::before {
+          background: linear-gradient(90deg, #333230 33%, rgba(#333230, .5));
+        }
+      }
+
       @include min {
         height: 300px;
         font-size: 22px;
