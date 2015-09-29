@@ -815,6 +815,13 @@ section {
         }
       }
 
+      &.catalogchoice {
+        background: #78af2a;
+        &::before {
+          background: linear-gradient(90deg, #78af2a 33%, rgba(#78af2a, .5));
+        }
+      }
+
       @include min {
         height: 300px;
         font-size: 22px;
