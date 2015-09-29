@@ -597,7 +597,13 @@ section {
 
   &.intro {
     ul {
-      margin: 64px 0 80px 0;
+      margin: 64px 64px 80px 0;
+    }
+
+    @include min {
+      ul {
+        margin-right: 0;
+      }
     }
   }
 
