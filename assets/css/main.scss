@@ -482,8 +482,8 @@ section {
       content: '';
       position: absolute;
       top: 0;
-      left: -120px;
-      right: -120px;
+      left: -100px;
+      right: -100px;
       height: 3px;
       border: dotted $borderColor;
       border-width: 3px 0;
@@ -904,23 +904,34 @@ section {
 
 ul.quotes {
   @include flexbox;
-  margin: -20px;
+  align-items: flex-start;
+  margin: 0 -30px;
   list-style: none;
 
   li {
     margin: 0;
-    padding: 20px;
+    padding: 0 30px;
     @include flex(0 0 33.3333%);
     font-size: 15px;
+
+    & + li {
+      border-left: 1px solid $borderColor;
+    }
 
     p {
       text-indent: -.33em;
       opacity: .85;
     }
 
+    small {
+      font-size: 13px;
+      opacity: .75;
+    }
+
     span {
       display: block;
       line-height: 1.33;
+      color: #111;
     }
 
     img {
