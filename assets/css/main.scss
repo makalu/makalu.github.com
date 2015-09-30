@@ -1273,39 +1273,25 @@ ul.links {
     margin-bottom: 60px;
     p {
       position: relative;
-      padding: 10px 0;
-      margin: 30px 0;
+      padding: 0;
+      margin: -10px 0 0 0;
       color: #888;
       font-size: 16px;
       strong {
         font-size: 16px;
         font-weight: $regularFontWeight;
       }
-
-      &::before,
-      &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 150px;
-        margin-left: -75px;
-        border-bottom: 3px dotted $borderColor;
-      }
-      &::after {
-        top: 100%;
-      }
     }
   }
 
   &-footer {
-    margin-top: 90px;
-    padding: 60px 0 0;
-    border-top: 3px dotted $borderColor;
+    margin-top: 160px;
+    padding: 90px 0 0;
+    border-top: 1px solid $borderColor;
 
     p {
       margin-top: 0;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
       color: #888;
       strong {
         font-weight: $regularFontWeight;
@@ -1342,9 +1328,8 @@ ul.links {
     }
 
     blockquote {
-      @extend .wide;
+      margin-left: -30px;
       padding: 0 0 0 30px;
-      width: 80%;
       text-align: left;
       border: none;
       border-left: 3px solid $borderColor;
@@ -1357,6 +1342,9 @@ ul.links {
 
     figure {
       @extend .wide;
+      img {
+        margin: 0;
+      }
       figcaption {
         padding: 1em 0;
         font-size: $smallFontSize;
