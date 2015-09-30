@@ -75,34 +75,6 @@ a {
   &:visited {}
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  color: #111;
-  line-height: 1.2;
-  font-weight: $boldFontWeight;
-
-  & + p {
-    margin-top: 0.5em;
-  }
-}
-
-h1 {
-  font-size: 35px;
-}
-h2 {
-  font-size: 28px;
-}
-h3 {
-  font-size: 24px; }
-h4 {
-  font-size: 20px; }
-h5 {
-  font-size: $tinyFontSize;
-  font-weight: $boldFontWeight;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 p {
   margin: 1.5em 0;
   &.intro {
@@ -277,8 +249,22 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin: 0;
   color: #111;
   font-weight: 800;
+  & + p {
+    margin-top: 0.5em;
+  }
+  p + & {
+    margin-top: 50px;
+  }
+}
+
+h5 {
+  font-size: $tinyFontSize;
+  font-weight: $boldFontWeight;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -920,7 +906,7 @@ ul.quotes {
     margin: 0;
     padding: 20px;
     @include flex(0 0 33.3333%);
-    font-size: 14px;
+    font-size: 15px;
 
     p {
       text-indent: -.33em;
