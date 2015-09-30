@@ -910,11 +910,14 @@ section {
     box-shadow: $borderColor 0 2px 0;
   }
 
+  p:first-child {
+    text-indent: -.33em;
+  }
+
   div {
     position: relative;
     margin-left: 20px;
     padding: 35px 40px;
-    font-size: 20px;
     border-radius: 10px;
     box-shadow: $borderColor 0 2px 0;
     background: #fff;
@@ -941,6 +944,36 @@ section {
 
     &::after {
       border-right-color: #fff;
+    }
+  }
+}
+
+ul.quotes {
+  @include flexbox;
+  margin: -20px;
+  list-style: none;
+
+  li {
+    padding: 20px;
+    @include flex(0 0 33.3333%);
+    font-size: 14px;
+
+    p {
+      text-indent: -.33em;
+      opacity: .85;
+    }
+
+    span {
+      display: block;
+      line-height: 1.33;
+    }
+
+    img {
+      float: left;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      border-radius: 50%;
     }
   }
 }
