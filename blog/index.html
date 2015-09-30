@@ -15,18 +15,16 @@ id: blog
 
   {% for post in site.categories.blog %}
     <article class="post-excerpt">
-      <h3 class="post-excerpt-title">
+      <h2 class="post-excerpt-title">
         <a href="{{ post.url }}" title="{{ post.title }}">
           {{ post.title }}
+          <span class="arrow">&rarr;</span>
         </a>
-      </h3>
+      </h2>
 
       <div class="post-excerpt-text">
         {{ post.excerpt | markdownify }}
       </div>
-      <a href="{{ post.url }}" title="{{ post.title }}" class="read-link">
-        Read post <span class="arrow">&rarr;</span>
-      </a>
     </article>
   {% endfor %}
 </section>
