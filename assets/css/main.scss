@@ -946,6 +946,54 @@ section {
       border-right-color: #fff;
     }
   }
+
+  @include min {
+    -webkit-flex-direction: column;
+    font-size: 24px;
+
+    img {
+      @include flex(0 0 120px);
+      -webkit-order: 2;
+      width: 120px;
+      height: 120px;
+      margin-left: 150px;
+    }
+
+    small {
+      font-size: 20px;
+      line-height: 1.33;
+    }
+
+    div {
+      margin-left: 0;
+      margin-bottom: 10px;
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        top: auto;
+        bottom: -120px;
+        left: 60px;
+        width: 0;
+        height: 0;
+        border: solid transparent;
+        border-left-width: 60px;
+        border-right-width: 0;
+        border-top-width: 60px;
+        border-bottom-width: 60px;
+      }
+
+      &::before {
+        margin-top: 2px !important;
+        margin-left: -2px;
+        border-top-color: $borderColor;
+      }
+
+      &::after {
+        border-top-color: #fff;
+      }
+    }
+  }
 }
 
 ul.quotes {
@@ -954,6 +1002,7 @@ ul.quotes {
   list-style: none;
 
   li {
+    margin: 0;
     padding: 20px;
     @include flex(0 0 33.3333%);
     font-size: 14px;
@@ -970,10 +1019,32 @@ ul.quotes {
 
     img {
       float: left;
-      width: 40px;
-      height: 40px;
+      width: 44px;
+      height: 44px;
+      margin-top: -4px;
       margin-right: 10px;
       border-radius: 50%;
+      border: 2px solid #fff;
+    }
+  }
+
+  @include min {
+    @include flex-wrap;
+    margin: 0;
+
+    li {
+      @include flex(0 0 100%);
+      padding: 0;
+      padding-top: 40px;
+      margin-top: 40px;
+      margin-bottom: 0;
+      border-top: 1px solid $borderColor;
+
+      img {
+        width: 68px;
+        height: 68px;
+        margin-right: 20px;
+      }
     }
   }
 }
