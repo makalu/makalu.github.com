@@ -14,7 +14,7 @@ excerpt: In this article, we share some interesting design details from our late
 [5]: http://files.dafacto.com/uploads/2015-09-23-comments.gif
 [6]: http://files.dafacto.com/uploads/2015-09-23-end-of-game.gif
 
-The Makalu team recently launched its third product, [ChessDrop][1], a cloud-based personal chess games database. From the technology stack we chose—React, Meteor & Heroku—to the design process, there’s much I plan to tell you about in the coming weeks. But for now, in this brief post, I’d like to whet your appetite with a few of the key design details you’ll find in the product.
+The Makalu team recently launched its third product, [ChessDrop][1], a cloud-based personal chess games database. For the technology stack we chose—React, Meteor & Heroku—to the design process, there’s much I plan to tell you about in the coming weeks. But for now, in this brief post, I’d like to whet your appetite with a few of the key design details you’ll find in the product.
 
 (And please pardon some of the UI artifacts from the process of creating animated GIF demos.)
 
