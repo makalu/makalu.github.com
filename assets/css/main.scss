@@ -215,7 +215,7 @@ $wideWidth: 800px;
 
 $transition: .25s cubic-bezier(.65, .65, .30, 1);
 
-$borderColor: #E0DCCA;
+$borderColor: rgba(#E0DCCA, .75);
 
 body {
   min-width: $wideWidth + 80px;
@@ -231,7 +231,7 @@ body {
   font-size: 18px;
   font-weight: 400;
 
-  background: rgba(#F5F2E9, .5);
+  background: rgba(#F5F2E9, .75);
   transition: background-color $transition;
 
   &#home {
