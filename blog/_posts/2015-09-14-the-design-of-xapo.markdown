@@ -27,11 +27,7 @@ excerpt: Bitcoin is a digital currency that may represent the most important tec
 
 ## The challenge
 
-Through generations of experience, we comfortably relate to the concepts surrounding traditional stores of value and transactional currencies. As a commodity that we can touch and hold, we have an intuitive understanding of gold. We understand that we can put it in a safe or entrust it to a custodian like Brinks. When we transact in gold, we understand that we’re passing ownership of a physical object from one to another. 
-
-We also tend to relate to fiat currencies like Dollars, Euros and Pesos as physical objects, although their realities are more abstract. Like gold, we intuitively understand that we can secure and transact ourselves in physical cash, or we can entrust its security and access to the vaults, credit cards and transfer services of banks.
-
-Bitcoin represents an entirely new paradigm. There’s nothing physical about bitcoin. The “owning” of a bitcoin means the “controlling” of a complex number known as a private key. If we try to relate that private key to something with which we have familiarity, it would be a “wallet”, or a bank account. But whereas most people have one wallet and one checking account, with bitcoin it can be advantageous to create a new private key for every transaction we make!
+Compared to commodities like gold and fiat currencies like Dollars, Bitcoin represents an entirely new conceptual paradigm. There’s nothing physical about bitcoin. The “owning” of a bitcoin means the control of one or more complex numbers known as a private keys. The public side of a private key provides incoming accessibility an “address”. A person might choose to associate all their bitcoins with a single address, or they might choose to create a new one for every transaction they make. To provide a sense of familiarity, private keys can be managed in a bitcoin “wallet”. Different types of wallets are sometimes characterized as “online and hot”, or “offline and cold”.
 
 For products offering the storage, security, and access to one’s bitcoins, translating such foreign notions into concepts that are approachable and understandable by consumers and organizations represents a considerable design challenge—and one that is of critical importance if we’re to achieve widespread adoption of this promising technology.
 
