@@ -1,11 +1,11 @@
 ---
 layout: post
 published: true
-title: Managing customer relations on the Mac with Daylite and Direct Mail
+title: Customer relationship management with Daylite and Direct Mail
 author: Matt Henderson
 twitter_username: mhenders
 teaser: How we use two Mac apps to more effectively communicate with our contacts.
-excerpt: We use two Mac OS X applications—Daylite, a customer relationship management (CRM) tool and Direct Mail, an emailing tool—which together allow us to communicate more effectively.
+excerpt: Learn how we use the combination of two Mac applications—Daylite and Direct Mail—to communicate more effectively.
 ---
 
 To help spread the word about the recent launch of [Rego](http://www.regoapp.com)—an iPhone app for bookmarking locations—we wanted to send an email announcement to our contacts. We use two Mac OS X applications—[Daylite](http://marketcircle.com), a customer relationship management (CRM) tool and [Direct Mail](http://directmailmac.com), an emailing tool—which together allow us to segment and execute such announcements more effectively.
