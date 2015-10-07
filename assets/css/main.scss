@@ -1420,7 +1420,7 @@ ul.links {
   }
 
   article {
-    overflow: hidden;
+    @extend .cf;
     padding: 60px 0;
     border-top: 3px dotted $borderColor;
 
@@ -1429,11 +1429,16 @@ ul.links {
       width: 370px;
     }
 
+    h3 {
+      margin-top: -7px;
+    }
+
     img {
       float: right;
       margin: 0;
       width: 370px;
       border-radius: 4px;
+      box-shadow: rgba(#000, .2) 0 0 4px;
     }
 
     p {
