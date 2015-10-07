@@ -2,14 +2,14 @@
 layout: post
 title: The Story of RaceSplitter
 author: Matt Henderson
-excerpt: After a decade of successful client work, we at Makalu realized our dream of creating our own product — RaceSplitter, an iPhone application for the timing of sporting events. This is the story of how it happened.
+excerpt: After a decade of successful client work, we at Makalu realized our dream of creating our own product—RaceSplitter, an iOS application for the timing of sporting events. This is the story of how it happened.
 ---
 
 This article was first featured on the blog at [37signals](http://37signals.com/svn/posts/2808-how-makalu-interactive-created-the-international-iphone-hit-racesplitter) (a company which has long been a role model for us).
 
 ### Makalu — history of a service provider
 
-Since 2001, our small team at Makalu Interactive has provided web design and development services for clients around the world. We've been fortunate to work on some high-profile projects, including the [original](http://www.makalumedia.com/skitch/cc-original-20100913-180735.html) CatalogChoice.org site, which gained over one million users in its first year, and the interactive game anchoring the Google & Virgin America cross-marketing campaign, [Day in the Cloud](http://dayinthecloud.com). (And as a side note, [Sortfolio](http://sortfolio.com/company/6420-makalu-interactive) has proven to be an amazing source of high-quality leads for us.)
+Since 2001, our small team at Makalu has provided web design and development services for clients around the world. We've been fortunate to work on some high-profile projects, including the [original](http://www.makalumedia.com/skitch/cc-original-20100913-180735.html) CatalogChoice.org site, which gained over one million users in its first year, and the interactive game anchoring the Google & Virgin America cross-marketing campaign, [Day in the Cloud](http://dayinthecloud.com). (And as a side note, [Sortfolio](http://sortfolio.com/company/6420-makalu-interactive) has proven to be an amazing source of high-quality leads for us.)
 
 ### The itch to create for ourselves
 

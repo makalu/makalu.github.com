@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Going off the Book
+title: Going “off the book”
 author: Justin Driscoll
 twitter_username: jdriscoll
 teaser: Software development gets exciting when you go "off book".

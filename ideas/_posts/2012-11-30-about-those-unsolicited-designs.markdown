@@ -4,8 +4,7 @@ published: true
 title: About those unsolicited designs
 author: Matt Henderson
 twitter_username: mhenders
-teaser: Can unsolicited design be good design?
-excerpt: From time to time, a designer will post his or her personal redesign of a popular site or product. These are usually referred to as unsolicited designs, since they’re done outside the scope of a professional engagement. Other designers will often follow-up with opinions about whether good design can come from such activities. This article looks at that question.
+excerpt: Occasionally the internet spotlight lands on some designer’s unsolicited redesign of a popular product, rekindling the age-old discussion of whether unsolicited design be good design. This article looks at that question.
 ---
 
 Whenever we do design, it’s to meet one or more *objectives*. Perhaps the objective is to be aesthetically pleasing. Perhaps it’s to increase conversion on a landing page. Perhaps it’s to minimize the errors made by the operator of a satellite control system.

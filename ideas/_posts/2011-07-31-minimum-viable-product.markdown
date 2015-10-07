@@ -8,7 +8,7 @@ excerpt: Our aim for version 1.0 of RaceSplitter was to deliver a “minimum via
 
 Early in 2011, we at Makalu released our first product — “RaceSplitter,” an application for the iPhone that changes how organizers of sporting events time their races. Our aim for version 1.0 was to deliver a “minimum viable product”. This article discusses what that means to us.
 
-#### Minimal product does not mean minimal implementation
+## Minimal product does not mean minimal implementation
 
 Any organization that sets out to bring a product to market must decide what to build, and on that point it’s common to hear people speak of a “minimum viable product” — i.e. a product with the minimal functionality to deliver the core of the its value proposition. 
 
@@ -16,7 +16,7 @@ Many organizations take this definition one step further, to include the minimum
 
 We believe this is short-sighted, and reflects a flawed perception of the importance, even criticality, of the user experience in the success of any new product.
 
-#### The case of RaceSplitter
+## The case of RaceSplitter
 
 After 200 man-hours of effort, we had a version of RaceSplitter which was minimally functional, in that it implemented all of the features we considered core to the product — you could create and configure a race, you could time a race, and you could export results.
 
@@ -30,19 +30,19 @@ Here’s a number of examples:
 
 3. **Reducing interface friction.** We worked to identify momentary pauses occurring when users (and us) interacted with the app, and then made efforts to eliminate those UI friction points. For example, when changing a race from one start mode to another — e.g. from *interval* start to *mass* start — we inform the user what effect that’s going to have on the ordering of any racers already existing in the start list (giving them the chance to cancel the change). This contextual feedback eliminated that momentary, "Uh oh, how's this going to affect things I've already done?" friction.
 
-#### Iterate with high-fidelity prototypes
+## Iterate with high-fidelity prototypes
 
 We found that these kinds of user experience refinements are best achieved through an iterative process of testing high-fidelity (working) prototypes of the application, and diligently seeking to identify points of friction. 
 
 You can identify friction by watching someone use the product for the first time, without a manual. For example, with RaceSplitter, when you ask them to create and run a race, and observe a smooth tap-tap-tap-tap-tap-done, you know you’re on the right path. But when you see tap-tap...hmmm...tap...oops...tap — you know further thinking and refinements are needed.
 
-#### Costly, but worth it
+## Costly, but worth it
 
 This process of iterating with working prototypes is obviously costly. On the other hand, you simply can't get this kind of deep insight by staring at static mockups, and imagining yourself using the app. We're convinced that in the long run, the costlier development approach maximizes the possibility of the product ultimately succeeding in the marketplace.
 
 In the case of RaceSplitter, our initial users absolutely *loved* the product. Time and again, we've received feedback along the lines of, “It’s so easy to use! With no instruction at all, I was able to time the entire event, edit a couple mis-entries, and publish the results online.” In fact, due to the enthusiasm (and blogging!) of a single early adopter in Norway, we’ve ended up selling nearly as many copies in that one small country as we have in the entire United States.
 
-#### It’s your choice.
+## It’s your choice.
 
 Shipping the minimal *implementation* of the minimum viable product can save money and get a product to market faster. But it increases the chances that your first users will think, “Nice idea. I’ll try to remember to check back someday.” — and then never return.
 

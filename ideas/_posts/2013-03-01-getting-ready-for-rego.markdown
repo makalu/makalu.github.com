@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Getting ready for Rego
+title: Getting ready for the Rego launch
 author: Matt Henderson
 twitter_username: mhenders
 teaser: Reflections on creating Rego, our second product.
