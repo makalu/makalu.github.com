@@ -1464,4 +1464,22 @@ ul.links {
       }
     }
   }
+
+  @include min {
+    article {
+      padding: 90px 0;
+
+      h3 {
+        margin-top: 0;
+        font-size: 36px;
+      }
+      img {
+        margin-bottom: 30px;
+      }
+      div, img {
+        float: none;
+        width: 100%;
+      }
+    }
+  }
 }
