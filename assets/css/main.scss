@@ -51,10 +51,17 @@ $margin: 4.5rem;
 
 @mixin flex($values) {
   -webkit-box-flex: $values;
-  -moz-box-flex:  $values;
-  -webkit-flex:  $values;
-  -ms-flex:  $values;
-  flex:  $values;
+  -moz-box-flex: $values;
+  -webkit-flex: $values;
+  -ms-flex: $values;
+  flex: $values;
+}
+
+@mixin order($num) {
+  -webkit-order: $num;
+  -moz-order: $num;
+  -ms-order: $num;
+  order:  $num;
 }
 
 * {
@@ -280,6 +287,7 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 900;
+  line-height: 1.25;
 }
 
 h4 {
@@ -332,6 +340,7 @@ blockquote {
   margin: 0 auto;
 
   > header {
+    position: relative;
     padding: 120px 0;
 
     nav {
@@ -357,8 +366,13 @@ blockquote {
     @include min {
       padding-top: 60px;
       nav {
+        z-index: 5;
+        position: absolute;
+        bottom: 65px;
+        left: 38px;
         a {
-          font-size: 21px;
+          font-size: 25px;
+          line-height: 44px;
         }
       }
     }
@@ -499,7 +513,7 @@ section {
 
   &.intro {
     h1 {
-      margin-right: 20px;
+      margin-right: -20px;
     }
 
     ul {
@@ -1404,5 +1418,66 @@ ul.links {
     position: relative;
     top: 1px;
     color: $tintColor;
+  }
+}
+
+
+// Portfolio
+
+.portfolio-excerpt {
+  @include flexbox;
+  padding: 90px 0;
+  border-top: 3px dotted $borderColor;
+
+  header + & {
+    margin-top: 90px;
+  }
+
+  &-description {
+    @include flex(0 0 50%);
+    padding-right: 25px;
+  }
+
+  &-cover {
+    @include flex(1);
+    padding-left: 25px;
+
+    img {
+      display: block;
+      margin: 0;
+      width: 100%;
+      border-radius: 4px;
+    }
+  }
+
+  &-title {
+    a {
+      color: inherit;
+
+      &:hover {
+        color: $tintColor;
+      }
+    }
+  }
+
+  &-text {
+    font-size: 22px;
+    opacity: .8;
+    a {
+      color: inherit;
+      &:hover {
+        color: $tintColor;
+      }
+    }
+  }
+
+  &:nth-child(even) &-description {
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  &:nth-child(even) &-cover {
+    @include order(-1);
+    padding-right: 25px;
+    padding-left: 0;
   }
 }

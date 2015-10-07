@@ -1,0 +1,36 @@
+---
+layout: main
+id: portfolio
+---
+
+<section>
+  <div class="mountains"></div>
+  <header>
+    <h1>What we've done</h1>
+    <p class="hyphenate">
+      <big>
+        Over the years, we’ve had the opportunity to work on a broad range of projects.
+      </big>
+     </p>
+  </header>
+
+  {% for post in site.categories.portfolio %}
+    <article class="portfolio-excerpt wide">
+      <div class="portfolio-excerpt-description">
+        <h3 class="portfolio-excerpt-title">
+          <!-- <a href="{{ post.url }}" title="{{ post.title }}"> -->
+            {{ post.title }}
+            <!-- <span class="arrow">&rarr;</span> -->
+          <!-- </a> -->
+        </h3>
+        <p class="portfolio-excerpt-text">
+          {{ post.excerpt }}
+        </p>
+      </div>
+
+      <div class="portfolio-excerpt-cover">
+        <img src="{{ post.cover }}" alt="" />
+      </div>
+    </article>
+  {% endfor %}
+ </section>
