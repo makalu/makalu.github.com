@@ -336,10 +336,10 @@ blockquote {
 
     nav {
       display: inline-block;
-      padding: 0 16px;
+      padding: 0 12px;
       a {
         display: inline-block;
-        padding: 0 16px;
+        padding: 0 12px;
         font-size: 16px;
         font-weight: 800;
         color: desaturate(darken($borderColor, 25%), 15%);
@@ -498,11 +498,18 @@ section {
   }
 
   &.intro {
+    h1 {
+      margin-right: 20px;
+    }
+
     ul {
       margin: 64px 64px 80px 0;
     }
 
     @include min {
+      h1 {
+        margin-right: 0;
+      }
       ul {
         margin-right: 0;
       }

@@ -46,3 +46,5 @@ scrollTo = (element, to, duration) ->
 $('.contact-link').on 'click', (e) =>
   e.preventDefault()
   scrollTo(document.body, $('.contact').position().top, 333)
+
+$.scrollDepth()
