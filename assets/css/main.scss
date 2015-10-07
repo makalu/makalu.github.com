@@ -1424,60 +1424,50 @@ ul.links {
 
 // Portfolio
 
-.portfolio-excerpt {
-  @include flexbox;
-  padding: 90px 0;
-  border-top: 3px dotted $borderColor;
-
-  header + & {
-    margin-top: 90px;
+.portfolio {
+  header + article {
+    margin-top: 60px;
   }
 
-  &-description {
-    @include flex(0 0 50%);
-    padding-right: 25px;
-  }
+  article {
+    overflow: hidden;
+    padding: 60px 0;
+    border-top: 3px dotted $borderColor;
 
-  &-cover {
-    @include flex(1);
-    padding-left: 25px;
+    div {
+      float: left;
+      width: 370px;
+    }
 
     img {
-      display: block;
+      float: right;
       margin: 0;
-      width: 100%;
+      width: 370px;
       border-radius: 4px;
     }
-  }
 
-  &-title {
-    a {
-      color: inherit;
-
-      &:hover {
-        color: $tintColor;
+    p {
+      font-size: 22px;
+      opacity: .8;
+      a {
+        display: inline-block;
+        color: inherit;
+        line-height: 1.1;
+        box-shadow: rgba(#000, .33) 0 1px 0;
+        &:hover {
+          color: $tintColor;
+          box-shadow: none;
+        }
       }
     }
-  }
 
-  &-text {
-    font-size: 22px;
-    opacity: .8;
-    a {
-      color: inherit;
-      &:hover {
-        color: $tintColor;
+    &:nth-child(even) {
+      div {
+        float: right;
+      }
+      img {
+        float: left;
       }
     }
-  }
-
-  &:nth-child(even) &-description {
-    padding-left: 25px;
-    padding-right: 0;
-  }
-  &:nth-child(even) &-cover {
-    @include order(-1);
-    padding-right: 25px;
-    padding-left: 0;
   }
 }

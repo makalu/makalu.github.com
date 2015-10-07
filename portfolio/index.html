@@ -3,7 +3,7 @@ layout: main
 id: portfolio
 ---
 
-<section>
+<section class="portfolio">
   <div class="mountains"></div>
   <header>
     <h1>What we've done</h1>
@@ -14,23 +14,34 @@ id: portfolio
      </p>
   </header>
 
-  {% for post in site.categories.portfolio %}
-    <article class="portfolio-excerpt wide">
-      <div class="portfolio-excerpt-description">
-        <h3 class="portfolio-excerpt-title">
-          <!-- <a href="{{ post.url }}" title="{{ post.title }}"> -->
-            {{ post.title }}
-            <!-- <span class="arrow">&rarr;</span> -->
-          <!-- </a> -->
-        </h3>
-        <p class="portfolio-excerpt-text">
-          {{ post.excerpt }}
-        </p>
-      </div>
+  <article class="wide">
+    <img src="http://files.makaluinc.com/uploads/2015-10-07-portfolio-chessdrop.png" alt="" />
+    <div>
+      <h3>ChessDrop</h3>
+      <p>
+        We built a personal chess database to record, analyze, and annotate your games. Read the <a href="/ideas/chessdrop-design-details.html">blog article</a> for a great insight into the interaction design process.
+      </p>
+    </div>
+  </article>
 
-      <div class="portfolio-excerpt-cover">
-        <img src="{{ post.cover }}" alt="" />
-      </div>
-    </article>
-  {% endfor %}
+  <article class="wide">
+    <img src="/portfolio/img/mlk.png" alt="" />
+    <div>
+      <h3>Marek Lieberberg Konzertagentur</h3>
+      <p>
+        For the past decade, we’ve been the design and tech team for the world’s fifth largest concert promoter.
+      </p>
+    </div>
+  </article>
+
+  <article class="wide">
+    <img src="/portfolio/img/rego.jpg" alt="" />
+    <div>
+      <h3>Rego</h3>
+      <p>
+        Our place bookmarking app took the world by storm when it launched in 2014. It was picked as one of the top apps by Apple and was featured on the App Store home page.
+      </p>
+    </div>
+  </article>
+
  </section>
