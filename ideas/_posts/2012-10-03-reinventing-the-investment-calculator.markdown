@@ -20,7 +20,7 @@ Make an online investment calculator that helps readers of Money for Something a
 We began by looking at some existing calculators:
 
 <figure>
-  <img src="/uploads/blog/2012-10-02/research.png">
+  <img src="http://files.makaluinc.com/uploads/2015-10-07-blog-investmentcalculator-research.png">
 </figure>
 
 While these might be adequate for their target audiences, it was obvious they didn't meet our goals. Want to change a value? Well, simply click into the field, switch to using the keyboard, clear the old value, type the new value, and submit. Want to compare two calculations? Better write down the previous result before you make a change.
@@ -35,7 +35,7 @@ To achieve that, there should be no forms to fill in, it should be easy to adjus
 Our first design challenge was to decide what to focus on. The calculation is based on a number of variables: rate of return, initial balance, monthly savings, inflation, annual savings increase, etc. Obviously we can't just ask people to fill in all of those. Even having read Matt's book, I wouldn't have any idea where to start. So we needed to narrow down the options.
 
 <figure class="full">
-  <img src="/uploads/blog/2012-10-02/wireframes-1.png" alt="Early design sketches">
+  <img src="http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-wireframes-1.png" alt="Early design sketches">
   <figcaption>Early design explorations</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Thankfully, Matt's book introduces a rule of thumb known as the "4% rule", which
 Another thing we wanted to emphasize was the power of compounding interest. Given sufficient time, the amount you make from interest will far outgrow the money you've put in. Just a couple years can make a surprisingly big difference. We chose a stacked area graph to illustrate how this proportion changes over time. It nicely contrasts the linear growth of the savings with the hockey stick curve of the earnings.
 
 <figure class="full">
-  <img src="/uploads/blog/2012-10-02/wireframes-2.png" alt="More design sketches">
+  <img src="http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-wireframes-2.png" alt="More design sketches">
   <figcaption>More design explorations</figcaption>
 </figure>
 
@@ -77,31 +77,31 @@ If you look at the design explorations above, you'll notice that we had actually
 
 Here's an abridged version of the thought process that followed:
 
-![](/uploads/blog/2012-10-02/ui-1.png)
+![](http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-ui-1.png)
 
 Now that everything is laid out, it's easy to focus on what matters and start grouping things together. Try to resist the temptation to make things symmetrical, or to align them perfectly, or to add something new, and instead look for inherent connections in the content.
 
 Let's start by grouping the main variables together. They should probably be at the top, since they're the first thing you'll want to tweak. The chart, final balance, and 4% rule are all part of the result, so let's bunch those together as well. And for now, let's just put the "advanced options" at the bottom.
 
-![](/uploads/blog/2012-10-02/ui-2.png)
+![](http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-ui-2.png)
 
 That's a start. But the result column blends in with the adjustable values at the top. Let's try differentiating them through contrast.
 
-![](/uploads/blog/2012-10-02/ui-3.png)
+![](http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-ui-3.png)
 
 Better. Except that now the whole thing looks top-heavy. It also lacks a clear flow—you can adjust the middle part from the top *and* the bottom. Let's group the adjustable variables together at the bottom, which should hopefully solve both issues.
 
-![](/uploads/blog/2012-10-02/ui-4.png)
+![](http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-ui-4.png)
 
 OK, things are starting to look more balanced. That right column with the final amount just doesn't sit right, though. It's taking up way too much space to show so little information. Space that could be used for a bigger chart. Not only that, but its alignment with the years could be confusing.
 
 Where else could we put it? See that big empty space in the upper-left corner of the chart? Doesn't it look like the results block would fit perfectly there? Let's give it a shot…
 
-![](/uploads/blog/2012-10-02/ui-5.png)
+![](http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-ui-5.png)
 
 That's it. We're left with two distinct units: one for displaying the results, and another one for adjusting the values. Now it's just a matter of cleaning up the visuals, amping up the contrast, and adding some color.
 
-[![](/uploads/blog/2012-10-02/ui-6.png)](http://www.moneyforsomethingbook.com/investment-calculator)
+[![](http://files.makaluinc.com/uploads/2015-10-07-blog-calculator-ui-6.png)](http://www.moneyforsomethingbook.com/investment-calculator)
 
 In addition to the visuals, we made a few other refinements in this final iteration:
 
