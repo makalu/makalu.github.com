@@ -15,12 +15,12 @@ id: ideas
 
   {% for post in site.categories.ideas %}
     <article class="post-excerpt">
-      <h2 class="post-excerpt-title">
+      <h3 class="post-excerpt-title">
         <a href="{{ post.url }}" title="{{ post.title }}">
           {{ post.title }}
           <span class="arrow">&rarr;</span>
         </a>
-      </h2>
+      </h3>
 
       <div class="post-excerpt-text">
         {{ post.excerpt | markdownify }}
