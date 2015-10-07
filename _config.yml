@@ -2,7 +2,7 @@ name: The Makalu Blog
 description: Makalu's blog about design, code & everything else.
 url: http://www.makaluinc.com/blog
 markdown: kramdown
-permalink: /blog/:year/:month/:title.html
+permalink: /ideas/:title.html
 highlighter: pygments
 exclude:
 - Rakefile
