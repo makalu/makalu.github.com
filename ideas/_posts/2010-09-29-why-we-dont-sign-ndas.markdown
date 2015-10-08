@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why we do not sign NDAs at Makalu
+title: Why we don’t sign NDAs
 author: Matt Henderson
 excerpt: Recently, a potential new customer expressed surprise when I told him that we at Makalu usually don’t sign NDAs. Mentioning that he’d found plenty of other companies willing to sign his NDA, I restated commitment to our position, and acceptance that we’d unfortunately have to miss the opportunity.
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Communicating with Blocks in Objective-C
+title: Communicating with blocks in Objective-C
 author: Justin Driscoll
 twitter_username: jdriscoll
 teaser: Let's talk about why you should learn to love block-based APIs.

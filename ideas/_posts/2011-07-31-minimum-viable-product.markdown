@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minimum Viable Products
+title: Minimum viable products
 author: Matt Henderson
 teaser: Our latest post is about minimum viable products.
 excerpt: Our aim for version 1.0 of RaceSplitter was to deliver a “minimum viable product”. This article discusses what that means to us.

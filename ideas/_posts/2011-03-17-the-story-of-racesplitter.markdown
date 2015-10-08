@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Story of RaceSplitter
+title: The story of RaceSplitter
 author: Matt Henderson
 excerpt: After a decade of successful client work, we at Makalu realized our dream of creating our own product—RaceSplitter, an iOS application for the timing of sporting events. This is the story of how it happened.
 ---

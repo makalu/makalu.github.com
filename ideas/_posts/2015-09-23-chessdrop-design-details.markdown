@@ -14,9 +14,9 @@ excerpt: In this article, we share some interesting design details from our late
 [5]: http://files.dafacto.com/uploads/2015-09-23-comments.gif
 [6]: http://files.dafacto.com/uploads/2015-09-23-end-of-game.gif
 
-The Makalu team recently launched its third product, [ChessDrop][1], a cloud-based personal chess games database. From the technology stack we chose—React, Meteor & Heroku—to the design process, there’s much I plan to tell you about in the coming weeks. But for now, in this brief post, I’d like to whet your appetite with a few of the key design details you’ll find in the product.
+The Makalu team recently launched its third product, [ChessDrop][1], a cloud-based personal chess games database. From the technology stack we chose—React, Meteor & Heroku—to the design process, there’s much I plan to tell you about. But for now, in this brief post, I’d like to whet your appetite with a few of the key design details you’ll find in the product.
 
-(And please pardon some of the UI artifacts from the process of creating animated GIF demos.)
+(And please pardon some of the UI artifacts from the process of creating animated GIFs.)
 
 ## Mobile first
 
@@ -26,27 +26,27 @@ Our aim is for ChessDrop users to enter their games directly while at tournament
 
 ## Communicating positional evaluation
 
-Like many chess products, ChessDrop includes an “engine” that can be used to evaluate the current position on the board. Engines return their evaluations as a positive or negative numbers. Anything between +1 and -1 would be considered equal. An evaluation like +3 or -3, on the other hand, would communicate a winning advantage for white or black, respectively.
+Like many chess products, ChessDrop includes an “engine” that can be used to evaluate the current position on the board. Engines return their evaluations as a positive or negative numbers. Anything between +0.5 and -0.5 is considered nearly equal. An evaluation like +3 or -3, on the other hand, would communicate a winning advantage for white or black, respectively.
 
-In addition to displaying the numerical evaluation, as most products do, we wanted to additionally communicate the positional evaluation in a visual way, and arrived at a solution which involves the vertical background color weighting, dynamically adjusted from move-to-move.
+In addition to displaying the numerical evaluation, as most products do, we also wanted to  communicate the positional evaluation visually, and arrived at a solution which involves  dynamically shifting the vertical background color weighting from move to move.
 
 ![][3]
 
-At each point in the game, we also display directly below the recorded moves, the game continuation (series of moves) that the chess engine calculates as optimal. The ChessDrop user can, if desired, tap or click into that continuation to explore it, and then return to the recorded game at any time.
+At each point in the game, we also display the move continuation that the chess engine calculates as optimal, just below the actual recorded game moves. The ChessDrop user can tap or click into that continuation to explore it, and then return to the recorded game at any time.
 
 ## Annotating the game with comments
 
-Chess players (and their trainers) depend on the ability to annotate their recorded games with comments. Most chess products display those comments in the textual representation of the game, as you can see here.
+Chess players, and their trainers, depend on the ability to annotate their recorded games with comments. Most chess products display comments within the textual representation of the game, as you can see in this screenshot from a Mac OS X chess app.
 
 ![][4]
 
-In ChessDrop, we wanted to find an alternative approach, that would allow comment editing and viewing, directly in the context of the visual board game. I think we found an elegant solution.
+In ChessDrop, we wanted to find an alternative that would allow comment editing and viewing directly in the context of the game board. I think we found an elegant solution.
 
 ![][5]
 
 ## Game sharing
 
-Finally, we were interested in designing a concluding experience that clearly indicated that the game was over, what the result was, and then encourage sharing. As an incentive to share, we allow players who have entered their game in ChessDrop to send their opponent an invitation to add a copy of the game into their own account. In addition to saving the opponent time, we open the door to social interaction within the platform, and help to organically spread the word about the product.
+Finally, we wanted to design a closing experience that clearly indicated that the game was over, what the result was, and encourage sharing. As an incentive to share, we allow players who have entered their game in ChessDrop to send their opponent an invitation to add a copy of the game into their own account. In addition to saving the opponent time, we open the door to social interaction within the platform, and help to organically spread the word about the product.
 
 ![][6]
 
