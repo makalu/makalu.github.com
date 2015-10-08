@@ -2,14 +2,14 @@
 layout: post
 title: Design of the Catalog Choice iOS app
 author: Matt Henderson
-excerpt: It’s not every day that an opportunity presents itself to develop a product for an audience of **1.5 million people**. But that’s exactly what happened at Makalu, as we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services.
+excerpt: It’s not every day an opportunity presents itself to develop a product for 1.5 million people. But that’s what happened when we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services.
 ---
 
 ## The background
 
 In 2007, Makalu was engaged by The Ecology Center of Berkeley, California to design and build a website that would provide American consumers with an effective tool to combat the growing number of unwanted catalogs they receive in the mail. The website — CatalogChoice.org — was launched, and quickly received the attention of nearly every large media channel in the United States, including a  focus spot on “Good Morning America”.
 
-Within one year, the service signed up more than **one million members**.
+Within one year, the service signed up more than *one million members*.
 
 When Catalog Choice members receive an unwanted catalog, they login to their account, search for the catalog they received, and register an “opt-out” request. At that point, the Catalog Choice system acts as a powerful agent on behalf of the consumer to get request processed by the sending merchant. In this way, the consumer saves the effort of having to interact with individual companies, and benefits from the effectiveness the influential service has in getting their requests honored.
 
@@ -35,15 +35,27 @@ The service is preparing to launch the new design, which so far has addressed th
 
 We’re thrilled to show you three sneak-peek screenshots of the new look:
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/web-01.png">
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/web-02.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/web-01.png" alt="">
+  <figcaption>The home page</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/web-03.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/web-02.png" alt="">
+  <figcaption>Service add-ons</figcaption>
+</figure>
+
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/web-03.png" alt="">
+  <figcaption>Service selection</figcaption>
+</figure>
+
+
 
 We’re really happy about the design, and looking forward to seeing its launch, and extended implementation throughout the site.
 
-### The MailStop iPhone App
+## The MailStop iPhone App
 
 The MailStop suite was conceived as a set of premium add-on services that both extend the ways in which consumers can be protected, and make using the existed Catalog Choice services even easier.
 
@@ -51,7 +63,7 @@ In that regard, Makalu was engaged to design and develop an iPhone app that save
 
 With the MailStop iPhone app, it couldn’t be easier to opt-out of unwanted mail!
 
-###The design process
+## The design process
 
 The experience of RaceSplitter and Rebalance (still ongoing) has taught us that it’s far more time consuming and expensive to change app code than design mockups (when, for example, you realized you’ve gone in a wrong direction), and so with the MailStop app, we went much further into the UI design than we have in the past, before starting the development.
 
@@ -63,28 +75,58 @@ As you can see in our screenshots below, our solution feels more *described* tha
 
 The design and development process, however, was definitely an improvement over the experience we had with RaceSplitter (in which we built prototypes *too* early). We’re pleased with the results, but we didn’t yet hit the sweet spot; and so there’s process improvements still to be discovered.
 
-### A visual tour of the app
+## A visual tour of the app
 
 And with that, we’d love to show you the app, with this 10-image tour.
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-01.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-01.png" alt="">
+  <figcaption>Login screen</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-02.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-02.png" alt="">
+  <figcaption>Five free opt-outs</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-03.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-03.png" alt="">
+  <figcaption>You’re all set!</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-04.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-04.png" alt="">
+  <figcaption>Dashboard</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-05.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-05.png" alt="">
+  <figcaption>New opt-out</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-06.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-06.png" alt="">
+  <figcaption>First image</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-07.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-07.png" alt="">
+  <figcaption>First image review</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-08.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-08.png" alt="">
+  <figcaption>Multiple images</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-09.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-09.png" alt="">
+  <figcaption>Upload success</figcaption>
+</figure>
 
-<img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-10.png">
+<figure class="nostretch">
+  <img src="http://files.dafacto.com/content/images/makalu/catalogchoice/iphone-10.png" alt="">
+  <figcaption>Buy more opt-outs</figcaption>
+</figure>
 
 Look interesting? Why not give it a try right now? It’s free, and [available today on the App Store](http://bit.ly/mailstopapp)!

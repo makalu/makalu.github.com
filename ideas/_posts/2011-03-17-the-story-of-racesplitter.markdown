@@ -5,7 +5,7 @@ author: Matt Henderson
 excerpt: After a decade of successful client work, we at Makalu realized our dream of creating our own product—RaceSplitter, an iOS application for the timing of sporting events. This is the story of how it happened.
 ---
 
-This article was first featured on the blog at [37signals](http://37signals.com/svn/posts/2808-how-makalu-interactive-created-the-international-iphone-hit-racesplitter) (a company which has long been a role model for us).
+This article was first featured on the blog at [37signals](http://37signals.com/svn/posts/2808-how-makalu-interactive-created-the-international-iphone-hit-racesplitter)—a company which has long been a role model for us.
 
 ## Makalu — history of a service provider
 
@@ -39,11 +39,15 @@ As a client provider, one always hopes to give 100% to the client, but we’d be
 
 We poured our hearts and abilities into the product. As believers that user experience extends to every way in which a product interfaces its users, we worked as hard on things like the pre-launch sign-up site, announcement emails, even the app icon, as we did on the app itself.
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-signup.png)
-<center><em>The RaceSplitter signup screen</em></center>
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-signup.png" alt="">
+  <figcaption>The RaceSplitter signup screen</figcaption>
+</figure>
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-racesplitter.png)
-<center><em>The RaceSplitter website</em></center>
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-racesplitter.png" alt="">
+  <figcaption>The RaceSplitter website</figcaption>
+</figure>
 
 As emphasized in REWORK, even though our 1.0 would be minimal in terms of features, it wouldn’t be half-assed; it’d be “at-home good”.
 
@@ -51,7 +55,11 @@ As emphasized in REWORK, even though our 1.0 would be minimal in terms of featur
 
 The application launched, at $24.99, and within its second day on the market became the 4th top grossing app in the US App Store (Sports), number one in Norway, and was selling well around the world.
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/sales-geography.png)
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/sales-geography.png" alt="">
+  <figcaption>Sales by geography</figcaption>
+</figure>
+
 
 Feedback started coming in from customers, and they absolutely loved it. Many said it was the perfect product. We began collecting comments at:
 
@@ -61,11 +69,15 @@ Feedback started coming in from customers, and they absolutely loved it. Many sa
 
 We quickly shifted focus to RaceBuilder, a companion web-app to create, share and discovered races for import into RaceSplitter. This proved equally popular, and within two weeks more than 110 nordic ski races were published, containing 5,500 unique racers — including the World Championships in Oslo, Norway. More importantly, we established the beginnings of a central hub and community, on which we’ll be able to build and market services in the future.
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-racebuilder.png)
-<center><em>The RaceBuilder website</em></center>
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-racebuilder.png" alt="">
+  <figcaption>The RaceBuilder website</figcaption>
+</figure>
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-race.png)
-<center><em>Creating a race in RaceBuilder</em></center>
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/screenshot-race.png" alt="">
+  <figcaption>Creating a race in RaceBuilder</figcaption>
+</figure>
 
 ## Great products are discovered, not specified
 
@@ -73,15 +85,18 @@ One of the most important things revealed through the process of building RaceSp
 
 As proposed in Getting Real, the user interface design led the process, and ultimately went through four revisions, with two of those resulting in the elimination of an entire level of interface hierarchy. Here’s a sequence of revisions in a couple of areas:
 
-*The active race screen*
+### The active race screen
 
 The active race screen shows the current race standings, as well as provides access to the timing function. In the original wireframes, we separated lap standings on individual screens, navigated through swiping. We also had the “stop race” button in the lower right corner. To access the timing interface, we used the “Record” terminology.
 
 In subsequent revisions, leading to the final, we decided to display all laps on a single (scrollable) screen, and moved the “Stop” button to the bottom left, where it was less likely to be inadvertently tapped by the thumb of a right-handed user. We also used more explicit “Time Racers” terminology to access the timing interface.
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/appui-activerace.png)
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/appui-activerace.png" alt="">
+  <figcaption>Timing interface</figcaption>
+</figure>
 
-*The timing interface*
+### The timing interface
 
 The timing interface, from a UI perspective, was challenging. We created a live wireframe prototype of our initial idea for the interface, in which the racer’s bib identification and timing button are integrated into the same UI control.
 
@@ -89,11 +104,17 @@ Later, however, we realized that this interface would only allow for timing one 
 
 Taking inspiration from Apple’s Mail app on the iPhone, we created a “timing bar” interface, where multiple bib numbers can be added, and timed at once.
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/appui-timinginterface.png)
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/appui-timinginterface.png" alt="">
+  <figcaption>Timing interface</figcaption>
+</figure>
 
 We spent a lot of effort focusing on the details of the UI. For example, we created aesthetically pleasing blank slate screens, and we created a custom, efficient UI control for numerical fields whose modification tends to happen incrementally — such as the assignment of lap number to a timing entry.
 
-![](http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/appui-details.png)
+<figure class="nostretch">
+  <img src="http://makalu-assets.s3.amazonaws.com/images/racesplitter/37signals/appui-details.png" alt="">
+  <figcaption>User interface details</figcaption>
+</figure>
 
 ## Features—wolves in sheep’s clothing
 
@@ -137,19 +158,19 @@ Our marketing of the application focused on three things:
 2. Direct email
 3. Promote word-of-mouth
 
-*Online ads — the winner is Google*
+### Online ads — the winner is Google
 
 For online ads, we ran both Google and Facebook ad campaigns (multiple ads in each network), as well as a direct banner ad campaign at a site where coaches hang out. After a month, we calculated our cost per conversion (where conversion is clicking the buy button, leading to iTunes). The costs were unacceptably high for the dedicated banner ad, as well as Facebook, but acceptable at Google.
 
 Given how Facebook allows you to precisely target your audience (age, interests, geography, etc.) we were a little surprised how poorly the ads did there. But when you step back and think that people go to Facebook to socialize, and to Google to look for stuff, the results start to make sense.
 
-*Direct email*
+### Direct email
 
 Through a couple of month’s research, we compiled a list of coaches and associations in a variety of sports. We needed to directly email these people, and to avoid coming across as spammers, we crafted the emails such that we both informed the reader of the product, as well as solicited feedback from them in terms of the application’s current applicability to their sport. We asked in which areas it might need to be modified or enhanced to more specifically address their needs. So that they could experience the app without having to purchase it, we created a couple of video screencasts of the application in action.
 
 This approach worked really well. There was a clear correlation of sales to emails sent, and at the same time, we received an absolute wealth of expert domain insight, and developed some healthy relationships with key people in a variety of sports.
 
-*Promote word-of-mouth*
+### Promote word-of-mouth
 
 This was the easiest part, and involved three important lessons from REWORK.
 

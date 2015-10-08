@@ -5,7 +5,7 @@ title: Communicating with blocks in Objective-C
 author: Justin Driscoll
 twitter_username: jdriscoll
 teaser: Let's talk about why you should learn to love block-based APIs.
-excerpt: I love blocks because blocks make Objective-C much more expressive. They can also reduce the amount of code you need to write, which reduces the amount of code you need to maintain and debug. Any developer who has ever worked in a higher level language like Ruby, Python or Javascript should feel right at home using blocks. Once they get past the awkward syntax at least.
+excerpt: Blocks make Objective-C much more expressive. They can also reduce the amount of code you need to write, which reduces the amount of code you need to maintain and debug. Any developer who has ever worked in a higher level language like Ruby, Python or Javascript should feel right at home using blocks. Once they get past the awkward syntax at least.
 ---
 
 Let’s talk about [blocks](http://developer.apple.com/library/ios/#featuredarticles/Short_Practical_Guide_Blocks/_index.html).
