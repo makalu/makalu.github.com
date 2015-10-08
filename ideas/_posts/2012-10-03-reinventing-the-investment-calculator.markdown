@@ -128,3 +128,5 @@ In the process he improved his Javascript skills and learned CoffeeScript, SCSS,
 * **Re-evaluate your assumptions.** If you feel stuck with the design, take a step back and try questioning the constraints and assumptions that led to where you are.
 
 We think the end result is by far the easiest-to-use investment calculator anywhere. [Give it a go](http://www.moneyforsomethingbook.com/investment-calculator) and let us know what you think.
+
+And if you’d like to see more examples of how we solve problems through design, be sure to <a href="/ideas/chessdrop-design-details.html">read this article</a> about latest product, ChessDrop.
