@@ -23,7 +23,7 @@ excerpt: This article takes a look at the bitcoin landscape today, in terms of t
 [14]: http://files.dafacto.com/uploads/Screen%20Shot%20on%202015-09-16%20at%2012_44_04.png
 [15]: http://www.irs.gov/pub/irs-drop/n-14-21.pdf
 
-In 2012, a visiting friend from Berlin got me excited about bitcoin. During the next several months, wild price fluctuations, the scent of speculation and spectacular collapses of exchanges like Mt. Gox, caused many to dismiss bitcoin as nothing more than craze that would eventually disappear like the Dutch Tulip mania of the 1600s.
+In 2012, a visiting friend from Berlin got me excited about bitcoin. During the next several months, wild price fluctuations, the scent of speculation and spectacular collapses of exchanges like Mt. Gox, caused many to dismiss bitcoin as nothing more than a craze that would eventually disappear like the Dutch Tulip mania of the 1600s.
 
 The focus on speculation at the time obscured the promise of bitcoin’s underlying technology. With bitcoin, the transfer of value—whether $1 or a million—is instantaneous, irreversable and nearly cost free. And its network-distributed “blockchain” provides a level of transparency and accountability that has never before existed in financial transations.
 
