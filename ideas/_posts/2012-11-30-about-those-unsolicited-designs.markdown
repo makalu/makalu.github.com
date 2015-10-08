@@ -4,7 +4,7 @@ published: true
 title: About those unsolicited designs
 author: Matt Henderson
 twitter_username: mhenders
-excerpt: Occasionally the internet spotlight lands on some designer’s unsolicited redesign of a popular product, rekindling the age-old discussion of whether unsolicited design be good design. This article looks at that question.
+excerpt: Occasionally the internet spotlight lands on some designer’s unsolicited redesign of a popular product, rekindling the age-old discussion of whether unsolicited design can be good design. This article looks at that question.
 ---
 
 Whenever we do design, it’s to meet one or more *objectives*. Perhaps the objective is to be aesthetically pleasing. Perhaps it’s to increase conversion on a landing page. Perhaps it’s to minimize the errors made by the operator of a satellite control system.
