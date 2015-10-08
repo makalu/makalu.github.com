@@ -4,7 +4,7 @@ published: true
 title: ChessDrop design details
 author: Matt Henderson
 twitter_username: mhenders
-excerpt: In this article, we share some interesting design details from our latest product, ChessDrop.
+excerpt: In this article, we share a few design details from our latest product, ChessDrop.
 ---
 
 [1]: http://chessdrop.com
