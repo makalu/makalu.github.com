@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Makalu Portfolio</title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 60px 30px 100px;
+      color: #fff;
+      font-size: 16px;
+      font-family: system, -apple-system, 'Helvetica Neue', 'Roboto', sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: grayscale;
+      background: #000;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+      img + img,
+      img + .row,
+      .row + img,
+      .row + .row {
+        margin-top: 30px;
+      }
+
+    nav {
+      overflow: hidden;
+      margin: 0 -15px;
+    }
+      nav a {
+        float: left;
+        padding: 10px 15px;
+        font-weight: 500;
+        line-height: 1;
+        opacity: .5;
+        -webkit-transition: opacity .05s ease-out;
+        -moz-transition: opacity .05s ease-out;
+        -ms-transition: opacity .05s ease-out;
+        transition: opacity .05s ease-out;
+      }
+      nav a.is-active,
+      nav a:hover {
+        opacity: 1;
+      }
+
+    section {
+      display: none;
+    }
+      section.is-active {
+        display: block;
+      }
+      section header {
+        max-width: 640px;
+        margin-bottom: 60px;
+        font-size: 14px;
+        opacity: .9;
+      }
+
+    .row {
+      overflow: hidden;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .col {
+      float: left;
+      padding: 0 15px;
+    }
+      .col--narrow {
+        width: 33.3333%;
+      }
+      .col--half {
+        width: 50%;
+      }
+      .col--wide {
+        width: 66.6666%;
+      }
+
+    @media (max-width: 480px) {
+      body {
+        padding-top: 30px;
+      }
+
+      nav a {
+        float: none;
+        display: block;
+      }
+
+      section header {
+        margin-bottom: 30px;
+      }
+
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .col {
+        width: 100% !important;
+        float: none;
+        padding: 0;
+      }
+        .col + .col {
+          margin-top: 30px;
+        }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#racesplitter" class="is-active">RaceSplitter</a>
+      <a href="#chessdrop">ChessDrop</a>
+      <a href="#referralexchange">ReferralExchange</a>
+    </nav>
+  </header>
+
+  <section id="racesplitter" class="is-active">
+    <header>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </header>
+    <img src="/case-studies/img/racesplitter/admin.png" alt="" />
+    <div class="row">
+      <div class="col col--narrow">
+        <img src="/case-studies/img/racesplitter/app.png" alt="" />
+      </div>
+      <div class="col col--narrow">
+        <img src="/case-studies/img/racesplitter/app-start.png" alt="" />
+      </div>
+      <div class="col col--narrow">
+        <img src="/case-studies/img/racesplitter/app-timer.png" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--wide">
+        <img src="/case-studies/img/racesplitter/event.png" alt="" />
+      </div>
+      <div class="col col--narrow">
+        <img src="/case-studies/img/racesplitter/event-mobile.png" alt="" />
+        <img src="/case-studies/img/racesplitter/event-mobile2.png" alt="" />
+      </div>
+    </div>
+    <img src="/case-studies/img/racesplitter/brand.png" alt="" />
+  </section>
+
+  <section id="chessdrop">
+    <header>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </header>
+    <img src="/case-studies/img/chessdrop/game.png" alt="" />
+    <img src="/case-studies/img/chessdrop/games.png" alt="" />
+  </section>
+
+  <section id="referralexchange">
+    <header>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </header>
+    <img src="/case-studies/img/referralexchange/marketing.png" alt="" />
+    <img src="/case-studies/img/referralexchange/crm.png" alt="" />
+    <div class="row">
+      <div class="col col--half">
+        <img src="/case-studies/img/referralexchange/form.png" alt="" />
+      </div>
+      <div class="col col--half">
+        <img src="/case-studies/img/referralexchange/diagram.png" alt="" />
+        <img src="/case-studies/img/referralexchange/assets.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script>
+    $('a').on('click', function(e) {
+      e.preventDefault()
+      var $link = $(this)
+      $('section').removeClass('is-active')
+      $('a').removeClass('is-active')
+
+      $($link.attr('href')).addClass('is-active')
+      $link.addClass('is-active')
+    })
+  </script>
+</body>
+</html>
