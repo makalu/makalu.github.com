@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Getting ready for the Rego launch
 author: Matt Henderson
-twitter_username: mhenders
+twitter_username: dafacto
 teaser: Reflections on creating Rego, our second product.
 excerpt: We’re in the final week of beta testing prior to launching [Rego](http://regoapp.com), Makalu's second product for the iPhone and I wanted to share with you a few reflections on the experience of getting here.
 ---

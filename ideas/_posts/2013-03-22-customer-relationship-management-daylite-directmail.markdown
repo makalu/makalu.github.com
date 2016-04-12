@@ -3,7 +3,7 @@ layout: post
 published: true
 title: How we use Daylite and Direct Mail
 author: Matt Henderson
-twitter_username: mhenders
+twitter_username: dafacto
 teaser: How we use two Mac apps to more effectively communicate with our contacts.
 excerpt: Learn how we use the combination of two Mac applications—Daylite and Direct Mail—to communicate more effectively.
 ---

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: How to calculate your hourly rate
 author: Matt Henderson
-twitter_username: mhenders
+twitter_username: dafacto
 teaser: Starting a services company? Here's how to determine your rates.
 excerpt: Sometimes I get contacted by individuals who are planning to start a services company and are seeking advice on a variety of related topics. One of the most common questions is, “How do I determine an hourly rate?”
 ---

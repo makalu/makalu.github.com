@@ -3,7 +3,7 @@ layout: post
 published: true
 title: ChessDrop design details
 author: Matt Henderson
-twitter_username: mhenders
+twitter_username: dafacto
 excerpt: In this article, we share a few design details from our latest product, ChessDrop.
 ---
 

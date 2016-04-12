@@ -2,6 +2,7 @@
 layout: post
 title: Design of the Catalog Choice iOS app
 author: Matt Henderson
+twitter_username: dafacto
 excerpt: It’s not every day an opportunity presents itself to develop a product for 1.5 million people. But that’s what happened when we were engaged to develop the iPhone component of Catalog Choice’s new suite of premium services.
 ---
 

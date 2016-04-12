@@ -2,6 +2,7 @@
 layout: post
 title: Design for great customer support
 author: Matt Henderson
+twitter_username: dafacto
 teaser: How design helps keep a growing base of customers happy.
 excerpt: Our experience with <a href="http://racesplitter.com">RaceSplitter</a> has taught us that customers love getting personalized service, from someone who knows the product inside and out. And that love translates to loyalty, retention, and word-of-mouth marketing. 
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: Scheduling focus
 author: Matt Henderson
+twitter_username: dafacto
 teaser: When good enough is not good enough.
 excerpt: Although we’re doing good work by other people’s standards, it often feels like we’re not doing our <em>best</em> work, by our <em>own</em> standards. This article explores what we can do about that.
 ---

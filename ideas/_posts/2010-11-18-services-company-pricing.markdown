@@ -2,6 +2,7 @@
 layout: post
 title: On the pricing of services work
 author: Matt Henderson
+twitter_username: dafacto
 excerpt: This article describes how we approach service pricing at Makalu.
 ---
 

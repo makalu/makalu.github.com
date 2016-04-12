@@ -2,6 +2,7 @@
 layout: post
 title: Why we don’t sign NDAs
 author: Matt Henderson
+twitter_username: dafacto
 excerpt: A potential new customer was surprised when I told him we don’t sign NDAs. This article explains why.
 ---
 

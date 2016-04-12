@@ -3,7 +3,7 @@ layout: post
 published: true
 title: A look at Bitcoin in 2015
 author: Matt Henderson
-twitter_username: mhenders
+twitter_username: dafacto
 excerpt: This article takes a look at the bitcoin landscape today, in terms of the changes we’ve observed around the digital currency during the past few years.
 ---
 

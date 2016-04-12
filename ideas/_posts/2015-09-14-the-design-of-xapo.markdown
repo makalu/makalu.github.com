@@ -3,7 +3,7 @@ layout: post
 published: true
 title: A critical design review of Xapo
 author: Matt Henderson
-twitter_username: mhenders
+twitter_username: dafacto
 excerpt: To achieve widespread adoption, bitcoin products must translate the unfamiliar realities of the mathematical currency into concepts and usability models that are easily understood by consumers and organizations. This article examines, from a product design perspective, a leading bitcoin product, Xapo.
 ---
 

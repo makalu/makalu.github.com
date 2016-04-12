@@ -3,7 +3,7 @@ layout: post
 published: true
 title: About those unsolicited designs
 author: Matt Henderson
-twitter_username: mhenders
+twitter_username: dafacto
 excerpt: Occasionally the internet spotlight lands on some designer’s unsolicited redesign of a popular product, rekindling the age-old discussion of whether unsolicited design can be good design. This article looks at that question.
 ---
 
