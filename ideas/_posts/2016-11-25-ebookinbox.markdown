@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Announcing eBook inBox
+title: Announcing the launch of eBook inBox
 author: Matt Henderson
 twitter_username: dafacto
 excerpt: In this article, we share a few design details from a recent customer project, eBook inBox.
