@@ -4,7 +4,7 @@ published: true
 title: Announcing eBook inBox
 author: Matt Henderson
 twitter_username: dafacto
-excerpt: In this article, we share a few design details from our latest product, eBook inBox.
+excerpt: In this article, we share a few design details from a recent customer project, eBook inBox.
 ---
 
 One of our favorite customers is Peggy Martinez, with whom we’ve now been working for a number of years. Peggy is amazingly creative and resourceful, and has single-handedly built a small mail-order empire around subscription boxes.
